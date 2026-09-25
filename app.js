@@ -6,423 +6,479 @@
   const I18N = {
     es: {
       langName: "Español",
-      title: "NegocioUp | Agencia de Automatización, Ecosistemas Digitales, CRM e IA 24/7",
-      nav: ["Pilares & Servicios", "Ecosistemas IA", "División Real Estate", "Filosofía & ROI", "Ubicación & Contacto"],
-      ctaMain: "Agendar una Sesión de Diagnóstico Estratégico",
+      title: "NegocioUp | Ecosistemas Comerciales Inteligentes, IA 24/7, CRM & Real Estate",
+      nav: ["Los 4 Pilares", "Ecosistemas IA", "Real Estate 360°", "Filosofía & ROI", "Ubicación & Contacto"],
+      ctaMain: "Agendar una Sesión de Diagnóstico Gratuito",
       waDirect: "WhatsApp Directo: +52 1 662 636 6303",
-      heroBadge: "ECOSISTEMAS DE IA, CRM & AUTOMATIZACIÓN COMERCIAL 24/7",
-      mapsVerified: "Google Maps Verificado · Playa del Carmen, Q.R., México",
-      heroH1_1: "Desde el ADN digital hasta la venta automática: ",
-      heroH1_2: "Construimos tu ecosistema virtual",
-      heroH1_3: " listo para facturar.",
-      heroSub: "No creamos simples páginas web. Diseñamos infraestructura comercial de alto rendimiento con Inteligencia Artificial, CRM y automatización 24/7 para transformar la captación de prospectos en ventas predecibles, medibles y escalables.",
-      heroTrust: "Diagnóstico estratégico inicial e integración nativa con GoHighLevel",
-      consoleActive: "PIPELINE AUTÓNOMO ACTIVO",
-      consoleInstant: "99.8% RESPUESTA INSTANTÁNEA",
+      heroBadge: "NO VENDEMOS PÁGINAS WEB · CONSTRUIMOS ECOSISTEMAS COMERCIALES INTELIGENTES",
+      mapsVerified: "Google Maps Verificado · Playa del Carmen, Riviera Maya, México",
+      heroH1_1: "Deja de coleccionar “leads” vacíos. ",
+      heroH1_2: "Construye un sistema comercial",
+      heroH1_3: " que genera clientes reales.",
+      heroSub: "Transformamos tu presencia digital en un motor automatizado con Inteligencia Artificial, CRM y pauta inteligente. Especialistas en PyMEs de alto impacto y Real Estate: ayudamos a empresas consolidadas y desarrollos inmobiliarios a dejar atrás el caos digital, integrando Tecnología, IA, Automatización y Contenido Premium para transformar clics en clientes reales y medibles.",
+      heroTrust: "Diagnóstico gratuito conectado a tu calendario y GoHighLevel CRM",
+      consoleActive: "ECOSISTEMA COMERCIAL ACTIVO",
+      consoleInstant: "99.8% RESPUESTA <15s",
       nodes: [
-        { tag: "01 // INGESTA DE LEADS", title: "Omnicanal Sync", desc: "WhatsApp Meta API, Google Maps, Webhooks & formularios capturados en tiempo real.", stat: "Inbound: +1,248/hr", live: "⚡ Nuevo lead capturado desde Google Maps & Meta Ads → Sincronizado en 0.1s" },
-        { tag: "02 // CUALIFICACIÓN IA", title: "Inferencia LLM 24/7", desc: "Agentes IA evalúan presupuesto, urgencia y perfil de compra en 0.4 segundos.", stat: "Score Fit: 94.2%", live: "🤖 Agente IA WhatsApp calificó presupuesto y liquidez del prospecto en 8 segundos" },
-        { tag: "03 // AGENDA AUTOMÁTICA", title: "Closer Hand-off", desc: "Agente de Voz o Chat agenda cita directa en GoHighLevel según disponibilidad.", stat: "Show-rate: 89.4%", live: "📅 Cita confirmada automáticamente en calendario y recordatorios activados" },
-        { tag: "04 // DATA FABRIC & CRM", title: "Atribución Total", desc: "Sincronización instantánea con GoHighLevel, HubSpot o Salesforce con ROI real.", stat: "Sincronizado: 100%", live: "📈 Oportunidad asignada en CRM con trazabilidad exacta de campaña y ROI" }
+        { tag: "01 // INGENIERÍA WEB & PAUTA", title: "Captura 100% Conversión", desc: "Sitios ultrarrápidos en Vercel, multilingües, recorridos 360° y anuncios de alto impacto.", stat: "Carga: <800ms", live: "⚡ Clic capturado desde campaña Google/Meta → Landing en Vercel cargada en 0.3s" },
+        { tag: "02 // AGENTE IA WHATSAPP 24/7", title: "Filtro Inteligente", desc: "Respuestas automáticas 24/7 en WhatsApp: califica presupuesto, urgencia e intención real.", stat: "Filtro Fit: 94.2%", live: "🤖 Agente IA atendió en WhatsApp en 6 segundos, calificó presupuesto y descartó curioso" },
+        { tag: "03 // AGENDA AUTOMÁTICA", title: "Citas Calificadas", desc: "El prospecto con liquidez agenda directo en el calendario del asesor sin fricción.", stat: "Show-rate: 89.4%", live: "📅 Cita de cierre agendada automáticamente en el calendario del ejecutivo" },
+        { tag: "04 // CONTROL GOHIGHLEVEL CRM", title: "Trazabilidad al Cierre", desc: "Cada peso invertido se mide desde el primer clic hasta el contrato firmado en tu CRM.", stat: "ROI Medible: 100%", live: "📈 Venta registrada en GoHighLevel con atribución exacta al anuncio de origen" }
       ],
-      ticker: ["Pipeline Comercial Gestionado", "Latencia de Respuesta IA Promedio", "Retorno de Inversión (ROI Auditado)"],
-      trustTitle: "Infraestructura de confianza para firmas tecnológicas, constructoras y fondos globales",
-      // Simple 3-Step + Interactive ROI Section
-      simpleBadge: "SIMPLE, RÁPIDO Y RENTABLE // CÓMO FUNCIONA",
-      simpleTitle: "Entiende tu Nuevo Ecosistema en 3 Pasos Simples",
-      simpleSub: "Eliminamos la complejidad técnica. Así transformamos desconocidos en clientes listos para comprar:",
+      ticker: ["Pipeline Comercial Gestionado", "Latencia de Respuesta IA Promedio", "Retorno de Inversión (ROI Medible)"],
+      trustTitle: "Ecosistemas comerciales para PyMEs consolidadas, constructoras y desarrollos en Riviera Maya y México",
+      // Storytelling: Del Caos Digital al Ecosistema Comercial Inteligente + 3 Pasos + Simulador ROI
+      simpleBadge: "EL CONCEPTO CENTRAL // DEL CAOS DIGITAL AL MOTOR COMERCIAL",
+      simpleTitle: "Por Qué las Empresas Dejan de Comprar “Páginas Web” y Migran a un Ecosistema Inteligente",
+      simpleSub: "Ayudamos a empresas consolidadas y desarrollos inmobiliarios a dejar atrás el caos digital, integrando Tecnología, IA, Automatización y Contenido Premium para transformar clics en clientes reales y medibles.",
+      chaosTitle: "❌ El Caos Digital Tradicional (Lo que te hace perder dinero)",
+      chaosItems: [
+        "Coleccionar cientos de “leads” vacíos y curiosos sin presupuesto real.",
+        "Páginas web lentas y pasivas que nadie visita ni convierten.",
+        "Asesores saturados que tardan horas en contestar WhatsApp y pierden la venta.",
+        "Agencias que entregan reportes con métricas infladas (“likes” y alcance) sin cierres."
+      ],
+      ecoTitle: "✅ Ecosistema Comercial Inteligente NegocioUp",
+      ecoItems: [
+        "Ingeniería de Conversión & Web en Vercel: ultrarrápida, multilingüe y 100% diseñada para vender.",
+        "Agentes de IA 24/7 en WhatsApp que responden en segundos, filtran presupuesto y agendan citas.",
+        "Ecosistema Real Estate con recorridos 360°, landings por propiedad y fotografía/video premium.",
+        "Control total en GoHighLevel CRM: cada peso invertido medido desde el primer clic hasta el cierre."
+      ],
       steps: [
-        { num: "PASO 01", icon: "ads_click", title: "Atraemos y Capturamos", desc: "Tu nueva Arquitectura Web, Google Maps y Pauta Estratégica captan prospectos con intención real de compra." },
-        { num: "PASO 02", icon: "smart_toy", title: "La IA Atiende y Filtra 24/7", desc: "En menos de 15 segundos, nuestros Agentes IA en WhatsApp y Voz responden, califican presupuesto y agendan la cita." },
-        { num: "PASO 03", icon: "real_estate_agent", title: "Tu Equipo Solo Cierra Ventas", desc: "Todo queda registrado en tu CRM (GoHighLevel) con métricas reales para tomar mejores decisiones comerciales." }
+        { num: "FASE 01", icon: "ads_click", title: "Atraemos con Contenido Premium y Web Veloz", desc: "Fotografía arquitectónica, video corporativo, pauta inteligente y landings en Vercel que captan compradores reales." },
+        { num: "FASE 02", icon: "smart_toy", title: "Agentes de IA Califican 24/7 en WhatsApp", desc: "En menos de 15 segundos nuestra IA conversa en 4 idiomas, filtra presupuesto e intención y agenda la cita en automático." },
+        { num: "FASE 03", icon: "real_estate_agent", title: "Tu Equipo Cierra en GoHighLevel CRM", desc: "Sin leads basura ni seguimiento manual olvidado. Cada peso invertido queda medido hasta la firma de la venta." }
       ],
-      roiTitle: "Simulador Interactivo de Impacto Comercial",
-      roiSub: "Mueve los controles para estimar cuánto pipeline adicional puedes recuperar respondiendo en <15s con IA 24/7 + CRM:",
-      roiLeadsLbl: "Prospectos mensuales que recibe tu negocio",
-      roiTicketLbl: "Valor promedio por venta / cliente (USD)",
-      roiResult1Lbl: "Citas Calificadas Extra / Mes",
-      roiResult2Lbl: "Facturación Adicional Estimada / Mes",
+      roiTitle: "Simulador Interactivo: De “Leads” Vacíos a Clientes Reales",
+      roiSub: "Ajusta los controles para proyectar cuántas citas reales y facturación adicional recuperas al instalar tu Ecosistema Comercial con IA 24/7 + GoHighLevel:",
+      roiLeadsLbl: "Prospectos mensuales que recibe tu negocio o desarrollo",
+      roiTicketLbl: "Valor promedio por venta / propiedad / cliente (USD)",
+      roiResult1Lbl: "Citas Calificadas Reales / Mes",
+      roiResult2Lbl: "Facturación Adicional Medible / Mes",
       // 4 Pillars
-      pillarsBadge: "Metodología Cuatridimensional // Los 4 Pilares de NegocioUp",
-      pillarsTitle: "Arquitectura Integral 360° para Escala Operativa y Facturación",
-      pillarsSub: "Cada pilar opera como un módulo autónomo e interconectado desde el ADN digital hasta el cierre en tu CRM, erradicando fugas de prospectos y acelerando el ciclo comercial completo.",
-      pillarTabs: ["Todos (360°)", "01. Web", "02. IA 24/7", "03. CRM", "04. Pauta"],
+      pillarsBadge: "Los 4 Pilares de NegocioUp // De Clics a Clientes Reales y Medibles",
+      pillarsTitle: "No Vendemos Páginas Web: Construimos Ecosistemas Comerciales Inteligentes",
+      pillarsSub: "Ayudamos a empresas consolidadas y desarrollos inmobiliarios a dejar atrás el caos digital, integrando Tecnología, IA, Automatización y Contenido Premium en 4 pilares diseñados para transformar cada clic en facturación real.",
+      pillarTabs: ["Todos (360°)", "01. Web & CRO", "02. IA & CRM", "03. Real Estate", "04. Audiovisual"],
       pillars: [
         {
-          code: "PILAR 01 // ADN DIGITAL",
-          title: "Arquitectura Web & Experiencias Digitales",
-          desc: "Construimos tu activo digital como una máquina de captura y conversión, no como un folleto pasivo. Desarrollamos interfaces web de alta gama en Next.js y Tailwind con tiempos de carga inferiores a 800ms, SEO técnico estructurado para dominar Google y conexión directa por Webhooks con tu ecosistema comercial.",
-          barLbl: "Lighthouse Performance & SEO Técnico",
-          barNote: "Servidores edge con CDN distribuida globalmente y Schema.org nativo",
-          guarantee: "Garantía: TTFB < 85ms y arquitectura lista para convertir"
+          code: "PILAR 01 // INGENIERÍA WEB",
+          title: "Ingeniería de Conversión & Web",
+          desc: "Sitios optimizados en velocidad (Vercel), multilingües (ES / EN / FR / IT) y diseñados 100% para convertir. Dejamos atrás las páginas lentas que funcionan como simples folletos informativos y construimos activos comerciales ultrarrápidos con SEO técnico para Google Maps, calculadoras interactivas y conexión directa a tu CRM.",
+          barLbl: "Velocidad Edge (Vercel) & SEO Técnico",
+          barNote: "Despliegue en la nube (Vercel Edge), multilingüe nativo y 100% enfocado a ventas",
+          guarantee: "Garantía: Carga < 800ms y arquitectura lista para convertir"
         },
         {
-          code: "PILAR 02 // IA 24/7",
-          title: "IA & Automatización 24/7 de Procesos",
-          desc: "Desplegamos agentes conversacionales inteligentes multicanal (WhatsApp Business API, Instagram, Webchat) y agentes de voz hiper-realistas que responden en menos de 15 segundos, califican presupuesto, resuelven objeciones y agendan citas directamente en el calendario de tus ejecutivos sin intervención humana.",
-          barLbl: "Capacidad de Atención Simultánea 24/7",
-          barNote: "Zero Drop-Off por tiempo de espera en hora pico o madrugada",
-          guarantee: "Garantía: Cualificación y primer contacto en < 15 segundos"
+          code: "PILAR 02 // IA & CRM 24/7",
+          title: "Agentes de IA y Automatización",
+          desc: "Respuestas automáticas 24/7, calificación inteligente de prospectos y flujos automatizados en WhatsApp y CRM (GoHighLevel). Deja de perder ventas porque un asesor tardó horas en contestar: nuestra IA atiende en menos de 15 segundos, filtra a los curiosos, califica presupuesto y agenda citas reales en el calendario de tu equipo.",
+          barLbl: "Atención y Calificación en WhatsApp & CRM",
+          barNote: "Cero pérdida de leads en noches, fines de semana o campañas de alto tráfico",
+          guarantee: "Garantía: Respuesta inmediata 24/7 y trazabilidad total en GoHighLevel"
         },
         {
-          code: "PILAR 03 // CONTROL CRM",
-          title: "CRM Comercial & Pipelines Predictivos",
-          desc: "Centralizamos toda tu operación comercial en GoHighLevel (LeadConnector), HubSpot o Salesforce. Implementamos algoritmos de lead-scoring predictivo, secuencias de seguimiento automático, reactivación de bases de datos dormidas y asignación inteligente de oportunidades para tu fuerza de ventas.",
-          barLbl: "Tasa de Reactivación de Base Dormida",
-          barNote: "Recuperación de ventas sin inversión publicitaria adicional",
-          guarantee: "Garantía: Cero fuga de leads por descuido manual"
+          code: "PILAR 03 // REAL ESTATE SPECIAL",
+          title: "Ecosistema Inmobiliario (Real Estate Special)",
+          desc: "Paquetes llave en mano para desarrollos en la Riviera Maya (Playa del Carmen, Tulum, Cancún) y todo México: recorridos virtuales 360°, landing pages de alta conversión por propiedad o desarrollo, embudos multilingües para inversionistas extranjeros y pauta especializada que entrega citas con capacidad financiera real.",
+          barLbl: "Aceleración de Preventas & Citas Calificadas",
+          barNote: "Recorridos 360° + Landings por Desarrollo + CRM Inmobiliario + Pauta HNW",
+          guarantee: "Garantía: Prospectos filtrados por presupuesto e intención de inversión"
         },
         {
-          code: "PILAR 04 // CONTENIDO & PAUTA",
-          title: "Producción Audiovisual & Pauta de Alto Calibre",
-          desc: "Alimentamos tu ecosistema con piezas creativas de impacto cinematográfico y estrategias de adquisición en Meta Ads, Google Ads y TikTok con atribución Server-Side (CAPI). Entrenamos a los algoritmos con las ventas reales registradas en tu CRM para comprimir el Costo de Adquisición (CAC).",
-          barLbl: "Reducción Media de CAC",
-          barNote: "Tracking Server-Side First-Party para Google Ads & Meta CAPI",
-          guarantee: "Garantía: Auditoría y optimización diaria de rendimiento"
+          code: "PILAR 04 // AUDIOVISUAL & PAUTA",
+          title: "Producción Audiovisual & Contenido Premium",
+          desc: "Fotografía arquitectónica, video corporativo, tomas con dron y material de alto impacto optimizado específicamente para anuncios y redes sociales. Combinamos estética cinematográfica con psicología de conversión y atribución Server-Side (Meta CAPI y Google Ads) para atraer clientes de alto valor y reducir tu costo por venta.",
+          barLbl: "Reducción de Costo por Cliente Real (CAC)",
+          barNote: "Contenido optimizado para pauta + Tracking Server-Side hasta el cierre en CRM",
+          guarantee: "Garantía: Material diseñado para convertir clics en citas reales"
         }
       ],
       // Real Estate
-      reBadge: "DIVISIÓN ESPECIALIZADA: NEGOCIOUP REAL ESTATE SUITE",
-      reTitle: "Aceleración de Ventas para Desarrollos y Lanzamientos Inmobiliarios",
-      reSub: "Convertimos inventario inmobiliario en preventa acelerada mediante showrooms virtuales interactivos, captación de inversionistas de alto patrimonio y cualificación inmediata por agentes de IA.",
+      reBadge: "ECOSISTEMA INMOBILIARIO // RIVIERA MAYA & MÉXICO REAL ESTATE SPECIAL",
+      reTitle: "Paquetes Llave en Mano para Desarrollos Inmobiliarios y Preventas",
+      reSub: "Transformamos desarrollos en la Riviera Maya y México en motores de preventa acelerada: recorridos virtuales 360°, landing pages por propiedad, agentes de IA multilingües 24/7 y pauta para inversionistas reales.",
       reModules: [
-        { title: "Agentes Inmobiliarios IA 24/7", desc: "Respuesta y entrega de brochures interactivos personalizados, fichas técnicas y cotizaciones financieras en menos de 30 segundos vía WhatsApp." },
-        { title: "Filtro Financiero Inmediato", desc: "Cualificación algorítmica de capacidad de inversión y liquidez antes de agendar la llamada o tour presencial con el broker closer humano." },
-        { title: "Pauta Hyper-Targeted HNW", desc: "Captación de compradores e inversionistas High-Net-Worth en mercados estratégicos de México, Riviera Maya, EE.UU., España y LATAM." },
-        { title: "Sincronización de Inventario", desc: "Actualización automática de unidades disponibles, bloqueos de enganche y listas de precios reflejadas en segundos para toda la fuerza de ventas." }
+        { title: "Recorridos Virtuales 360° & Showrooms", desc: "Permite que inversionistas de EE.UU., Canadá, Europa o CDMX recorran tus propiedades y amenidades desde su celular antes de agendar visita o apartar unidad." },
+        { title: "Landing Pages por Propiedad (Vercel)", desc: "Micrositios ultrarrápidos y multilingües por desarrollo o tipología con calculadoras de plusvalía, descarga de brochure y captura directa en GoHighLevel." },
+        { title: "Filtro IA 24/7 en WhatsApp & CRM", desc: "Nuestros agentes IA responden en segundos en 4 idiomas, envían fichas técnicas y filtran presupuesto, forma de pago y horizonte de inversión antes de pasar el lead al broker." },
+        { title: "Fotografía Arquitectónica & Pauta HNW", desc: "Producción audiovisual inmobiliaria con dron y campañas en Meta & Google Ads optimizadas para conectar tu inventario con compradores calificados." }
       ],
       // Philosophy
-      philBadge: "Principios de Ingeniería Comercial // Filosofía NegocioUp",
-      philH2_1: "No prometemos métricas vacías... ",
-      philH2_2: "Construimos tecnología que produce mejores decisiones comerciales.",
-      philSub: "La tecnología sin impacto en el balance general es solo gasto superfluo. En NegocioUp cada línea de código, cada integración en GoHighLevel y cada agente autónomo existe exclusivamente para generar rentabilidad demostrable.",
+      philBadge: "El Gancho & Filosofía NegocioUp // Transparencia Comercial Absoluta",
+      philH2_1: "“No prometemos métricas infladas. ",
+      philH2_2: "Diseñamos sistemas transparentes donde cada peso invertido se mide desde el primer clic hasta el cierre de la venta.”",
+      philSub: "No prometemos métricas vacías ni reportes llenos de “likes” que no pagan la nómina. Construimos tecnología que produce mejores decisiones comerciales: cada interacción en WhatsApp, cada flujo en GoHighLevel y cada anuncio pautado existe exclusivamente para transformar clics en clientes reales y medibles.",
       philCards: [
-        { tag: "01 / PRINCIPIO ANALÍTICO", title: "Decisiones Guiadas por Datos, No por Intuición", desc: "Implementamos paneles de control en tiempo real donde cada céntimo invertido en adquisición tiene trazabilidad directa hasta el depósito bancario. Monitoreo constante de CAC, LTV y ciclo de conversión." },
-        { tag: "02 / PRINCIPIO OPERACIONAL", title: "Automatización que Libera Margen Operativo", desc: "Eliminamos tareas repetitivas de captura, filtrado y seguimiento manual para que tu equipo comercial dedique el 100% de su energía a cerrar prospectos calificados que ya están listos para comprar." },
-        { tag: "03 / PRINCIPIO FINANCIERO", title: "Rentabilidad Predictiva (ROI Atribuido)", desc: "Antes de iniciar cualquier sprint de ingeniería, estructuramos un modelo financiero predictivo que determina los umbrales de conversión requeridos para amortizar el desarrollo y generar flujo neto positivo." }
+        { tag: "01 / TRAZABILIDAD DEL PRIMER CLIC AL CIERRE", title: "Cero Métricas de Vanidad: Solo Clientes Reales", desc: "Olvídate de reportes incomprensibles. Implementamos tableros en GoHighLevel donde sabes exactamente qué anuncio, qué página y qué conversación de IA generó cada cita y cada contrato firmado." },
+        { tag: "02 / DEL CAOS DIGITAL AL ORDEN AUTOMATIZADO", title: "Tu Equipo Cierra Ventas, la IA Hace el Resto", desc: "Eliminamos el caos de hojas de Excel sueltas y mensajes sin responder. Nuestros sistemas responden 24/7, dan seguimiento automático y entregan a tus vendedores únicamente prospectos calificados listos para avanzar." },
+        { tag: "03 / TECNOLOGÍA + CONTENIDO PREMIUM", title: "Autoridad Visual que Acelera la Confianza", desc: "Unimos ingeniería de software en Vercel e Inteligencia Artificial con fotografía arquitectónica, video corporativo y recorridos 360° para que tu marca proyecte el nivel exacto de los clientes que quieres atraer." }
       ],
       // Calendar
-      calBadge: "CUPOS LIMITADOS // CONEXIÓN DIRECTA GOHIGHLEVEL & WHATSAPP",
-      calH2_1: "¿Listo para transformar tu empresa en un ",
-      calH2_2: "ecosistema autónomo",
-      calH2_3: " listo para facturar?",
-      calSub: "Agenda tu Sesión de Diagnóstico Estratégico de 45 minutos con nuestros arquitectos de sistemas. Analizaremos tu infraestructura actual, cuellos de botella comerciales y te presentaremos un roadmap de automatización a medida.",
-      calCardTitle: "Sesión de Diagnóstico Estratégico",
+      calBadge: "DIAGNÓSTICO GRATUITO // CONECTADO A TU CALENDARIO & WHATSAPP",
+      calH2_1: "Deja atrás el caos digital. Construye tu ",
+      calH2_2: "Ecosistema Comercial Inteligente",
+      calH2_3: " hoy mismo.",
+      calSub: "Agenda una Sesión de Diagnóstico Gratuito con nuestros especialistas. Auditaremos dónde estás perdiendo prospectos hoy y diseñaremos el plan exacto con IA 24/7, CRM (GoHighLevel), Ingeniería Web y Contenido Premium para generar clientes reales.",
+      calCardTitle: "Sesión de Diagnóstico Gratuito",
       calStep1: "1. Selecciona fecha disponible",
       calStep2: "2. Horarios recomendados (Zona: México / Miami)",
-      placeholders: ["Nombre y Apellido *", "Empresa o Desarrollo *", "Correo corporativo (ej: director@empresa.com) *", "WhatsApp / Teléfono directo *"]
+      placeholders: ["Nombre y Apellido *", "Empresa o Desarrollo Inmobiliario *", "Correo corporativo (ej: director@empresa.com) *", "WhatsApp / Teléfono directo *"]
     },
 
     en: {
       langName: "English",
-      title: "NegocioUp | AI Automation Agency, Digital Ecosystems & 24/7 Commercial CRM",
-      nav: ["Pillars & Services", "AI Ecosystems", "Real Estate Division", "Philosophy & ROI", "Location & Contact"],
-      ctaMain: "Schedule a Strategic Diagnostic Session",
+      title: "NegocioUp | Smart Commercial Ecosystems, 24/7 AI, CRM & Real Estate",
+      nav: ["The 4 Pillars", "AI Ecosystems", "Real Estate 360°", "Philosophy & ROI", "Location & Contact"],
+      ctaMain: "Schedule a Free Diagnostic Session",
       waDirect: "Direct WhatsApp: +52 1 662 636 6303",
-      heroBadge: "24/7 AI ECOSYSTEMS, CRM & COMMERCIAL AUTOMATION",
-      mapsVerified: "Verified Google Maps · Playa del Carmen, Q.R., Mexico",
-      heroH1_1: "From Digital DNA to Automated Sales: ",
-      heroH1_2: "We build your virtual ecosystem",
-      heroH1_3: " ready to generate revenue.",
-      heroSub: "We don't build simple websites. We engineer high-performance commercial infrastructure with Artificial Intelligence, CRM, and 24/7 automation to turn lead generation into predictable, measurable, and scalable revenue.",
-      heroTrust: "Initial strategic diagnostic & native GoHighLevel integration",
-      consoleActive: "AUTONOMOUS PIPELINE ACTIVE",
-      consoleInstant: "99.8% INSTANT RESPONSE",
+      heroBadge: "WE DON'T SELL WEBSITES · WE BUILD SMART COMMERCIAL ECOSYSTEMS",
+      mapsVerified: "Verified Google Maps · Playa del Carmen, Riviera Maya, Mexico",
+      heroH1_1: "Stop collecting empty “leads”. ",
+      heroH1_2: "Build a commercial system",
+      heroH1_3: " that generates real clients.",
+      heroSub: "We transform your digital presence into an automated engine powered by Artificial Intelligence, CRM, and smart paid media. Specialists in high-impact SMBs and Real Estate: we help established companies and property developments leave digital chaos behind by integrating Technology, AI, Automation, and Premium Content to turn clicks into real, measurable clients.",
+      heroTrust: "Free diagnostic session connected to your calendar & GoHighLevel CRM",
+      consoleActive: "SMART COMMERCIAL ECOSYSTEM ACTIVE",
+      consoleInstant: "99.8% RESPONSE <15s",
       nodes: [
-        { tag: "01 // LEAD INGESTION", title: "Omnichannel Sync", desc: "WhatsApp Meta API, Google Maps, Webhooks & inbound forms captured in real time.", stat: "Inbound: +1,248/hr", live: "⚡ New lead captured from Google Maps & Meta Ads → Synced in 0.1s" },
-        { tag: "02 // AI QUALIFICATION", title: "24/7 LLM Inference", desc: "AI Agents evaluate budget, urgency, and transactional fit in 0.4 seconds.", stat: "Fit Score: 94.2%", live: "🤖 WhatsApp AI Agent qualified prospect budget & readiness in 8 seconds" },
-        { tag: "03 // AUTO-BOOKING", title: "Closer Hand-off", desc: "Voice or Chat AI books directly into GoHighLevel according to rep availability.", stat: "Show-rate: 89.4%", live: "📅 Appointment auto-confirmed in calendar with smart reminders active" },
-        { tag: "04 // DATA FABRIC & CRM", title: "Full Attribution", desc: "Instant sync with GoHighLevel, HubSpot, or Salesforce with audited ROI tracking.", stat: "Synced: 100%", live: "📈 Opportunity assigned in CRM with end-to-end ad & revenue attribution" }
+        { tag: "01 // WEB ENGINEERING & ADS", title: "100% Conversion Capture", desc: "Ultra-fast Vercel sites, multilingual, 360° virtual tours, and high-impact ad creatives.", stat: "Load: <800ms", live: "⚡ Click captured from Google/Meta campaign → Vercel landing loaded in 0.3s" },
+        { tag: "02 // 24/7 WHATSAPP AI AGENT", title: "Smart Lead Filtering", desc: "24/7 automated responses on WhatsApp: qualifies budget, urgency, and real buying intent.", stat: "Fit Score: 94.2%", live: "🤖 AI Agent replied on WhatsApp in 6 seconds, qualified budget & filtered window-shopper" },
+        { tag: "03 // AUTO-SCHEDULING", title: "Qualified Appointments", desc: "Qualified buyers book directly onto your sales rep's calendar without friction.", stat: "Show-rate: 89.4%", live: "📅 Closing appointment automatically booked on the executive's calendar" },
+        { tag: "04 // GOHIGHLEVEL CRM CONTROL", title: "Click-to-Close Tracking", desc: "Every dollar invested is measured from the very first click to the signed deal in your CRM.", stat: "Measured ROI: 100%", live: "📈 Deal logged in GoHighLevel with exact attribution to the source ad" }
       ],
-      ticker: ["Managed Commercial Pipeline", "Average AI Response Latency", "Audited Return on Investment (ROI)"],
-      trustTitle: "Trusted infrastructure for technology firms, developers, and global investment funds",
-      simpleBadge: "SIMPLE, FAST & PROFITABLE // HOW IT WORKS",
-      simpleTitle: "Understand Your New Ecosystem in 3 Simple Steps",
-      simpleSub: "We remove technical complexity. Here is how we turn strangers into buyers ready to close:",
+      ticker: ["Managed Commercial Pipeline", "Average AI Response Latency", "Measured Return on Investment (ROI)"],
+      trustTitle: "Smart commercial ecosystems for established companies, builders, and developments in Riviera Maya & Mexico",
+      simpleBadge: "THE CORE CONCEPT // FROM DIGITAL CHAOS TO COMMERCIAL ENGINE",
+      simpleTitle: "Why Established Companies Stop Buying “Websites” and Upgrade to a Smart Ecosystem",
+      simpleSub: "We help established businesses and real estate developments leave digital chaos behind by integrating Technology, AI, Automation, and Premium Content to turn clicks into real, measurable clients.",
+      chaosTitle: "❌ Traditional Digital Chaos (What costs you sales)",
+      chaosItems: [
+        "Collecting hundreds of empty “leads” and window-shoppers with no budget.",
+        "Slow, passive websites that act like digital brochures and never convert.",
+        "Overwhelmed sales reps taking hours to reply on WhatsApp and losing the deal.",
+        "Agencies delivering inflated vanity metrics (“likes” and reach) with zero closed revenue."
+      ],
+      ecoTitle: "✅ NegocioUp Smart Commercial Ecosystem",
+      ecoItems: [
+        "Conversion & Web Engineering on Vercel: ultra-fast, multilingual, and 100% built to convert.",
+        "24/7 AI Agents on WhatsApp that reply in seconds, qualify budget, and book appointments.",
+        "Turnkey Real Estate Ecosystem with 360° tours, property landing pages, and architectural media.",
+        "Full control in GoHighLevel CRM: every dollar invested measured from first click to closed sale."
+      ],
       steps: [
-        { num: "STEP 01", icon: "ads_click", title: "Attract & Capture", desc: "Your high-speed Web Architecture, Google Maps, and Strategic Paid Media capture high-intent buyers." },
-        { num: "STEP 02", icon: "smart_toy", title: "AI Qualifies & Books 24/7", desc: "In under 15 seconds, our WhatsApp and Voice AI Agents answer questions, qualify budget, and book meetings." },
-        { num: "STEP 03", icon: "real_estate_agent", title: "Your Team Only Closes Deals", desc: "Everything is tracked in your CRM (GoHighLevel) with real metrics to drive better commercial decisions." }
+        { num: "PHASE 01", icon: "ads_click", title: "Attract with Premium Content & Fast Web", desc: "Architectural photography, corporate video, smart paid media, and Vercel landings that capture real buyers." },
+        { num: "PHASE 02", icon: "smart_toy", title: "AI Agents Qualify 24/7 on WhatsApp", desc: "In under 15 seconds our AI chats in 4 languages, filters budget and buying intent, and books appointments." },
+        { num: "PHASE 03", icon: "real_estate_agent", title: "Your Team Closes in GoHighLevel CRM", desc: "No junk leads or forgotten follow-ups. Every dollar invested is tracked all the way to the signed contract." }
       ],
-      roiTitle: "Interactive Commercial Impact Simulator",
-      roiSub: "Adjust the sliders to estimate how much extra pipeline you can recover by responding in <15s with 24/7 AI + CRM:",
-      roiLeadsLbl: "Monthly leads your business receives",
-      roiTicketLbl: "Average deal / customer value (USD)",
-      roiResult1Lbl: "Extra Qualified Meetings / Month",
-      roiResult2Lbl: "Estimated Additional Revenue / Month",
-      pillarsBadge: "Four-Dimensional Methodology // The 4 Pillars of NegocioUp",
-      pillarsTitle: "360° Full-Stack Architecture for Operational Scale & Revenue",
-      pillarsSub: "Each pillar operates as an interconnected autonomous module from digital DNA to CRM closing, eliminating lead leakage and accelerating your sales cycle.",
-      pillarTabs: ["All (360°)", "01. Web", "02. 24/7 AI", "03. CRM", "04. Paid Media"],
+      roiTitle: "Interactive Simulator: From Empty “Leads” to Real Clients",
+      roiSub: "Adjust the sliders to estimate how many qualified appointments and additional revenue you recover with a 24/7 AI + GoHighLevel Ecosystem:",
+      roiLeadsLbl: "Monthly leads received by your company or development",
+      roiTicketLbl: "Average deal / property / customer value (USD)",
+      roiResult1Lbl: "Real Qualified Appointments / Month",
+      roiResult2Lbl: "Measurable Additional Revenue / Month",
+      pillarsBadge: "The 4 Pillars of NegocioUp // From Clicks to Real, Measurable Clients",
+      pillarsTitle: "We Don't Sell Websites: We Build Smart Commercial Ecosystems",
+      pillarsSub: "We help established companies and real estate developments leave digital chaos behind, integrating Technology, AI, Automation, and Premium Content across 4 pillars built to turn clicks into revenue.",
+      pillarTabs: ["All (360°)", "01. Web & CRO", "02. AI & CRM", "03. Real Estate", "04. Audiovisual"],
       pillars: [
         {
-          code: "PILLAR 01 // DIGITAL DNA",
-          title: "Web Architecture & Digital Experiences",
-          desc: "We build your digital asset as a high-converting capture machine, not a passive brochure. High-end Next.js and Tailwind interfaces with sub-800ms load times, technical SEO built to dominate Google, and native Webhook connections to your sales ecosystem.",
-          barLbl: "Lighthouse Performance & Technical SEO",
-          barNote: "Global Edge CDN servers and native Schema.org markup",
-          guarantee: "Guarantee: TTFB < 85ms & conversion-ready architecture"
+          code: "PILLAR 01 // WEB ENGINEERING",
+          title: "Conversion & Web Engineering",
+          desc: "Speed-optimized websites (Vercel), multilingual (ES / EN / FR / IT), and designed 100% to convert. We replace slow, passive digital brochures with ultra-fast commercial assets featuring technical SEO for Google Maps, interactive calculators, and direct CRM integration.",
+          barLbl: "Edge Speed (Vercel) & Technical SEO",
+          barNote: "Vercel Edge Cloud deployment, native multilingual & 100% sales-driven",
+          guarantee: "Guarantee: < 800ms load time & conversion-ready architecture"
         },
         {
-          code: "PILLAR 02 // 24/7 AI",
-          title: "AI & 24/7 Process Automation",
-          desc: "We deploy intelligent multichannel conversational agents (WhatsApp Business API, Instagram, Webchat) and hyper-realistic voice bots that respond in under 15 seconds, qualify budget, handle objections, and schedule appointments directly on your reps' calendars.",
-          barLbl: "24/7 Simultaneous Response Capacity",
-          barNote: "Zero drop-off from wait times during peak hours or nights",
-          guarantee: "Guarantee: Qualification & first response in < 15 seconds"
+          code: "PILLAR 02 // 24/7 AI & CRM",
+          title: "AI Agents & Automation",
+          desc: "24/7 automated responses, smart lead qualification, and intelligent workflows on WhatsApp and CRM (GoHighLevel). Stop losing deals because a rep took hours to reply: our AI responds in under 15 seconds, filters out window-shoppers, qualifies budget, and books real meetings.",
+          barLbl: "WhatsApp & CRM Qualification Speed",
+          barNote: "Zero lead loss at night, on weekends, or during high-traffic ad peaks",
+          guarantee: "Guarantee: Instant 24/7 response & full traceability in GoHighLevel"
         },
         {
-          code: "PILLAR 03 // CRM CONTROL",
-          title: "Commercial CRM & Predictive Pipelines",
-          desc: "We centralize your entire sales operation in GoHighLevel (LeadConnector), HubSpot, or Salesforce. Predictive lead scoring, automated follow-up sequences, dormant database reactivation, and smart opportunity routing for your sales force.",
-          barLbl: "Dormant Database Reactivation Rate",
-          barNote: "Recovered sales without additional ad spend",
-          guarantee: "Guarantee: Zero lead leakage from manual oversight"
+          code: "PILLAR 03 // REAL ESTATE SPECIAL",
+          title: "Real Estate Ecosystem (Riviera Maya & Mexico)",
+          desc: "Turnkey packages for developments in the Riviera Maya (Playa del Carmen, Tulum, Cancún) and across Mexico: interactive 360° virtual tours, high-converting landing pages per property, multilingual funnels for foreign investors, and specialized paid media.",
+          barLbl: "Pre-Sale Acceleration & Qualified Tours",
+          barNote: "360° Virtual Tours + Property Landings + Real Estate CRM + HNW Paid Media",
+          guarantee: "Guarantee: Prospects filtered by budget and real investment intent"
         },
         {
-          code: "PILLAR 04 // MEDIA & ADS",
-          title: "Audiovisual Production & High-Caliber Paid Media",
-          desc: "We fuel your ecosystem with cinematic high-converting creatives and acquisition campaigns across Meta Ads, Google Ads, and TikTok with Server-Side Attribution (CAPI). We train ad algorithms with real CRM closed deals to compress Customer Acquisition Cost (CAC).",
-          barLbl: "Average CAC Reduction",
-          barNote: "First-Party Server-Side tracking for Google Ads & Meta CAPI",
-          guarantee: "Guarantee: Daily performance audit and optimization"
+          code: "PILLAR 04 // AUDIOVISUAL & ADS",
+          title: "Audiovisual Production & Premium Content",
+          desc: "Architectural photography, corporate video, drone footage, and high-impact creatives optimized specifically for ads and social media. We combine cinematic aesthetics with conversion psychology and Server-Side Attribution (Meta CAPI & Google Ads) to lower your acquisition cost.",
+          barLbl: "Reduction in Cost per Real Client (CAC)",
+          barNote: "Ad-optimized production + Server-Side tracking all the way to CRM close",
+          guarantee: "Guarantee: Creative assets engineered to turn clicks into real appointments"
         }
       ],
-      reBadge: "SPECIALIZED DIVISION: NEGOCIOUP REAL ESTATE SUITE",
-      reTitle: "Sales Acceleration for Real Estate Developments & Launches",
-      reSub: "We turn real estate inventory into accelerated pre-sales through interactive virtual showrooms, HNW investor acquisition, and instant qualification via 24/7 AI agents.",
+      reBadge: "REAL ESTATE ECOSYSTEM // RIVIERA MAYA & MEXICO REAL ESTATE SPECIAL",
+      reTitle: "Turnkey Packages for Real Estate Developments & Pre-Sales",
+      reSub: "We transform developments in the Riviera Maya and Mexico into accelerated pre-sale engines: 360° virtual tours, property landing pages, 24/7 multilingual AI agents, and targeted investor campaigns.",
       reModules: [
-        { title: "24/7 Real Estate AI Agents", desc: "Instant delivery of interactive brochures, floor plans, and financial quotes in under 30 seconds via WhatsApp." },
-        { title: "Instant Financial Filtering", desc: "Algorithmic qualification of investment capacity and liquidity before booking a call or tour with your human closer." },
-        { title: "Hyper-Targeted HNW Paid Media", desc: "Acquisition of High-Net-Worth buyers and investors across Mexico, Riviera Maya, USA, Spain, and LATAM." },
-        { title: "Live Inventory Synchronization", desc: "Automated updates of available units, reservation locks, and price lists reflected in seconds for your entire sales team." }
+        { title: "360° Virtual Tours & Showrooms", desc: "Let investors from the US, Canada, Europe, or Mexico City tour your properties and amenities from their phone before booking a visit or reserving a unit." },
+        { title: "Property Landing Pages (Vercel)", desc: "Ultra-fast, multilingual microsites per development or unit type with ROI calculators, brochure downloads, and direct capture in GoHighLevel." },
+        { title: "24/7 AI Filtering on WhatsApp & CRM", desc: "Our AI agents reply in seconds in 4 languages, send floor plans, and qualify budget, payment method, and timeline before handing off to your broker." },
+        { title: "Architectural Photography & HNW Ads", desc: "Real estate drone cinematography and Meta & Google Ads campaigns engineered to connect your inventory with qualified buyers." }
       ],
-      philBadge: "Commercial Engineering Principles // NegocioUp Philosophy",
-      philH2_1: "We don't promise vanity metrics... ",
-      philH2_2: "We build technology that drives better commercial decisions.",
-      philSub: "Technology without bottom-line impact is just overhead. At NegocioUp, every line of code, every GoHighLevel workflow, and every autonomous agent exists exclusively to generate measurable profitability.",
+      philBadge: "The Hook & NegocioUp Philosophy // Absolute Commercial Transparency",
+      philH2_1: "“We don't promise inflated metrics. ",
+      philH2_2: "We design transparent systems where every dollar invested is measured from the first click to the closed sale.”",
+      philSub: "We don't promise empty metrics or reports full of “likes” that don't pay payroll. We build technology that drives better commercial decisions: every WhatsApp interaction, every GoHighLevel workflow, and every ad exists exclusively to turn clicks into real, measurable clients.",
       philCards: [
-        { tag: "01 / ANALYTICAL PRINCIPLE", title: "Data-Driven Decisions, Not Guesswork", desc: "Real-time executive dashboards where every dollar invested in acquisition is traced directly to closed revenue. Continuous monitoring of CAC, LTV, and conversion velocity." },
-        { tag: "02 / OPERATIONAL PRINCIPLE", title: "Automation That Frees Operating Margin", desc: "We eliminate repetitive manual data entry, filtering, and chasing so your sales team dedicates 100% of their energy to closing qualified buyers." },
-        { tag: "03 / FINANCIAL PRINCIPLE", title: "Predictive Profitability (Attributed ROI)", desc: "Before starting any engineering sprint, we structure a predictive financial model that defines the conversion thresholds required for positive net cash flow." }
+        { tag: "01 / FIRST-CLICK TO CLOSE TRACEABILITY", title: "Zero Vanity Metrics: Only Real Clients", desc: "Forget confusing agency reports. We implement GoHighLevel dashboards where you know exactly which ad, landing page, and AI conversation generated every appointment and signed contract." },
+        { tag: "02 / FROM DIGITAL CHAOS TO AUTOMATED ORDER", title: "Your Team Closes Deals, AI Does the Rest", desc: "We eliminate messy spreadsheets and unanswered messages. Our systems respond 24/7, automate follow-ups, and hand your sales reps only qualified buyers ready to move forward." },
+        { tag: "03 / TECHNOLOGY + PREMIUM CONTENT", title: "Visual Authority That Accelerates Trust", desc: "We unite Vercel software engineering and Artificial Intelligence with architectural photography, corporate video, and 360° tours so your brand projects top-tier authority." }
       ],
-      calBadge: "LIMITED SLOTS // DIRECT GOHIGHLEVEL & WHATSAPP SYNC",
-      calH2_1: "Ready to transform your company into an ",
-      calH2_2: "autonomous ecosystem",
-      calH2_3: " ready to generate revenue?",
-      calSub: "Schedule your 45-minute Strategic Diagnostic Session with our systems architects. We will audit your current infrastructure, sales bottlenecks, and present a custom automation roadmap.",
-      calCardTitle: "Strategic Diagnostic Session",
+      calBadge: "FREE DIAGNOSTIC // CONNECTED TO YOUR CALENDAR & WHATSAPP",
+      calH2_1: "Leave digital chaos behind. Build your ",
+      calH2_2: "Smart Commercial Ecosystem",
+      calH2_3: " today.",
+      calSub: "Schedule a Free Diagnostic Session with our specialists. We will audit where you are losing leads today and design the exact blueprint with 24/7 AI, CRM (GoHighLevel), Web Engineering, and Premium Content.",
+      calCardTitle: "Free Diagnostic Session",
       calStep1: "1. Select an available date",
       calStep2: "2. Recommended times (Zone: Mexico / Miami)",
-      placeholders: ["Full Name *", "Company or Development *", "Corporate Email (e.g. ceo@company.com) *", "WhatsApp / Direct Phone *"]
+      placeholders: ["Full Name *", "Company or Real Estate Development *", "Corporate Email (e.g. ceo@company.com) *", "WhatsApp / Direct Phone *"]
     },
 
     fr: {
       langName: "Français",
-      title: "NegocioUp | Agence d'Automatisation, Écosystèmes Digitaux, CRM et IA 24/7",
-      nav: ["Piliers & Services", "Écosystèmes IA", "Division Immobilier", "Philosophie & ROI", "Localisation & Contact"],
-      ctaMain: "Planifier une Session de Diagnostic Stratégique",
+      title: "NegocioUp | Écosystèmes Commerciaux Intelligents, IA 24/7, CRM & Immobilier",
+      nav: ["Les 4 Piliers", "Écosystèmes IA", "Immobilier 360°", "Philosophie & ROI", "Localisation & Contact"],
+      ctaMain: "Planifier une Session de Diagnostic Gratuit",
       waDirect: "WhatsApp Direct : +52 1 662 636 6303",
-      heroBadge: "ÉCOSYSTÈMES IA, CRM & AUTOMATISATION COMMERCIALE 24/7",
-      mapsVerified: "Google Maps Vérifié · Playa del Carmen, Q.R., Mexique",
-      heroH1_1: "De l'ADN numérique à la vente automatisée : ",
-      heroH1_2: "Nous construisons votre écosystème virtuel",
-      heroH1_3: " prêt à facturer.",
-      heroSub: "Nous ne créons pas de simples sites web. Nous concevons des infrastructures commerciales de haute performance avec Intelligence Artificielle, CRM et automatisation 24/7 pour transformer l'acquisition de prospects en ventes prévisibles et évolutives.",
-      heroTrust: "Diagnostic stratégique initial et intégration native avec GoHighLevel",
-      consoleActive: "PIPELINE AUTONOME ACTIF",
-      consoleInstant: "99.8% RÉPONSE INSTANTANÉE",
+      heroBadge: "NOUS NE VENDONS PAS DE SITES WEB · NOUS CONSTRUISONS DES ÉCOSYSTÈMES COMMERCIAUX INTELLIGENTS",
+      mapsVerified: "Google Maps Vérifié · Playa del Carmen, Riviera Maya, Mexique",
+      heroH1_1: "Arrêtez de collectionner des « leads » vides. ",
+      heroH1_2: "Construisez un système commercial",
+      heroH1_3: " qui génère de vrais clients.",
+      heroSub: "Nous transformons votre présence digitale en un moteur automatisé avec Intelligence Artificielle, CRM et publicité intelligente. Spécialistes des PME à fort impact et de l'Immobilier : nous aidons les entreprises établies et les promoteurs immobiliers à quitter le chaos numérique en intégrant Technologie, IA, Automatisation et Contenu Premium.",
+      heroTrust: "Diagnostic gratuit connecté à votre agenda et CRM GoHighLevel",
+      consoleActive: "ÉCOSYSTÈME COMMERCIAL ACTIF",
+      consoleInstant: "99.8% RÉPONSE <15s",
       nodes: [
-        { tag: "01 // CAPTURE DE LEADS", title: "Sync Omnicanal", desc: "WhatsApp Meta API, Google Maps, Webhooks et formulaires capturés en temps réel.", stat: "Inbound: +1,248/h", live: "⚡ Nouveau prospect capturé via Google Maps & Meta Ads → Synchronisé en 0.1s" },
-        { tag: "02 // QUALIFICATION IA", title: "Inférence LLM 24/7", desc: "Nos agents IA évaluent le budget, l'urgence et le profil d'achat en 0.4 seconde.", stat: "Score Fit: 94.2%", live: "🤖 L'agent IA WhatsApp a qualifié le budget du prospect en 8 secondes" },
-        { tag: "03 // AGENDA AUTOMATIQUE", title: "Transfert Closer", desc: "L'agent vocal ou chat planifie le rendez-vous dans GoHighLevel selon vos disponibilités.", stat: "Présence: 89.4%", live: "📅 Rendez-vous confirmé automatiquement dans l'agenda avec rappels actifs" },
-        { tag: "04 // DATA FABRIC & CRM", title: "Attribution Totale", desc: "Synchronisation instantanée avec GoHighLevel, HubSpot ou Salesforce avec suivi du ROI.", stat: "Synchronisé: 100%", live: "📈 Opportunité assignée dans le CRM avec traçabilité complète du ROI" }
+        { tag: "01 // INGÉNIERIE WEB & ADS", title: "Capture 100% Conversion", desc: "Sites ultra-rapides sur Vercel, multilingues, visites 360° et publicités à fort impact.", stat: "Chargement: <800ms", live: "⚡ Clic capturé depuis Google/Meta → Landing Vercel chargée en 0.3s" },
+        { tag: "02 // AGENT IA WHATSAPP 24/7", title: "Qualification Intelligente", desc: "Réponses automatiques 24/7 sur WhatsApp : qualifie le budget, l'urgence et l'intention réelle.", stat: "Score Fit: 94.2%", live: "🤖 L'agent IA a répondu sur WhatsApp en 6s et qualifié le budget du prospect" },
+        { tag: "03 // AGENDA AUTOMATIQUE", title: "Rendez-vous Qualifiés", desc: "L'acheteur qualifié réserve directement dans l'agenda de votre commercial sans friction.", stat: "Présence: 89.4%", live: "📅 Rendez-vous de signature confirmé automatiquement dans l'agenda" },
+        { tag: "04 // CONTRÔLE CRM GOHIGHLEVEL", title: "Traçabilité jusqu'à la Vente", desc: "Chaque euro ou peso investi est mesuré du premier clic jusqu'au contrat signé dans le CRM.", stat: "ROI Mesuré: 100%", live: "📈 Vente enregistrée dans GoHighLevel avec attribution exacte à la publicité" }
       ],
-      ticker: ["Pipeline Commercial Géré", "Latence Moyenne de Réponse IA", "Retour sur Investissement (ROI Audité)"],
-      trustTitle: "Infrastructure de confiance pour entreprises technologiques, promoteurs et fonds globaux",
-      simpleBadge: "SIMPLE, RAPIDE ET RENTABLE // COMMENT ÇA MARCHE",
-      simpleTitle: "Comprenez Votre Nouvel Écosystème en 3 Étapes Simples",
-      simpleSub: "Nous éliminons la complexité technique. Voici comment nous transformons vos visiteurs en clients prêts à signer :",
+      ticker: ["Pipeline Commercial Géré", "Latence Moyenne de Réponse IA", "Retour sur Investissement (ROI Mesuré)"],
+      trustTitle: "Écosystèmes commerciaux pour PME établies, constructeurs et projets immobiliers sur la Riviera Maya et au Mexique",
+      simpleBadge: "LE CONCEPT CENTRAL // DU CHAOS NUMÉRIQUE AU MOTEUR COMMERCIAL",
+      simpleTitle: "Pourquoi les Entreprises Cessent d'Acheter des « Sites Web » pour un Écosystème Intelligent",
+      simpleSub: "Nous aidons les entreprises consolidées et les développements immobiliers à laisser derrière eux le chaos digital en intégrant Technologie, IA, Automatisation et Contenu Premium pour transformer les clics en clients réels et mesurables.",
+      chaosTitle: "❌ Le Chaos Numérique Traditionnel (Ce qui vous fait perdre des ventes)",
+      chaosItems: [
+        "Collectionner des centaines de « leads » vides et de curieux sans budget réel.",
+        "Des sites web lents et passifs qui agissent comme de simples brochures sans convertir.",
+        "Des commerciaux débordés qui mettent des heures à répondre sur WhatsApp.",
+        "Des agences qui livrent des métriques gonflées (« likes » et vues) sans ventes."
+      ],
+      ecoTitle: "✅ Écosystème Commercial Intelligent NegocioUp",
+      ecoItems: [
+        "Ingénierie de Conversion & Web sur Vercel : ultra-rapide, multilingue et 100% conçue pour convertir.",
+        "Agents IA 24/7 sur WhatsApp qui répondent en quelques secondes, filtrent le budget et fixent les RDV.",
+        "Écosystème Immobilier clé en main avec visites 360°, landings par propriété et photo/vidéo premium.",
+        "Contrôle total sur GoHighLevel CRM : chaque montant investi est mesuré du premier clic à la vente."
+      ],
       steps: [
-        { num: "ÉTAPE 01", icon: "ads_click", title: "Attirer et Capturer", desc: "Votre Architecture Web ultra-rapide, Google Maps et vos publicités ciblées captent des prospects qualifiés." },
-        { num: "ÉTAPE 02", icon: "smart_toy", title: "L'IA Qualifie et Planifie 24/7", desc: "En moins de 15 secondes, nos agents IA sur WhatsApp et Voix répondent, filtrent le budget et fixent le RDV." },
-        { num: "ÉTAPE 03", icon: "real_estate_agent", title: "Votre Équipe Conclut les Ventes", desc: "Tout est centralisé dans votre CRM (GoHighLevel) avec des données réelles pour de meilleures décisions." }
+        { num: "PHASE 01", icon: "ads_click", title: "Attirer avec Contenu Premium & Web Rapide", desc: "Photographie d'architecture, vidéo corporate, publicité ciblée et sites Vercel qui captent de vrais acheteurs." },
+        { num: "PHASE 02", icon: "smart_toy", title: "Les Agents IA Qualifient 24/7 sur WhatsApp", desc: "En moins de 15 secondes notre IA converse en 4 langues, filtre le budget et planifie le rendez-vous." },
+        { num: "PHASE 03", icon: "real_estate_agent", title: "Votre Équipe Conclut dans GoHighLevel CRM", desc: "Plus de prospects inutiles ni de relances oubliées. Chaque investissement est mesuré jusqu'à la signature." }
       ],
-      roiTitle: "Simulateur Interactif d'Impact Commercial",
-      roiSub: "Ajustez les curseurs pour estimer le chiffre d'affaires additionnel récupéré grâce à une réponse IA en <15s 24/7 :",
-      roiLeadsLbl: "Prospects mensuels reçus par votre entreprise",
-      roiTicketLbl: "Valeur moyenne par vente / client (USD)",
-      roiResult1Lbl: "RDV Qualifiés Supplémentaires / Mois",
-      roiResult2Lbl: "Chiffre d'Affaires Additionnel Estimé / Mois",
-      pillarsBadge: "Méthodologie Quadridimensionnelle // Les 4 Piliers de NegocioUp",
-      pillarsTitle: "Architecture Intégrale 360° pour l'Échelle Opérationnelle",
-      pillarsSub: "Chaque pilier fonctionne comme un module autonome interconnecté, éliminant les pertes de prospects et accélérant l'ensemble du cycle commercial.",
-      pillarTabs: ["Tous (360°)", "01. Web", "02. IA 24/7", "03. CRM", "04. Publicité"],
+      roiTitle: "Simulateur Interactif : Des « Leads » Vides aux Clients Réels",
+      roiSub: "Ajustez les curseurs pour estimer combien de rendez-vous qualifiés et de chiffre d'affaires additionnel vous récupérez avec l'IA 24/7 + GoHighLevel :",
+      roiLeadsLbl: "Prospects mensuels reçus par votre entreprise ou projet",
+      roiTicketLbl: "Valeur moyenne par vente / propriété / client (USD)",
+      roiResult1Lbl: "RDV Qualifiés Réels / Mois",
+      roiResult2Lbl: "Chiffre d'Affaires Additionnel Mesurable / Mois",
+      pillarsBadge: "Les 4 Piliers de NegocioUp // Des Clics aux Clients Réels et Mesurables",
+      pillarsTitle: "Nous ne Vendons pas de Sites Web : Nous Construisons des Écosystèmes Commerciaux Intelligents",
+      pillarsSub: "Nous aidons les entreprises établies et les promoteurs immobiliers à quitter le chaos numérique en intégrant Technologie, IA, Automatisation et Contenu Premium en 4 piliers.",
+      pillarTabs: ["Tous (360°)", "01. Web & CRO", "02. IA & CRM", "03. Immobilier", "04. Audiovisuel"],
       pillars: [
         {
-          code: "PILIER 01 // ADN NUMÉRIQUE",
-          title: "Architecture Web & Expériences Digitales",
-          desc: "Nous construisons votre actif digital comme une machine de conversion, pas comme une brochure passive. Interfaces Next.js et Tailwind avec chargement <800ms, SEO technique pour dominer Google et connexion directe par Webhooks.",
-          barLbl: "Performance Lighthouse & SEO Technique",
-          barNote: "Serveurs Edge CDN mondiaux et balisage Schema.org natif",
-          guarantee: "Garantie : TTFB < 85ms et architecture orientée conversion"
+          code: "PILIER 01 // INGÉNIERIE WEB",
+          title: "Ingénierie de Conversion & Web",
+          desc: "Sites optimisés en vitesse (Vercel), multilingues (ES / EN / FR / IT) et conçus à 100% pour convertir. Nous remplaçons les sites passifs par des actifs commerciaux ultra-rapides avec SEO technique Google Maps et connexion directe au CRM.",
+          barLbl: "Vitesse Edge (Vercel) & SEO Technique",
+          barNote: "Déploiement Cloud Vercel, multilingue natif et 100% orienté conversion",
+          guarantee: "Garantie : Chargement < 800ms et architecture prête à convertir"
         },
         {
-          code: "PILIER 02 // IA 24/7",
-          title: "IA & Automatisation 24/7 des Processus",
-          desc: "Agents conversationnels intelligents multicanaux (WhatsApp Business API, Instagram, Webchat) et agents vocaux réalistes qui répondent en moins de 15 secondes, qualifient les prospects et prennent rendez-vous 24/7.",
-          barLbl: "Capacité d'Attention Simultanée 24/7",
-          barNote: "Zéro perte de prospect liée au temps d'attente",
-          guarantee: "Garantie : Qualification et premier contact en < 15 secondes"
+          code: "PILIER 02 // IA & CRM 24/7",
+          title: "Agents IA et Automatisation",
+          desc: "Réponses automatiques 24/7, qualification des prospects et flux intelligents sur WhatsApp et CRM (GoHighLevel). Notre IA répond en moins de 15 secondes, filtre les curieux, qualifie le budget et réserve des rendez-vous réels.",
+          barLbl: "Qualification WhatsApp & CRM 24/7",
+          barNote: "Zéro perte de prospects la nuit, le week-end ou lors des pics de trafic",
+          guarantee: "Garantie : Réponse immédiate 24/7 et traçabilité sur GoHighLevel"
         },
         {
-          code: "PILIER 03 // CONTRÔLE CRM",
-          title: "CRM Commercial & Pipelines Prédictifs",
-          desc: "Centralisation complète de vos ventes sur GoHighLevel (LeadConnector), HubSpot ou Salesforce. Lead-scoring prédictif, séquences de relance automatiques et réactivation des bases de données dormantes.",
-          barLbl: "Taux de Réactivation des Contacts Dormants",
-          barNote: "Récupération de ventes sans budget publicitaire supplémentaire",
-          guarantee: "Garantie : Zéro fuite de prospects par oubli manuel"
+          code: "PILIER 03 // REAL ESTATE SPECIAL",
+          title: "Écosystème Immobilier (Spécial Riviera Maya & Mexique)",
+          desc: "Solutions clé en main pour les développements sur la Riviera Maya (Playa del Carmen, Tulum, Cancún) et au Mexique : visites virtuelles 360°, landing pages par propriété, tunnels multilingues pour investisseurs étrangers et publicité ciblée.",
+          barLbl: "Accélération des Préventes & RDV Qualifiés",
+          barNote: "Visites 360° + Landings par Propriété + CRM Immobilier + Publicité HNW",
+          guarantee: "Garantie : Prospects filtrés par budget et capacité d'investissement"
         },
         {
-          code: "PILIER 04 // CONTENU & ADS",
-          title: "Production Audiovisuelle & Publicité Haute Performance",
-          desc: "Créations vidéo cinématographiques et campagnes d'acquisition sur Meta Ads, Google Ads et TikTok avec attribution Server-Side (CAPI) connectée aux ventes réelles de votre CRM pour réduire le CAC.",
-          barLbl: "Réduction Moyenne du CAC",
-          barNote: "Suivi Server-Side First-Party pour Google Ads & Meta CAPI",
-          guarantee: "Garantie : Audit et optimisation quotidienne des performances"
+          code: "PILIER 04 // AUDIOVISUEL & ADS",
+          title: "Production Audiovisuelle & Contenu Premium",
+          desc: "Photographie d'architecture, vidéo d'entreprise, drone et contenus optimisés pour les publicités et réseaux sociaux. Nous allions esthétique cinématographique et attribution Server-Side (Meta CAPI & Google Ads) pour réduire votre coût d'acquisition.",
+          barLbl: "Réduction du Coût par Client Réel (CAC)",
+          barNote: "Contenu optimisé pour les annonces + suivi jusqu'à la signature CRM",
+          guarantee: "Garantie : Contenus conçus pour transformer les clics en rendez-vous"
         }
       ],
-      reBadge: "DIVISION SPÉCIALISÉE : NEGOCIOUP REAL ESTATE SUITE",
-      reTitle: "Accélération des Ventes pour Promotions et Lancements Immobiliers",
-      reSub: "Nous transformons l'inventaire immobilier en préventes accélérées grâce aux showrooms virtuels, au ciblage d'investisseurs HNW et à la qualification IA 24/7.",
+      reBadge: "ÉCOSYSTÈME IMMOBILIER // SPÉCIAL RIVIERA MAYA & MEXIQUE",
+      reTitle: "Packages Clé en Main pour Promotions Immobilières et Préventes",
+      reSub: "Nous transformons les développements sur la Riviera Maya et au Mexique en moteurs de prévente : visites virtuelles 360°, landing pages par propriété, agents IA multilingues 24/7 et campagnes investisseurs.",
       reModules: [
-        { title: "Agents Immobiliers IA 24/7", desc: "Envoi instantané de brochures interactives, plans et simulations financières en moins de 30 secondes sur WhatsApp." },
-        { title: "Filtre Financier Immédiat", desc: "Qualification algorithmique de la capacité d'investissement et d'apport avant de planifier l'appel avec le broker." },
-        { title: "Publicité Hyper-Ciblée HNW", desc: "Acquisition d'acheteurs et d'investisseurs fortunés au Mexique, Riviera Maya, États-Unis, Espagne et Amérique Latine." },
-        { title: "Synchronisation d'Inventaire", desc: "Mise à jour automatique des unités disponibles et des grilles tarifaires en quelques secondes pour toute l'équipe." }
+        { title: "Visites Virtuelles 360° & Showrooms", desc: "Permettez aux investisseurs des USA, du Canada, d'Europe ou de Mexico de visiter vos biens depuis leur mobile avant de réserver." },
+        { title: "Landing Pages par Propriété (Vercel)", desc: "Microsites ultra-rapides et multilingues par projet avec simulateurs de rentabilité, téléchargement de brochure et capture dans GoHighLevel." },
+        { title: "Filtre IA 24/7 sur WhatsApp & CRM", desc: "Nos agents IA répondent en 4 langues, envoient les fiches techniques et qualifient le budget avant de transférer le prospect au broker." },
+        { title: "Photographie d'Architecture & Ads HNW", desc: "Production audiovisuelle par drone et campagnes Meta & Google Ads conçues pour connecter votre inventaire à des acheteurs qualifiés." }
       ],
-      philBadge: "Principes d'Ingénierie Commerciale // Philosophie NegocioUp",
-      philH2_1: "Nous ne promettons pas de métriques vides... ",
-      philH2_2: "Nous construisons une technologie qui génère de meilleures décisions commerciales.",
-      philSub: "La technologie sans impact sur le bilan n'est qu'une dépense superflue. Chez NegocioUp, chaque ligne de code et chaque agent autonome existe pour générer une rentabilité mesurable.",
+      philBadge: "L'Accroche & Philosophie NegocioUp // Transparence Commerciale Absolue",
+      philH2_1: "« Nous ne promettons pas de métriques gonflées. ",
+      philH2_2: "Nous concevons des systèmes transparents où chaque montant investi est mesuré du premier clic jusqu'à la conclusion de la vente. »",
+      philSub: "Nous ne promettons pas de métriques vides ni de rapports remplis de « likes ». Nous construisons une technologie qui produit de meilleures décisions commerciales pour transformer les clics en clients réels et mesurables.",
       philCards: [
-        { tag: "01 / PRINCIPE ANALYTIQUE", title: "Décisions Guidées par les Données", desc: "Tableaux de bord en temps réel où chaque euro ou dollar investi est tracé jusqu'à l'encaissement bancaire. Suivi continu du CAC, LTV et taux de clôture." },
-        { tag: "02 / PRINCIPE OPÉRATIONNEL", title: "Automatisation qui Libère la Marge", desc: "Nous éliminons les tâches manuelles répétitives pour que vos commerciaux consacrent 100% de leur énergie à conclure des ventes qualifiées." },
-        { tag: "03 / PRINCIPE FINANCIER", title: "Rentabilité Prédictive (ROI Attribué)", desc: "Avant chaque déploiement, nous structurons un modèle prédictif définissant les seuils de conversion nécessaires pour un flux net positif." }
+        { tag: "01 / TRAÇABILITÉ DU PREMIER CLIC À LA VENTE", title: "Zéro Métrique de Vanité : Seulement des Clients Réels", desc: "Des tableaux de bord GoHighLevel clairs où vous savez exactement quelle publicité, quelle page et quelle conversation IA a généré chaque contrat signé." },
+        { tag: "02 / DU CHAOS DIGITAL À L'ORDRE AUTOMATISÉ", title: "Votre Équipe Conclut, l'IA Fait le Reste", desc: "Fini les fichiers Excel dispersés et les messages sans réponse. Nos systèmes répondent 24/7 et livrent à vos vendeurs uniquement des prospects qualifiés." },
+        { tag: "03 / TECHNOLOGIE + CONTENU PREMIUM", title: "Une Autorité Visuelle qui Accélère la Confiance", desc: "Nous unissons l'ingénierie Vercel et l'IA avec la photographie d'architecture, la vidéo corporate et les visites 360° pour projeter une autorité immédiate." }
       ],
-      calBadge: "PLACES LIMITÉES // CONNEXION DIRECTE GOHIGHLEVEL & WHATSAPP",
-      calH2_1: "Prêt à transformer votre entreprise en un ",
-      calH2_2: "écosystème autonome",
-      calH2_3: " prêt à facturer ?",
-      calSub: "Planifiez votre Session de Diagnostic Stratégique de 45 minutes avec nos architectes systèmes. Nous analyserons votre infrastructure et vos opportunités d'automatisation.",
-      calCardTitle: "Session de Diagnostic Stratégique",
+      calBadge: "DIAGNOSTIC GRATUIT // CONNECTÉ À VOTRE AGENDA & WHATSAPP",
+      calH2_1: "Quittez le chaos numérique. Construisez votre ",
+      calH2_2: "Écosystème Commercial Intelligent",
+      calH2_3: " dès aujourd'hui.",
+      calSub: "Planifiez une Session de Diagnostic Gratuit avec nos spécialistes. Nous analyserons vos pertes commerciales actuelles et concevrons votre plan sur mesure avec IA 24/7, CRM (GoHighLevel), Web et Contenu Premium.",
+      calCardTitle: "Session de Diagnostic Gratuit",
       calStep1: "1. Sélectionnez une date disponible",
       calStep2: "2. Horaires recommandés (Fuseau : Mexique / Miami)",
-      placeholders: ["Nom et Prénom *", "Entreprise ou Projet *", "Email professionnel (ex: directeur@entreprise.com) *", "WhatsApp / Téléphone direct *"]
+      placeholders: ["Nom et Prénom *", "Entreprise ou Promotion Immobilière *", "Email professionnel (ex: directeur@entreprise.com) *", "WhatsApp / Téléphone direct *"]
     },
 
     it: {
       langName: "Italiano",
-      title: "NegocioUp | Agenzia di Automazione, Ecosistemi Digitali, CRM e IA 24/7",
-      nav: ["Pilastri & Servizi", "Ecosistemi IA", "Divisione Real Estate", "Filosofia & ROI", "Posizione & Contatti"],
-      ctaMain: "Prenota una Sessione di Diagnosi Strategica",
+      title: "NegocioUp | Ecosistemi Commerciali Intelligenti, IA 24/7, CRM & Real Estate",
+      nav: ["I 4 Pilastri", "Ecosistemi IA", "Real Estate 360°", "Filosofia & ROI", "Posizione & Contatti"],
+      ctaMain: "Prenota una Sessione di Diagnosi Gratuita",
       waDirect: "WhatsApp Diretto: +52 1 662 636 6303",
-      heroBadge: "ECOSISTEMI IA, CRM & AUTOMAZIONE COMMERCIALE 24/7",
-      mapsVerified: "Google Maps Verificato · Playa del Carmen, Q.R., Messico",
-      heroH1_1: "Dal DNA digitale alla vendita automatica: ",
-      heroH1_2: "Costruiamo il tuo ecosistema virtuale",
-      heroH1_3: " pronto a fatturare.",
-      heroSub: "Non creiamo semplici siti web. Progettiamo infrastrutture commerciali ad alte prestazioni con Intelligenza Artificiale, CRM e automazione 24/7 per trasformare l'acquisizione clienti in vendite prevedibili, misurabili e scalabili.",
-      heroTrust: "Diagnosi strategica iniziale e integrazione nativa con GoHighLevel",
-      consoleActive: "PIPELINE AUTONOMO ATTIVO",
-      consoleInstant: "99.8% RISPOSTA ISTANTANEA",
+      heroBadge: "NON VENDIAMO SITI WEB · COSTRUIAMO ECOSISTEMI COMMERCIALI INTELLIGENTI",
+      mapsVerified: "Google Maps Verificato · Playa del Carmen, Riviera Maya, Messico",
+      heroH1_1: "Smetti di collezionare “lead” vuoti. ",
+      heroH1_2: "Costruisci un sistema commerciale",
+      heroH1_3: " che genera clienti reali.",
+      heroSub: "Trasformiamo la tua presenza digitale in un motore automatizzato con Intelligenza Artificiale, CRM e campagne intelligenti. Specialisti in PMI ad alto impatto e Real Estate: aiutiamo aziende consolidate e sviluppi immobiliari a lasciarsi alle spalle il caos digitale integrando Tecnologia, IA, Automazione e Contenuti Premium per trasformare i clic in clienti reali e misurabili.",
+      heroTrust: "Diagnosi gratuita connessa al tuo calendario e CRM GoHighLevel",
+      consoleActive: "ECOSISTEMA COMMERCIALE ATTIVO",
+      consoleInstant: "99.8% RISPOSTA <15s",
       nodes: [
-        { tag: "01 // ACQUISIZIONE LEAD", title: "Sync Omnicanale", desc: "WhatsApp Meta API, Google Maps, Webhook e moduli catturati in tempo reale.", stat: "Inbound: +1,248/ora", live: "⚡ Nuovo lead catturato da Google Maps & Meta Ads → Sincronizzato in 0.1s" },
-        { tag: "02 // QUALIFICAZIONE IA", title: "Inferenza LLM 24/7", desc: "Gli agenti IA valutano budget, urgenza e profilo d'acquisto in 0.4 secondi.", stat: "Score Fit: 94.2%", live: "🤖 L'agente IA WhatsApp ha qualificato il budget del prospect in 8 secondi" },
-        { tag: "03 // AGENDA AUTOMATICA", title: "Closer Hand-off", desc: "Agente vocale o chat fissa l'appuntamento su GoHighLevel secondo disponibilità.", stat: "Show-rate: 89.4%", live: "📅 Appuntamento confermato automaticamente in calendario con promemoria attivi" },
-        { tag: "04 // DATA FABRIC & CRM", title: "Attribuzione Totale", desc: "Sincronizzazione istantanea con GoHighLevel, HubSpot o Salesforce con tracciamento ROI.", stat: "Sincronizzato: 100%", live: "📈 Opportunità assegnata nel CRM con tracciabilità esatta del ROI" }
+        { tag: "01 // INGEGNERIA WEB & ADS", title: "Cattura 100% Conversione", desc: "Siti ultra-veloci su Vercel, multilingue, tour 360° e annunci ad alto impatto.", stat: "Caricamento: <800ms", live: "⚡ Clic catturato da Google/Meta → Landing su Vercel caricata in 0.3s" },
+        { tag: "02 // AGENTE IA WHATSAPP 24/7", title: "Filtro Intelligente", desc: "Risposte automatiche 24/7 su WhatsApp: qualifica budget, urgenza e reale intenzione d'acquisto.", stat: "Score Fit: 94.2%", live: "🤖 L'Agente IA ha risposto su WhatsApp in 6s, qualificando il budget del prospect" },
+        { tag: "03 // AGENDA AUTOMATICA", title: "Appuntamenti Qualificati", desc: "L'acquirente qualificato prenota direttamente sul calendario del tuo consulente senza attriti.", stat: "Show-rate: 89.4%", live: "📅 Appuntamento di chiusura confermato automaticamente sul calendario" },
+        { tag: "04 // CONTROLLO CRM GOHIGHLEVEL", title: "Tracciabilità fino al Contratto", desc: "Ogni euro o peso investito è misurato dal primo clic fino alla chiusura della vendita nel CRM.", stat: "ROI Misurato: 100%", live: "📈 Vendita registrata su GoHighLevel con attribuzione esatta all'annuncio" }
       ],
-      ticker: ["Pipeline Commerciale Gestita", "Latenza Media Risposta IA", "Ritorno sull'Investimento (ROI Certificato)"],
-      trustTitle: "Infrastruttura di fiducia per aziende tecnologiche, costruttori e fondi globali",
-      simpleBadge: "SEMPLICE, VELOCE E REDDITIZIO // COME FUNZIONA",
-      simpleTitle: "Comprendi il Tuo Nuovo Ecosistema in 3 Semplici Passi",
-      simpleSub: "Eliminiamo la complessità tecnica. Ecco come trasformiamo i visitatori in clienti pronti all'acquisto:",
+      ticker: ["Pipeline Commerciale Gestita", "Latenza Media Risposta IA", "Ritorno sull'Investimento (ROI Misurato)"],
+      trustTitle: "Ecosistemi commerciali per PMI consolidate, costruttori e sviluppi immobiliari in Riviera Maya e Messico",
+      simpleBadge: "IL CONCETTO CENTRALE // DAL CAOS DIGITALE AL MOTORE COMMERCIALE",
+      simpleTitle: "Perché le Aziende Smettono di Comprare “Siti Web” e Passano a un Ecosistema Intelligente",
+      simpleSub: "Aiutiamo aziende consolidate e sviluppi immobiliari a lasciarsi alle spalle il caos digitale, integrando Tecnologia, IA, Automazione e Contenuti Premium per trasformare i clic in clienti reali e misurabili.",
+      chaosTitle: "❌ Il Caos Digitale Tradizionale (Ciò che ti fa perdere vendite)",
+      chaosItems: [
+        "Collezionare centinaia di “lead” vuoti e curiosi senza budget reale.",
+        "Siti web lenti e passivi che fungono da semplici brochure senza convertire.",
+        "Consulenti saturi che impiegano ore per rispondere su WhatsApp perdendo la vendita.",
+        "Agenzie che consegnano report con metriche gonfiate (“like” e copertura) ma zero contratti."
+      ],
+      ecoTitle: "✅ Ecosistema Commerciale Intelligente NegocioUp",
+      ecoItems: [
+        "Ingegneria di Conversione & Web su Vercel: ultra-veloce, multilingue e progettata al 100% per convertire.",
+        "Agenti IA 24/7 su WhatsApp che rispondono in pochi secondi, filtrano il budget e fissano appuntamenti.",
+        "Ecosistema Real Estate chiavi in mano con tour 360°, landing per proprietà e foto/video premium.",
+        "Controllo totale su GoHighLevel CRM: ogni investimento misurato dal primo clic alla chiusura."
+      ],
       steps: [
-        { num: "PASSO 01", icon: "ads_click", title: "Attiriamo e Catturiamo", desc: "La tua nuova Architettura Web, Google Maps e le campagne pubblicitarie catturano contatti ad alta intenzione." },
-        { num: "PASSO 02", icon: "smart_toy", title: "L'IA Risponde e Filtra 24/7", desc: "In meno di 15 secondi, i nostri Agenti IA su WhatsApp e Voce rispondono, qualificano il budget e fissano l'appuntamento." },
-        { num: "PASSO 03", icon: "real_estate_agent", title: "Il Tuo Team Chiude le Vendite", desc: "Tutto è tracciato nel tuo CRM (GoHighLevel) con metriche reali per prendere migliori decisioni commerciali." }
+        { num: "FASE 01", icon: "ads_click", title: "Attiriamo con Contenuti Premium & Web Veloce", desc: "Fotografia architettonica, video aziendale, campagne mirate e landing su Vercel che catturano veri acquirenti." },
+        { num: "FASE 02", icon: "smart_toy", title: "Gli Agenti IA Qualificano 24/7 su WhatsApp", desc: "In meno di 15 secondi la nostra IA dialoga in 4 lingue, filtra budget e intenzione e fissa l'appuntamento." },
+        { num: "FASE 03", icon: "real_estate_agent", title: "Il Tuo Team Chiude su GoHighLevel CRM", desc: "Zero contatti spazzatura o follow-up dimenticati. Ogni investimento è misurato fino alla firma del contratto." }
       ],
-      roiTitle: "Simulatore Interattivo di Impatto Commerciale",
-      roiSub: "Muovi i cursori per stimare quanto fatturato extra puoi recuperare rispondendo in <15s con IA 24/7 + CRM:",
-      roiLeadsLbl: "Contatti mensili ricevuti dalla tua azienda",
-      roiTicketLbl: "Valore medio per vendita / cliente (USD)",
-      roiResult1Lbl: "Appuntamenti Qualificati Extra / Mese",
-      roiResult2Lbl: "Fatturato Aggiuntivo Stimato / Mese",
-      pillarsBadge: "Metodologia Quadridimensionale // I 4 Pilastri di NegocioUp",
-      pillarsTitle: "Architettura Integrale 360° per Scala Operativa e Fatturato",
-      pillarsSub: "Ogni pilastro opera come un modulo autonomo interconnesso dal DNA digitale fino alla chiusura nel CRM, eliminando perdite di lead e accelerando il ciclo di vendita.",
-      pillarTabs: ["Tutti (360°)", "01. Web", "02. IA 24/7", "03. CRM", "04. Ads"],
+      roiTitle: "Simulatore Interattivo: Da “Lead” Vuoti a Clienti Reali",
+      roiSub: "Muovi i cursori per stimare quanti appuntamenti qualificati e fatturato extra recuperi con IA 24/7 + GoHighLevel:",
+      roiLeadsLbl: "Contatti mensili ricevuti dalla tua azienda o sviluppo",
+      roiTicketLbl: "Valore medio per vendita / proprietà / cliente (USD)",
+      roiResult1Lbl: "Appuntamenti Qualificati Reali / Mese",
+      roiResult2Lbl: "Fatturato Aggiuntivo Misurabile / Mese",
+      pillarsBadge: "I 4 Pilastri di NegocioUp // Dai Clic a Clienti Reali e Misurabili",
+      pillarsTitle: "Non Vendiamo Siti Web: Costruiamo Ecosistemi Commerciali Intelligenti",
+      pillarsSub: "Aiutiamo aziende consolidate e sviluppi immobiliari a superare il caos digitale integrando Tecnologia, IA, Automazione e Contenuti Premium in 4 pilastri progettati per generare fatturato reale.",
+      pillarTabs: ["Tutti (360°)", "01. Web & CRO", "02. IA & CRM", "03. Real Estate", "04. Audiovisivo"],
       pillars: [
         {
-          code: "PILASTRO 01 // DNA DIGITALE",
-          title: "Architettura Web & Esperienze Digitali",
-          desc: "Costruiamo il tuo asset digitale come una macchina di conversione, non come una brochure statica. Interfacce Next.js e Tailwind con caricamento <800ms, SEO tecnico per dominare Google e connessione nativa via Webhook.",
-          barLbl: "Performance Lighthouse & SEO Tecnico",
-          barNote: "Server Edge CDN globali e Schema.org nativo",
-          guarantee: "Garanzia: TTFB < 85ms e architettura pronta a convertire"
+          code: "PILASTRO 01 // INGEGNERIA WEB",
+          title: "Ingegneria di Conversione & Web",
+          desc: "Siti ottimizzati nella velocità (Vercel), multilingue (ES / EN / FR / IT) e progettati al 100% per convertire. Sostituiamo i siti vetrina passivi con asset commerciali ultra-rapidi dotati di SEO tecnico per Google Maps e connessione diretta al CRM.",
+          barLbl: "Velocità Edge (Vercel) & SEO Tecnico",
+          barNote: "Cloud Vercel Edge, multilingue nativo e 100% orientato alle vendite",
+          guarantee: "Garanzia: Caricamento < 800ms e architettura pronta a convertire"
         },
         {
-          code: "PILASTRO 02 // IA 24/7",
-          title: "IA & Automazione 24/7 dei Processi",
-          desc: "Implementiamo agenti conversazionali multicanale (WhatsApp Business API, Instagram, Webchat) e voice-bot iper-realistici che rispondono in meno di 15 secondi, qualificano il budget e fissano appuntamenti 24/7 senza intervento umano.",
-          barLbl: "Capacità di Attenzione Simultanea 24/7",
-          barNote: "Zero perdita di contatti per tempi di attesa",
-          guarantee: "Garanzia: Qualificazione e primo contatto in < 15 secondi"
+          code: "PILASTRO 02 // IA & CRM 24/7",
+          title: "Agenti di IA e Automazione",
+          desc: "Risposte automatiche 24/7, qualificazione dei contatti e flussi intelligenti su WhatsApp e CRM (GoHighLevel). La nostra IA risponde in meno di 15 secondi, filtra i curiosi, qualifica il budget e fissa appuntamenti reali sul calendario del tuo team.",
+          barLbl: "Qualificazione WhatsApp & CRM 24/7",
+          barNote: "Zero perdita di lead di notte, nei weekend o durante i picchi di campagne",
+          guarantee: "Garanzia: Risposta immediata 24/7 e tracciabilità totale su GoHighLevel"
         },
         {
-          code: "PILASTRO 03 // CONTROLLO CRM",
-          title: "CRM Commerciale & Pipeline Predittive",
-          desc: "Centralizziamo tutta la tua operatività commerciale in GoHighLevel (LeadConnector), HubSpot o Salesforce. Lead-scoring predittivo, follow-up automatico e riattivazione di database dormienti.",
-          barLbl: "Tasso di Riattivazione Contatti Dormienti",
-          barNote: "Recupero vendite senza budget pubblicitario aggiuntivo",
-          guarantee: "Garanzia: Zero fuga di lead per dimenticanza manuale"
+          code: "PILASTRO 03 // REAL ESTATE SPECIAL",
+          title: "Ecosistema Immobiliare (Real Estate Special)",
+          desc: "Pacchetti chiavi in mano per sviluppi nella Riviera Maya (Playa del Carmen, Tulum, Cancún) e in Messico: tour virtuali 360°, landing page ad alta conversione per proprietà, funnel multilingue per investitori esteri e campagne mirate.",
+          barLbl: "Accelerazione Prevendite & Appuntamenti Qualificati",
+          barNote: "Tour 360° + Landing per Proprietà + CRM Immobiliare + Advertising HNW",
+          guarantee: "Garanzia: Prospect filtrati per budget e reale intenzione d'investimento"
         },
         {
-          code: "PILASTRO 04 // CONTENUTI & ADS",
-          title: "Produzione Audiovisiva & Advertising d'Impatto",
-          desc: "Alimentiamo il tuo ecosistema con creatività cinematografiche e strategie di acquisizione su Meta Ads, Google Ads e TikTok con attribuzione Server-Side (CAPI) collegata alle vendite reali del tuo CRM per ridurre il CAC.",
-          barLbl: "Riduzione Media del CAC",
-          barNote: "Tracciamento Server-Side First-Party per Google Ads & Meta CAPI",
-          guarantee: "Garanzia: Audit e ottimizzazione giornaliera delle performance"
+          code: "PILASTRO 04 // AUDIOVISIVO & ADS",
+          title: "Produzione Audiovisiva & Contenuti Premium",
+          desc: "Fotografia architettonica, video corporate, riprese con drone e materiale ottimizzato per annunci e social media. Uniamo estetica cinematografica e attribuzione Server-Side (Meta CAPI & Google Ads) per attrarre clienti di alto valore e ridurre il CAC.",
+          barLbl: "Riduzione del Costo per Cliente Reale (CAC)",
+          barNote: "Contenuti ottimizzati per ads + tracciamento fino alla chiusura nel CRM",
+          guarantee: "Garanzia: Materiale progettato per trasformare i clic in appuntamenti reali"
         }
       ],
-      reBadge: "DIVISIONE SPECIALIZZATA: NEGOCIOUP REAL ESTATE SUITE",
-      reTitle: "Accelerazione Vendite per Sviluppi e Lanci Immobiliari",
-      reSub: "Convertiamo l'inventario immobiliare in prevendite accelerate tramite showroom virtuali interattivi, acquisizione di investitori HNW e qualificazione immediata tramite agenti IA.",
+      reBadge: "ECOSISTEMA IMMOBILIARE // RIVIERA MAYA & MESSICO REAL ESTATE SPECIAL",
+      reTitle: "Pacchetti Chiavi in Mano per Sviluppi Immobiliari e Prevendite",
+      reSub: "Trasformiamo gli sviluppi nella Riviera Maya e in Messico in motori di prevendita accelerata: tour virtuali 360°, landing page per proprietà, agenti IA multilingue 24/7 e campagne per investitori reali.",
       reModules: [
-        { title: "Agenti Immobiliari IA 24/7", desc: "Risposta e invio di brochure interattive, planimetrie e preventivi finanziari in meno di 30 secondi via WhatsApp." },
-        { title: "Filtro Finanziario Immediato", desc: "Qualificazione algoritmica della capacità di investimento e liquidità prima di fissare la chiamata o visita con il broker." },
-        { title: "Advertising Hyper-Targeted HNW", desc: "Acquisizione di acquirenti e investitori High-Net-Worth in Messico, Riviera Maya, USA, Spagna e America Latina." },
-        { title: "Sincronizzazione Inventario", desc: "Aggiornamento automatico delle unità disponibili e dei listini prezzi in pochi secondi per tutta la rete vendita." }
+        { title: "Tour Virtuali 360° & Showroom", desc: "Permetti agli investitori di USA, Canada, Europa o Città del Messico di visitare le tue proprietà dallo smartphone prima di fissare una visita o prenotare un'unità." },
+        { title: "Landing Page per Proprietà (Vercel)", desc: "Micrositi ultra-rapidi e multilingue per sviluppo o tipologia con calcolatori di plusvalenza, download brochure e cattura diretta in GoHighLevel." },
+        { title: "Filtro IA 24/7 su WhatsApp & CRM", desc: "I nostri agenti IA rispondono in pochi secondi in 4 lingue, inviano schede tecniche e filtrano budget e modalità di pagamento prima di passare il lead al broker." },
+        { title: "Fotografia Architettonica & Ads HNW", desc: "Produzione audiovisiva immobiliare con drone e campagne Meta & Google Ads ottimizzate per connettere il tuo inventario con acquirenti qualificati." }
       ],
-      philBadge: "Principi di Ingegneria Commerciale // Filosofia NegocioUp",
-      philH2_1: "Non promettiamo metriche vuote... ",
-      philH2_2: "Costruiamo tecnologia che produce migliori decisioni commerciali.",
-      philSub: "La tecnologia senza impatto sul bilancio è solo una spesa superflua. In NegocioUp ogni riga di codice, ogni flusso GoHighLevel e ogni agente autonomo esiste esclusivamente per generare redditività dimostrabile.",
+      philBadge: "Il Gancio & Filosofia NegocioUp // Trasparenza Commerciale Assoluta",
+      philH2_1: "“Non promettiamo metriche gonfiate. ",
+      philH2_2: "Progettiamo sistemi trasparenti in cui ogni centesimo investito viene misurato dal primo clic fino alla chiusura della vendita.”",
+      philSub: "Non promettiamo metriche vuote né report pieni di “like” che non pagano gli stipendi. Costruiamo tecnologia che produce migliori decisioni commerciali per trasformare i clic in clienti reali e misurabili.",
       philCards: [
-        { tag: "01 / PRINCIPIO ANALITICO", title: "Decisioni Guidate dai Dati, Non dall'Intuito", desc: "Dashboard in tempo reale dove ogni centesimo investito in acquisizione è tracciato fino all'incasso. Monitoraggio costante di CAC, LTV e ciclo di conversione." },
-        { tag: "02 / PRINCIPIO OPERATIVO", title: "Automazione che Libera Margine Operativo", desc: "Eliminiamo le attività ripetitive di inserimento e filtro manuale affinché il tuo team commerciale dedichi il 100% dell'energia alla chiusura." },
-        { tag: "03 / PRINCIPIO FINANZIARIO", title: "Redditività Predittiva (ROI Attribuito)", desc: "Prima di ogni sviluppo strutturiamo un modello finanziario predittivo che determina le soglie di conversione richieste per un flusso netto positivo." }
+        { tag: "01 / TRACCIABILITÀ DAL PRIMO CLIC ALLA CHIUSURA", title: "Zero Metriche di Vanità: Solo Clienti Reali", desc: "Dashboard su GoHighLevel dove sai esattamente quale annuncio, quale pagina e quale conversazione IA ha generato ogni appuntamento e ogni contratto firmato." },
+        { tag: "02 / DAL CAOS DIGITALE ALL'ORDINE AUTOMATIZZATO", title: "Il Tuo Team Chiude le Vendite, l'IA Fa il Resto", desc: "Eliminiamo il caos di fogli Excel sparsi e messaggi senza risposta. I nostri sistemi rispondono 24/7 e consegnano ai tuoi venditori solo prospect qualificati." },
+        { tag: "03 / TECNOLOGIA + CONTENUTI PREMIUM", title: "Autorità Visiva che Accelera la Fiducia", desc: "Uniamo ingegneria software su Vercel e IA con fotografia architettonica, video aziendale e tour 360° affinché il tuo brand proietti il livello esatto dei clienti che vuoi attrarre." }
       ],
-      calBadge: "POSTI LIMITATI // CONNESSIONE DIRETTA GOHIGHLEVEL & WHATSAPP",
-      calH2_1: "Pronto a trasformare la tua azienda in un ",
-      calH2_2: "ecosistema autonomo",
-      calH2_3: " pronto a fatturare?",
-      calSub: "Prenota la tua Sessione di Diagnosi Strategica di 45 minuti con i nostri architetti di sistema. Analizzeremo la tua infrastruttura attuale e ti presenteremo una roadmap su misura.",
-      calCardTitle: "Sessione di Diagnosi Strategica",
+      calBadge: "DIAGNOSI GRATUITA // CONNESSA AL TUO CALENDARIO & WHATSAPP",
+      calH2_1: "Lasciati alle spalle il caos digitale. Costruisci il tuo ",
+      calH2_2: "Ecosistema Commerciale Intelligente",
+      calH2_3: " oggi stesso.",
+      calSub: "Prenota una Sessione di Diagnosi Gratuita con i nostri specialisti. Analizzeremo dove stai perdendo contatti oggi e progetteremo il piano esatto con IA 24/7, CRM (GoHighLevel), Web e Contenuti Premium.",
+      calCardTitle: "Sessione di Diagnosi Gratuita",
       calStep1: "1. Seleziona una data disponibile",
       calStep2: "2. Orari consigliati (Fuso: Messico / Miami)",
-      placeholders: ["Nome e Cognome *", "Azienda o Progetto *", "Email aziendale (es: direttore@azienda.com) *", "WhatsApp / Telefono diretto *"]
+      placeholders: ["Nome e Cognome *", "Azienda o Sviluppo Immobiliare *", "Email aziendale (es: direttore@azienda.com) *", "WhatsApp / Telefono diretto *"]
     }
   };
 
@@ -515,7 +571,7 @@
     consoleNodesGrid.insertAdjacentElement('afterend', liveFeedBar);
   }
 
-  // 3. Inject "3 Simple Steps + Interactive ROI Calculator" Section before #pilares
+  // 3. Inject "Storytelling (Caos Digital vs Ecosistema) + 3 Phases + Interactive ROI Calculator" Section before #pilares
   const pilaresSection = document.getElementById('pilares');
   if (pilaresSection) {
     const simpleSection = document.createElement('section');
@@ -523,45 +579,73 @@
     simpleSection.className = 'w-full bg-surface py-space-xl border-b border-outline-variant/20 reveal-section';
     simpleSection.innerHTML = `
       <div class="w-full px-gutter lg:px-margin">
-        <!-- 3 Simple Steps Header -->
-        <div class="text-center max-w-3xl mx-auto mb-space-xl">
+        <!-- Storytelling Header -->
+        <div class="text-center max-w-4xl mx-auto mb-space-xl">
           <div class="inline-flex items-center gap-space-xs px-space-md py-1 rounded-full bg-primary/10 text-primary font-code-badge text-code-badge uppercase tracking-wider mb-space-xs">
             <span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
-            <span id="i18n-simple-badge">SIMPLE, RÁPIDO Y RENTABLE // CÓMO FUNCIONA</span>
+            <span id="i18n-simple-badge">EL CONCEPTO CENTRAL // DEL CAOS DIGITAL AL MOTOR COMERCIAL</span>
           </div>
           <h2 id="i18n-simple-title" class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface mb-space-xs">
-            Entiende tu Nuevo Ecosistema en 3 Pasos Simples
+            Por Qué las Empresas Dejan de Comprar “Páginas Web” y Migran a un Ecosistema Inteligente
           </h2>
           <p id="i18n-simple-sub" class="font-body-lg text-body-lg text-on-surface-variant">
-            Eliminamos la complejidad técnica. Así transformamos desconocidos en clientes listos para comprar:
+            Ayudamos a empresas consolidadas y desarrollos inmobiliarios a dejar atrás el caos digital, integrando Tecnología, IA, Automatización y Contenido Premium para transformar clics en clientes reales y medibles.
           </p>
+        </div>
+
+        <!-- Storytelling Comparison: Caos Digital vs Ecosistema NegocioUp -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-space-lg mb-space-xl">
+          <!-- Left: Digital Chaos -->
+          <div class="rounded-2xl bg-surface-container-lowest/90 border border-error/25 p-space-lg flex flex-col gap-space-md">
+            <h3 id="i18n-chaos-title" class="font-headline-sm text-headline-sm text-error">
+              ❌ El Caos Digital Tradicional (Lo que te hace perder dinero)
+            </h3>
+            <ul id="i18n-chaos-list" class="flex flex-col gap-space-sm font-body-md text-on-surface-variant">
+              <li class="flex items-start gap-2"><span class="text-error font-bold">•</span><span>Coleccionar cientos de “leads” vacíos y curiosos sin presupuesto real.</span></li>
+              <li class="flex items-start gap-2"><span class="text-error font-bold">•</span><span>Páginas web lentas y pasivas que nadie visita ni convierten.</span></li>
+              <li class="flex items-start gap-2"><span class="text-error font-bold">•</span><span>Asesores saturados que tardan horas en contestar WhatsApp y pierden la venta.</span></li>
+              <li class="flex items-start gap-2"><span class="text-error font-bold">•</span><span>Agencias que entregan reportes con métricas infladas (“likes” y alcance) sin cierres.</span></li>
+            </ul>
+          </div>
+          <!-- Right: Smart Commercial Ecosystem -->
+          <div class="kinetic-card rounded-2xl bg-gradient-to-br from-surface-container-low to-surface-container border border-primary/40 p-space-lg flex flex-col gap-space-md shadow-[0_0_35px_rgba(16,185,129,0.12)]">
+            <h3 id="i18n-eco-title" class="font-headline-sm text-headline-sm text-primary">
+              ✅ Ecosistema Comercial Inteligente NegocioUp
+            </h3>
+            <ul id="i18n-eco-list" class="flex flex-col gap-space-sm font-body-md text-on-surface">
+              <li class="flex items-start gap-2"><span class="text-primary font-bold">✓</span><span>Ingeniería de Conversión &amp; Web en Vercel: ultrarrápida, multilingüe y 100% diseñada para vender.</span></li>
+              <li class="flex items-start gap-2"><span class="text-primary font-bold">✓</span><span>Agentes de IA 24/7 en WhatsApp que responden en segundos, filtran presupuesto y agendan citas.</span></li>
+              <li class="flex items-start gap-2"><span class="text-primary font-bold">✓</span><span>Ecosistema Real Estate con recorridos 360°, landings por propiedad y fotografía/video premium.</span></li>
+              <li class="flex items-start gap-2"><span class="text-primary font-bold">✓</span><span>Control total en GoHighLevel CRM: cada peso invertido medido desde el primer clic hasta el cierre.</span></li>
+            </ul>
+          </div>
         </div>
 
         <!-- 3 Visual Cards -->
         <div id="simple-steps-grid" class="grid grid-cols-1 md:grid-cols-3 gap-space-lg mb-space-xl">
           <div class="kinetic-card bg-surface-container-low p-space-lg rounded-2xl relative">
             <div class="flex items-center justify-between mb-space-md">
-              <span class="step-num font-code-badge text-code-badge text-primary bg-primary/10 px-3 py-1 rounded-full font-bold">PASO 01</span>
+              <span class="step-num font-code-badge text-code-badge text-primary bg-primary/10 px-3 py-1 rounded-full font-bold">FASE 01</span>
               <span class="material-symbols-outlined text-primary text-[30px]">ads_click</span>
             </div>
-            <h3 class="step-title font-headline-md text-headline-md-mobile text-on-surface mb-space-xs">Atraemos y Capturamos</h3>
-            <p class="step-desc font-body-md text-on-surface-variant">Tu nueva Arquitectura Web, Google Maps y Pauta Estratégica captan prospectos con intención real de compra.</p>
+            <h3 class="step-title font-headline-md text-headline-md-mobile text-on-surface mb-space-xs">Atraemos con Contenido Premium y Web Veloz</h3>
+            <p class="step-desc font-body-md text-on-surface-variant">Fotografía arquitectónica, video corporativo, pauta inteligente y landings en Vercel que captan compradores reales.</p>
           </div>
           <div class="kinetic-card bg-surface-container-low p-space-lg rounded-2xl relative">
             <div class="flex items-center justify-between mb-space-md">
-              <span class="step-num font-code-badge text-code-badge text-secondary bg-secondary/10 px-3 py-1 rounded-full font-bold">PASO 02</span>
+              <span class="step-num font-code-badge text-code-badge text-secondary bg-secondary/10 px-3 py-1 rounded-full font-bold">FASE 02</span>
               <span class="material-symbols-outlined text-secondary text-[30px]">smart_toy</span>
             </div>
-            <h3 class="step-title font-headline-md text-headline-md-mobile text-on-surface mb-space-xs">La IA Atiende y Filtra 24/7</h3>
-            <p class="step-desc font-body-md text-on-surface-variant">En menos de 15 segundos, nuestros Agentes IA en WhatsApp y Voz responden, califican presupuesto y agendan la cita.</p>
+            <h3 class="step-title font-headline-md text-headline-md-mobile text-on-surface mb-space-xs">Agentes de IA Califican 24/7 en WhatsApp</h3>
+            <p class="step-desc font-body-md text-on-surface-variant">En menos de 15 segundos nuestra IA conversa en 4 idiomas, filtra presupuesto e intención y agenda la cita en automático.</p>
           </div>
           <div class="kinetic-card bg-surface-container-low p-space-lg rounded-2xl relative">
             <div class="flex items-center justify-between mb-space-md">
-              <span class="step-num font-code-badge text-code-badge text-primary bg-primary/10 px-3 py-1 rounded-full font-bold">PASO 03</span>
+              <span class="step-num font-code-badge text-code-badge text-primary bg-primary/10 px-3 py-1 rounded-full font-bold">FASE 03</span>
               <span class="material-symbols-outlined text-primary text-[30px]">real_estate_agent</span>
             </div>
-            <h3 class="step-title font-headline-md text-headline-md-mobile text-on-surface mb-space-xs">Tu Equipo Solo Cierra Ventas</h3>
-            <p class="step-desc font-body-md text-on-surface-variant">Todo queda registrado en tu CRM (GoHighLevel) con métricas reales para tomar mejores decisiones comerciales.</p>
+            <h3 class="step-title font-headline-md text-headline-md-mobile text-on-surface mb-space-xs">Tu Equipo Cierra en GoHighLevel CRM</h3>
+            <p class="step-desc font-body-md text-on-surface-variant">Sin leads basura ni seguimiento manual olvidado. Cada peso invertido queda medido hasta la firma de la venta.</p>
           </div>
         </div>
 
@@ -570,16 +654,16 @@
           <div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
             <div class="lg:col-span-7 flex flex-col gap-space-md">
               <h3 id="i18n-roi-title" class="font-headline-md text-headline-md-mobile lg:text-headline-md text-on-surface">
-                Simulador Interactivo de Impacto Comercial
+                Simulador Interactivo: De “Leads” Vacíos a Clientes Reales
               </h3>
               <p id="i18n-roi-sub" class="font-body-md text-on-surface-variant">
-                Mueve los controles para estimar cuánto pipeline adicional puedes recuperar respondiendo en &lt;15s con IA 24/7 + CRM:
+                Ajusta los controles para proyectar cuántas citas reales y facturación adicional recuperas al instalar tu Ecosistema Comercial con IA 24/7 + GoHighLevel:
               </p>
 
               <!-- Slider 1: Monthly Leads -->
               <div class="bg-surface-container-lowest/80 p-space-md rounded-xl">
                 <div class="flex justify-between items-center mb-2">
-                  <label for="roi-leads-slider" id="i18n-roi-leads-lbl" class="font-body-sm text-on-surface-variant">Prospectos mensuales que recibe tu negocio</label>
+                  <label for="roi-leads-slider" id="i18n-roi-leads-lbl" class="font-body-sm text-on-surface-variant">Prospectos mensuales que recibe tu negocio o desarrollo</label>
                   <span id="roi-leads-val" class="font-headline-sm text-primary font-bold">250 leads/mes</span>
                 </div>
                 <input id="roi-leads-slider" type="range" min="50" max="2000" step="25" value="250" class="negocioup-slider"/>
@@ -588,7 +672,7 @@
               <!-- Slider 2: Average Ticket -->
               <div class="bg-surface-container-lowest/80 p-space-md rounded-xl">
                 <div class="flex justify-between items-center mb-2">
-                  <label for="roi-ticket-slider" id="i18n-roi-ticket-lbl" class="font-body-sm text-on-surface-variant">Valor promedio por venta / cliente (USD)</label>
+                  <label for="roi-ticket-slider" id="i18n-roi-ticket-lbl" class="font-body-sm text-on-surface-variant">Valor promedio por venta / propiedad / cliente (USD)</label>
                   <span id="roi-ticket-val" class="font-headline-sm text-secondary font-bold">$1,500 USD</span>
                 </div>
                 <input id="roi-ticket-slider" type="range" min="300" max="25000" step="100" value="1500" class="negocioup-slider"/>
@@ -599,14 +683,14 @@
             <div class="lg:col-span-5 bg-surface-container-lowest p-space-lg rounded-2xl border border-white/10 flex flex-col gap-space-md text-center">
               <div class="p-space-md rounded-xl bg-surface-container-low">
                 <span id="roi-meetings-out" class="font-display-hero text-headline-lg text-secondary block">+62</span>
-                <span id="i18n-roi-res1-lbl" class="font-body-sm text-on-surface-variant">Citas Calificadas Extra / Mes</span>
+                <span id="i18n-roi-res1-lbl" class="font-body-sm text-on-surface-variant">Citas Calificadas Reales / Mes</span>
               </div>
               <div class="p-space-md rounded-xl bg-primary/10 border border-primary/30">
                 <span id="roi-revenue-out" class="font-display-hero text-headline-lg text-primary block">+$28,125 USD</span>
-                <span id="i18n-roi-res2-lbl" class="font-body-sm text-on-surface">Facturación Adicional Estimada / Mes</span>
+                <span id="i18n-roi-res2-lbl" class="font-body-sm text-on-surface">Facturación Adicional Medible / Mes</span>
               </div>
               <a href="#agendar" data-cta-scroll="true" class="i18n-cta-btn w-full inline-flex items-center justify-center gap-2 py-space-md px-space-md rounded-xl bg-gradient-to-r from-primary-container to-primary text-on-primary font-headline-sm text-label-md shadow-[0_0_24px_rgba(16,185,129,0.45)] hover:scale-[1.01] transition-all">
-                <span class="i18n-cta-text">Agendar una Sesión de Diagnóstico Estratégico</span>
+                <span class="i18n-cta-text">Agendar una Sesión de Diagnóstico Gratuito</span>
                 <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
               </a>
             </div>
@@ -737,17 +821,28 @@
     });
     highlightConsoleNode(activeNodeIdx);
 
-    // 3 Simple Steps & ROI Calculator
+    // Storytelling Comparison + 3 Simple Steps & ROI Calculator
     const setTxt = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
     setTxt('i18n-simple-badge', t.simpleBadge);
     setTxt('i18n-simple-title', t.simpleTitle);
     setTxt('i18n-simple-sub', t.simpleSub);
+    setTxt('i18n-chaos-title', t.chaosTitle);
+    setTxt('i18n-eco-title', t.ecoTitle);
     setTxt('i18n-roi-title', t.roiTitle);
     setTxt('i18n-roi-sub', t.roiSub);
     setTxt('i18n-roi-leads-lbl', t.roiLeadsLbl);
     setTxt('i18n-roi-ticket-lbl', t.roiTicketLbl);
     setTxt('i18n-roi-res1-lbl', t.roiResult1Lbl);
     setTxt('i18n-roi-res2-lbl', t.roiResult2Lbl);
+
+    const chaosList = document.getElementById('i18n-chaos-list');
+    if (chaosList && t.chaosItems) {
+      chaosList.innerHTML = t.chaosItems.map((item) => `<li class="flex items-start gap-2"><span class="text-error font-bold">•</span><span>${item}</span></li>`).join('');
+    }
+    const ecoList = document.getElementById('i18n-eco-list');
+    if (ecoList && t.ecoItems) {
+      ecoList.innerHTML = t.ecoItems.map((item) => `<li class="flex items-start gap-2"><span class="text-primary font-bold">✓</span><span>${item}</span></li>`).join('');
+    }
 
     const stepCards = document.querySelectorAll('#simple-steps-grid > div');
     stepCards.forEach((card, i) => {
