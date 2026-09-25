@@ -7,9 +7,8 @@
     es: {
       langName: "Español",
       title: "NegocioUp | Ecosistemas Comerciales Inteligentes, IA 24/7, CRM & Real Estate",
-      nav: ["Los 4 Pilares", "Ecosistemas IA", "Real Estate 360°", "Filosofía & ROI", "Ubicación & Contacto"],
+      nav: ["Los 4 Pilares", "Ecosistemas IA", "Real Estate 360°", "Filosofía & ROI", "Contacto"],
       ctaMain: "Agendar una Sesión de Diagnóstico Gratuito",
-      waDirect: "WhatsApp Directo: +52 1 662 636 6303",
       heroBadge: "NO VENDEMOS PÁGINAS WEB · CONSTRUIMOS ECOSISTEMAS COMERCIALES INTELIGENTES",
       mapsVerified: "Google Maps Verificado · Playa del Carmen, Riviera Maya, México",
       heroH1_1: "Deja de coleccionar “leads” vacíos. ",
@@ -130,9 +129,8 @@
     en: {
       langName: "English",
       title: "NegocioUp | Smart Commercial Ecosystems, 24/7 AI, CRM & Real Estate",
-      nav: ["The 4 Pillars", "AI Ecosystems", "Real Estate 360°", "Philosophy & ROI", "Location & Contact"],
+      nav: ["The 4 Pillars", "AI Ecosystems", "Real Estate 360°", "Philosophy & ROI", "Contact"],
       ctaMain: "Schedule a Free Diagnostic Session",
-      waDirect: "Direct WhatsApp: +52 1 662 636 6303",
       heroBadge: "WE DON'T SELL WEBSITES · WE BUILD SMART COMMERCIAL ECOSYSTEMS",
       mapsVerified: "Verified Google Maps · Playa del Carmen, Riviera Maya, Mexico",
       heroH1_1: "Stop collecting empty “leads”. ",
@@ -248,9 +246,8 @@
     fr: {
       langName: "Français",
       title: "NegocioUp | Écosystèmes Commerciaux Intelligents, IA 24/7, CRM & Immobilier",
-      nav: ["Les 4 Piliers", "Écosystèmes IA", "Immobilier 360°", "Philosophie & ROI", "Localisation & Contact"],
+      nav: ["Les 4 Piliers", "Écosystèmes IA", "Immobilier 360°", "Philosophie & ROI", "Contact"],
       ctaMain: "Planifier une Session de Diagnostic Gratuit",
-      waDirect: "WhatsApp Direct : +52 1 662 636 6303",
       heroBadge: "NOUS NE VENDONS PAS DE SITES WEB · NOUS CONSTRUISONS DES ÉCOSYSTÈMES COMMERCIAUX INTELLIGENTS",
       mapsVerified: "Google Maps Vérifié · Playa del Carmen, Riviera Maya, Mexique",
       heroH1_1: "Arrêtez de collectionner des « leads » vides. ",
@@ -366,9 +363,8 @@
     it: {
       langName: "Italiano",
       title: "NegocioUp | Ecosistemi Commerciali Intelligenti, IA 24/7, CRM & Real Estate",
-      nav: ["I 4 Pilastri", "Ecosistemi IA", "Real Estate 360°", "Filosofia & ROI", "Posizione & Contatti"],
+      nav: ["I 4 Pilastri", "Ecosistemi IA", "Real Estate 360°", "Filosofia & ROI", "Contatto"],
       ctaMain: "Prenota una Sessione di Diagnosi Gratuita",
-      waDirect: "WhatsApp Diretto: +52 1 662 636 6303",
       heroBadge: "NON VENDIAMO SITI WEB · COSTRUIAMO ECOSISTEMI COMMERCIALI INTELLIGENTI",
       mapsVerified: "Google Maps Verificato · Playa del Carmen, Riviera Maya, Messico",
       heroH1_1: "Smetti di collezionare “lead” vuoti. ",
@@ -620,7 +616,7 @@
         </div>
 
         <!-- 3 Visual Cards (Blue #4786EF -> Gold #FAB303 -> Green #3EA45B) -->
-        <div id="simple-steps-grid" class="grid grid-cols-1 md:grid-cols-3 gap-space-lg mb-space-xl">
+        <div id="simple-steps-grid" class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
           <div class="kinetic-card bg-surface-container-low p-space-lg rounded-2xl relative border-t-2 border-[#4786EF]">
             <div class="flex items-center justify-between mb-space-md">
               <span class="step-num font-code-badge text-code-badge text-[#4786EF] bg-[#4786EF]/15 px-3 py-1 rounded-full font-bold">FASE 01</span>
@@ -646,82 +642,12 @@
             <p class="step-desc font-body-md text-on-surface-variant">Sin leads basura ni seguimiento manual olvidado. Cada peso invertido queda medido hasta la firma de la venta.</p>
           </div>
         </div>
-
-        <!-- Interactive ROI Calculator Widget -->
-        <div class="rounded-2xl bg-gradient-to-r from-surface-container-low via-surface-container to-surface-container-low border border-[#4786EF]/35 p-space-lg lg:p-space-xl shadow-[0_15px_50px_rgba(0,0,0,0.6)]">
-          <div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
-            <div class="lg:col-span-7 flex flex-col gap-space-md">
-              <h3 id="i18n-roi-title" class="font-headline-md text-headline-md-mobile lg:text-headline-md text-on-surface">
-                Simulador Interactivo: De “Leads” Vacíos a Clientes Reales
-              </h3>
-              <p id="i18n-roi-sub" class="font-body-md text-on-surface-variant">
-                Ajusta los controles para proyectar cuántas citas reales y facturación adicional recuperas al instalar tu Ecosistema Comercial con IA 24/7 + GoHighLevel:
-              </p>
-
-              <!-- Slider 1: Monthly Leads -->
-              <div class="bg-surface-container-lowest/80 p-space-md rounded-xl">
-                <div class="flex justify-between items-center mb-2">
-                  <label for="roi-leads-slider" id="i18n-roi-leads-lbl" class="font-body-sm text-on-surface-variant">Prospectos mensuales que recibe tu negocio o desarrollo</label>
-                  <span id="roi-leads-val" class="font-headline-sm text-[#4786EF] font-bold">250 leads/mes</span>
-                </div>
-                <input id="roi-leads-slider" type="range" min="50" max="2000" step="25" value="250" class="negocioup-slider"/>
-              </div>
-
-              <!-- Slider 2: Average Ticket -->
-              <div class="bg-surface-container-lowest/80 p-space-md rounded-xl">
-                <div class="flex justify-between items-center mb-2">
-                  <label for="roi-ticket-slider" id="i18n-roi-ticket-lbl" class="font-body-sm text-on-surface-variant">Valor promedio por venta / propiedad / cliente (USD)</label>
-                  <span id="roi-ticket-val" class="font-headline-sm text-[#FAB303] font-bold">$1,500 USD</span>
-                </div>
-                <input id="roi-ticket-slider" type="range" min="300" max="25000" step="100" value="1500" class="negocioup-slider"/>
-              </div>
-            </div>
-
-            <!-- Live Calculated Results -->
-            <div class="lg:col-span-5 bg-surface-container-lowest p-space-lg rounded-2xl border border-white/10 flex flex-col gap-space-md text-center">
-              <div class="p-space-md rounded-xl bg-surface-container-low border-t-2 border-[#4786EF]">
-                <span id="roi-meetings-out" class="font-display-hero text-headline-lg text-[#4786EF] block">+62</span>
-                <span id="i18n-roi-res1-lbl" class="font-body-sm text-on-surface-variant">Citas Calificadas Reales / Mes</span>
-              </div>
-              <div class="p-space-md rounded-xl bg-[#3EA45B]/10 border border-[#3EA45B]/40">
-                <span id="roi-revenue-out" class="font-display-hero text-headline-lg text-[#3EA45B] block">+$28,125 USD</span>
-                <span id="i18n-roi-res2-lbl" class="font-body-sm text-on-surface">Facturación Adicional Medible / Mes</span>
-              </div>
-              <a href="#agendar" data-cta-scroll="true" class="i18n-cta-btn w-full inline-flex items-center justify-center gap-2 py-space-md px-space-md rounded-xl bg-gradient-to-r from-[#4786EF] to-[#3EA45B] text-white font-headline-sm text-label-md shadow-[0_0_24px_rgba(71,134,239,0.45)] hover:scale-[1.01] transition-all">
-                <span class="i18n-cta-text">Agendar una Sesión de Diagnóstico Gratuito</span>
-                <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
     `;
     pilaresSection.insertAdjacentElement('beforebegin', simpleSection);
   }
 
-  // 4. Interactive ROI Calculator Logic
-  const leadsSlider = document.getElementById('roi-leads-slider');
-  const ticketSlider = document.getElementById('roi-ticket-slider');
-  function updateRoiCalc() {
-    if (!leadsSlider || !ticketSlider) return;
-    const leads = Number(leadsSlider.value) || 250;
-    const ticket = Number(ticketSlider.value) || 1500;
-    const extraMeetings = Math.round(leads * 0.25);
-    const extraClosed = Math.max(1, Math.round(extraMeetings * 0.3));
-    const extraRevenue = extraClosed * ticket;
-
-    document.getElementById('roi-leads-val').textContent = `${leads.toLocaleString()} leads`;
-    document.getElementById('roi-ticket-val').textContent = `$${ticket.toLocaleString()} USD`;
-    document.getElementById('roi-meetings-out').textContent = `+${extraMeetings}`;
-    document.getElementById('roi-revenue-out').textContent = `+$${extraRevenue.toLocaleString()} USD`;
-  }
-  if (leadsSlider && ticketSlider) {
-    leadsSlider.addEventListener('input', updateRoiCalc);
-    ticketSlider.addEventListener('input', updateRoiCalc);
-    updateRoiCalc();
-  }
-
-  // 5. Auto-Cycling Interactive Console Nodes
+  // 4. Auto-Cycling Interactive Console Nodes
   let activeNodeIdx = 0;
   let currentLang = 'es';
   const consoleNodeEls = consoleNodesGrid ? Array.from(consoleNodesGrid.children) : [];
@@ -757,7 +683,7 @@
     it: 'Più clienti <span class="text-[#FAB303]">•</span> IA <span class="text-[#3EA45B]">•</span> Automazione'
   };
 
-  // 6. Apply Language Function (ES / EN / FR / IT)
+  // 5. Apply Language Function (ES / EN / FR / IT)
   function applyLanguage(lang) {
     if (!I18N[lang]) lang = 'es';
     currentLang = lang;
@@ -813,9 +739,6 @@
       }
       const heroP = heroSection.querySelector('p.font-body-lg');
       if (heroP) heroP.textContent = t.heroSub;
-
-      const waHero = heroSection.querySelector('[data-wa-cta="Hero"] span:last-child');
-      if (waHero) waHero.textContent = t.waDirect;
     }
 
     // Console Nodes
@@ -833,19 +756,13 @@
     });
     highlightConsoleNode(activeNodeIdx);
 
-    // Storytelling Comparison + 3 Simple Steps & ROI Calculator
+    // Storytelling Comparison + 3 Simple Steps
     const setTxt = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
     setTxt('i18n-simple-badge', t.simpleBadge);
     setTxt('i18n-simple-title', t.simpleTitle);
     setTxt('i18n-simple-sub', t.simpleSub);
     setTxt('i18n-chaos-title', t.chaosTitle);
     setTxt('i18n-eco-title', t.ecoTitle);
-    setTxt('i18n-roi-title', t.roiTitle);
-    setTxt('i18n-roi-sub', t.roiSub);
-    setTxt('i18n-roi-leads-lbl', t.roiLeadsLbl);
-    setTxt('i18n-roi-ticket-lbl', t.roiTicketLbl);
-    setTxt('i18n-roi-res1-lbl', t.roiResult1Lbl);
-    setTxt('i18n-roi-res2-lbl', t.roiResult2Lbl);
 
     const chaosList = document.getElementById('i18n-chaos-list');
     if (chaosList && t.chaosItems) {
