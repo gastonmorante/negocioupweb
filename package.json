@@ -1,0 +1,13 @@
+{
+  "name": "negocioupweb",
+  "version": "1.0.0",
+  "description": "NegocioUp - Agencia de Automatización, Ecosistemas Digitales e IA 24/7",
+  "main": "server.js",
+  "scripts": {
+    "build": "echo 'Build listo'",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
