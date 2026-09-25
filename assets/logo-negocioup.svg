@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 951 262" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="trendLineGrad" x1="48" y1="192" x2="212" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9CA3AF"/>
+      <stop offset="50%" stop-color="#D1D5DB"/>
+      <stop offset="100%" stop-color="#9CA3AF"/>
+    </linearGradient>
+    <filter id="barShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Isotype: 4 Ascending Bars -->
+  <g filter="url(#barShadow)">
+    <!-- Bar 1: Electric Blue -->
+    <rect x="33" y="189" width="39" height="69" rx="8" fill="#4786EF"/>
+    <!-- Bar 2: Vibrant Red -->
+    <rect x="86" y="135" width="39" height="123" rx="8" fill="#EE433B"/>
+    <!-- Bar 3: Golden Amber -->
+    <rect x="139" y="82" width="39" height="176" rx="8" fill="#FAB303"/>
+    <!-- Bar 4: Growth Green -->
+    <rect x="193" y="32" width="39" height="226" rx="8" fill="#3EA45B"/>
+  </g>
+
+  <!-- Ascending Metallic Trend Line -->
+  <path d="M52 189 L209 32" stroke="url(#trendLineGrad)" stroke-width="5.5" stroke-linecap="round"/>
+
+  <!-- Wordmark: NegocioUp (Dark-Mode Optimized: Crisp White + Logo Blue) -->
+  <text x="292" y="168" font-family="'Plus Jakarta Sans', 'Space Grotesk', 'Inter', system-ui, -apple-system, sans-serif" font-size="116" font-weight="800" letter-spacing="-2.5">
+    <tspan fill="#F8FAFC">Negocio</tspan><tspan fill="#4786EF">Up</tspan>
+  </text>
+
+  <!-- Tagline: Más clientes • IA • Automatización -->
+  <text x="295" y="236" font-family="'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif" font-size="35" font-weight="600" fill="#94A3B8" letter-spacing="0.2">
+    Más clientes • IA • Automatización
+  </text>
+</svg>

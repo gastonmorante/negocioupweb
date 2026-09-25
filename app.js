@@ -495,38 +495,36 @@
       transform: translateY(0);
     }
     .node-active-glow {
-      border: 1px solid rgba(78, 222, 163, 0.65) !important;
-      box-shadow: 0 0 28px -4px rgba(16, 185, 129, 0.32), inset 0 0 18px rgba(16, 185, 129, 0.08) !important;
+      box-shadow: 0 0 28px -4px rgba(71, 134, 239, 0.42), inset 0 0 18px rgba(62, 164, 91, 0.12) !important;
       transform: translateY(-3px);
     }
     .kinetic-card {
       position: relative;
       transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
-      border: 1px solid rgba(255, 255, 255, 0.06);
     }
     .kinetic-card:hover {
       transform: translateY(-4px);
-      border-color: rgba(78, 222, 163, 0.4);
-      box-shadow: 0 18px 40px -12px rgba(0, 0, 0, 0.75), 0 0 24px -6px rgba(16, 185, 129, 0.22);
+      box-shadow: 0 18px 40px -12px rgba(0, 0, 0, 0.75), 0 0 24px -6px rgba(71, 134, 239, 0.25);
     }
     input[type="range"].negocioup-slider {
       -webkit-appearance: none;
       appearance: none;
       width: 100%;
-      height: 6px;
-      background: #262a35;
+      height: 7px;
+      background: linear-gradient(90deg, #4786EF 0%, #EE433B 33%, #FAB303 66%, #3EA45B 100%);
       border-radius: 999px;
       outline: none;
     }
     input[type="range"].negocioup-slider::-webkit-slider-thumb {
       -webkit-appearance: none;
       appearance: none;
-      width: 20px;
-      height: 20px;
+      width: 22px;
+      height: 22px;
       border-radius: 50%;
-      background: #4edea3;
+      background: #3EA45B;
+      border: 2px solid #ffffff;
       cursor: pointer;
-      box-shadow: 0 0 12px rgba(16, 185, 129, 0.8);
+      box-shadow: 0 0 14px rgba(62, 164, 91, 0.85);
     }
   `;
   document.head.appendChild(styleEl);
@@ -544,7 +542,7 @@
   const headerRight = document.querySelector('header .flex.items-center.gap-space-sm');
   const langSwitcherHtml = `
     <div id="lang-switcher" class="inline-flex items-center bg-surface-container-high/90 border border-white/10 rounded-lg p-0.5 text-[11px] font-code-badge">
-      <button type="button" data-lang="es" class="lang-btn px-2 py-1 rounded-md bg-primary-container text-on-primary-container font-bold transition-all" title="Español">ES</button>
+      <button type="button" data-lang="es" class="lang-btn px-2 py-1 rounded-md bg-[#4786EF] text-white font-bold transition-all" title="Español">ES</button>
       <button type="button" data-lang="en" class="lang-btn px-2 py-1 rounded-md text-on-surface-variant hover:text-on-surface transition-all" title="English">EN</button>
       <button type="button" data-lang="fr" class="lang-btn px-2 py-1 rounded-md text-on-surface-variant hover:text-on-surface transition-all" title="Français">FR</button>
       <button type="button" data-lang="it" class="lang-btn px-2 py-1 rounded-md text-on-surface-variant hover:text-on-surface transition-all" title="Italiano">IT</button>
@@ -560,11 +558,11 @@
   if (consoleNodesGrid) {
     const liveFeedBar = document.createElement('div');
     liveFeedBar.id = 'console-live-feed';
-    liveFeedBar.className = 'mt-space-md bg-surface-container-lowest/90 border border-primary/30 rounded-xl px-space-md py-space-sm flex flex-col sm:flex-row sm:items-center justify-between gap-2';
+    liveFeedBar.className = 'mt-space-md bg-surface-container-lowest/90 border border-[#4786EF]/35 rounded-xl px-space-md py-space-sm flex flex-col sm:flex-row sm:items-center justify-between gap-2';
     liveFeedBar.innerHTML = `
       <div class="flex items-center gap-2">
-        <span class="w-2.5 h-2.5 rounded-full bg-primary animate-ping shrink-0"></span>
-        <span id="console-live-text" class="font-code-badge text-code-badge text-primary">⚡ Nuevo lead capturado desde Google Maps & Meta Ads → Sincronizado en 0.1s</span>
+        <span class="w-2.5 h-2.5 rounded-full bg-[#3EA45B] animate-ping shrink-0"></span>
+        <span id="console-live-text" class="font-code-badge text-code-badge text-[#3EA45B]">⚡ Nuevo lead capturado desde Google Maps & Meta Ads → Sincronizado en 0.1s</span>
       </div>
       <span class="font-label-sm text-label-sm text-outline uppercase">Haz clic en cualquier nodo para inspeccionar</span>
     `;
@@ -581,8 +579,8 @@
       <div class="w-full px-gutter lg:px-margin">
         <!-- Storytelling Header -->
         <div class="text-center max-w-4xl mx-auto mb-space-xl">
-          <div class="inline-flex items-center gap-space-xs px-space-md py-1 rounded-full bg-primary/10 text-primary font-code-badge text-code-badge uppercase tracking-wider mb-space-xs">
-            <span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+          <div class="inline-flex items-center gap-space-xs px-space-md py-1 rounded-full bg-[#4786EF]/15 text-[#4786EF] font-code-badge text-code-badge uppercase tracking-wider mb-space-xs">
+            <span class="w-2 h-2 rounded-full bg-[#3EA45B] animate-pulse"></span>
             <span id="i18n-simple-badge">EL CONCEPTO CENTRAL // DEL CAOS DIGITAL AL MOTOR COMERCIAL</span>
           </div>
           <h2 id="i18n-simple-title" class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface mb-space-xs">
@@ -593,56 +591,56 @@
           </p>
         </div>
 
-        <!-- Storytelling Comparison: Caos Digital vs Ecosistema NegocioUp -->
+        <!-- Storytelling Comparison: Caos Digital (#EE433B) vs Ecosistema NegocioUp (#3EA45B) -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-space-lg mb-space-xl">
           <!-- Left: Digital Chaos -->
-          <div class="rounded-2xl bg-surface-container-lowest/90 border border-error/25 p-space-lg flex flex-col gap-space-md">
-            <h3 id="i18n-chaos-title" class="font-headline-sm text-headline-sm text-error">
+          <div class="rounded-2xl bg-surface-container-lowest/90 border-t-4 border-[#EE433B] p-space-lg flex flex-col gap-space-md shadow-lg">
+            <h3 id="i18n-chaos-title" class="font-headline-sm text-headline-sm text-[#EE433B]">
               ❌ El Caos Digital Tradicional (Lo que te hace perder dinero)
             </h3>
             <ul id="i18n-chaos-list" class="flex flex-col gap-space-sm font-body-md text-on-surface-variant">
-              <li class="flex items-start gap-2"><span class="text-error font-bold">•</span><span>Coleccionar cientos de “leads” vacíos y curiosos sin presupuesto real.</span></li>
-              <li class="flex items-start gap-2"><span class="text-error font-bold">•</span><span>Páginas web lentas y pasivas que nadie visita ni convierten.</span></li>
-              <li class="flex items-start gap-2"><span class="text-error font-bold">•</span><span>Asesores saturados que tardan horas en contestar WhatsApp y pierden la venta.</span></li>
-              <li class="flex items-start gap-2"><span class="text-error font-bold">•</span><span>Agencias que entregan reportes con métricas infladas (“likes” y alcance) sin cierres.</span></li>
+              <li class="flex items-start gap-2"><span class="text-[#EE433B] font-bold">•</span><span>Coleccionar cientos de “leads” vacíos y curiosos sin presupuesto real.</span></li>
+              <li class="flex items-start gap-2"><span class="text-[#EE433B] font-bold">•</span><span>Páginas web lentas y pasivas que nadie visita ni convierten.</span></li>
+              <li class="flex items-start gap-2"><span class="text-[#EE433B] font-bold">•</span><span>Asesores saturados que tardan horas en contestar WhatsApp y pierden la venta.</span></li>
+              <li class="flex items-start gap-2"><span class="text-[#EE433B] font-bold">•</span><span>Agencias que entregan reportes con métricas infladas (“likes” y alcance) sin cierres.</span></li>
             </ul>
           </div>
           <!-- Right: Smart Commercial Ecosystem -->
-          <div class="kinetic-card rounded-2xl bg-gradient-to-br from-surface-container-low to-surface-container border border-primary/40 p-space-lg flex flex-col gap-space-md shadow-[0_0_35px_rgba(16,185,129,0.12)]">
-            <h3 id="i18n-eco-title" class="font-headline-sm text-headline-sm text-primary">
+          <div class="kinetic-card rounded-2xl bg-gradient-to-br from-surface-container-low to-surface-container border-t-4 border-[#3EA45B] p-space-lg flex flex-col gap-space-md shadow-[0_0_35px_rgba(62,164,91,0.14)]">
+            <h3 id="i18n-eco-title" class="font-headline-sm text-headline-sm text-[#3EA45B]">
               ✅ Ecosistema Comercial Inteligente NegocioUp
             </h3>
             <ul id="i18n-eco-list" class="flex flex-col gap-space-sm font-body-md text-on-surface">
-              <li class="flex items-start gap-2"><span class="text-primary font-bold">✓</span><span>Ingeniería de Conversión &amp; Web en Vercel: ultrarrápida, multilingüe y 100% diseñada para vender.</span></li>
-              <li class="flex items-start gap-2"><span class="text-primary font-bold">✓</span><span>Agentes de IA 24/7 en WhatsApp que responden en segundos, filtran presupuesto y agendan citas.</span></li>
-              <li class="flex items-start gap-2"><span class="text-primary font-bold">✓</span><span>Ecosistema Real Estate con recorridos 360°, landings por propiedad y fotografía/video premium.</span></li>
-              <li class="flex items-start gap-2"><span class="text-primary font-bold">✓</span><span>Control total en GoHighLevel CRM: cada peso invertido medido desde el primer clic hasta el cierre.</span></li>
+              <li class="flex items-start gap-2"><span class="text-[#3EA45B] font-bold">✓</span><span>Ingeniería de Conversión &amp; Web en Vercel: ultrarrápida, multilingüe y 100% diseñada para vender.</span></li>
+              <li class="flex items-start gap-2"><span class="text-[#3EA45B] font-bold">✓</span><span>Agentes de IA 24/7 en WhatsApp que responden en segundos, filtran presupuesto y agendan citas.</span></li>
+              <li class="flex items-start gap-2"><span class="text-[#3EA45B] font-bold">✓</span><span>Ecosistema Real Estate con recorridos 360°, landings por propiedad y fotografía/video premium.</span></li>
+              <li class="flex items-start gap-2"><span class="text-[#3EA45B] font-bold">✓</span><span>Control total en GoHighLevel CRM: cada peso invertido medido desde el primer clic hasta el cierre.</span></li>
             </ul>
           </div>
         </div>
 
-        <!-- 3 Visual Cards -->
+        <!-- 3 Visual Cards (Blue #4786EF -> Gold #FAB303 -> Green #3EA45B) -->
         <div id="simple-steps-grid" class="grid grid-cols-1 md:grid-cols-3 gap-space-lg mb-space-xl">
-          <div class="kinetic-card bg-surface-container-low p-space-lg rounded-2xl relative">
+          <div class="kinetic-card bg-surface-container-low p-space-lg rounded-2xl relative border-t-2 border-[#4786EF]">
             <div class="flex items-center justify-between mb-space-md">
-              <span class="step-num font-code-badge text-code-badge text-primary bg-primary/10 px-3 py-1 rounded-full font-bold">FASE 01</span>
-              <span class="material-symbols-outlined text-primary text-[30px]">ads_click</span>
+              <span class="step-num font-code-badge text-code-badge text-[#4786EF] bg-[#4786EF]/15 px-3 py-1 rounded-full font-bold">FASE 01</span>
+              <span class="material-symbols-outlined text-[#4786EF] text-[30px]">ads_click</span>
             </div>
             <h3 class="step-title font-headline-md text-headline-md-mobile text-on-surface mb-space-xs">Atraemos con Contenido Premium y Web Veloz</h3>
             <p class="step-desc font-body-md text-on-surface-variant">Fotografía arquitectónica, video corporativo, pauta inteligente y landings en Vercel que captan compradores reales.</p>
           </div>
-          <div class="kinetic-card bg-surface-container-low p-space-lg rounded-2xl relative">
+          <div class="kinetic-card bg-surface-container-low p-space-lg rounded-2xl relative border-t-2 border-[#FAB303]">
             <div class="flex items-center justify-between mb-space-md">
-              <span class="step-num font-code-badge text-code-badge text-secondary bg-secondary/10 px-3 py-1 rounded-full font-bold">FASE 02</span>
-              <span class="material-symbols-outlined text-secondary text-[30px]">smart_toy</span>
+              <span class="step-num font-code-badge text-code-badge text-[#FAB303] bg-[#FAB303]/15 px-3 py-1 rounded-full font-bold">FASE 02</span>
+              <span class="material-symbols-outlined text-[#FAB303] text-[30px]">smart_toy</span>
             </div>
             <h3 class="step-title font-headline-md text-headline-md-mobile text-on-surface mb-space-xs">Agentes de IA Califican 24/7 en WhatsApp</h3>
             <p class="step-desc font-body-md text-on-surface-variant">En menos de 15 segundos nuestra IA conversa en 4 idiomas, filtra presupuesto e intención y agenda la cita en automático.</p>
           </div>
-          <div class="kinetic-card bg-surface-container-low p-space-lg rounded-2xl relative">
+          <div class="kinetic-card bg-surface-container-low p-space-lg rounded-2xl relative border-t-2 border-[#3EA45B]">
             <div class="flex items-center justify-between mb-space-md">
-              <span class="step-num font-code-badge text-code-badge text-primary bg-primary/10 px-3 py-1 rounded-full font-bold">FASE 03</span>
-              <span class="material-symbols-outlined text-primary text-[30px]">real_estate_agent</span>
+              <span class="step-num font-code-badge text-code-badge text-[#3EA45B] bg-[#3EA45B]/15 px-3 py-1 rounded-full font-bold">FASE 03</span>
+              <span class="material-symbols-outlined text-[#3EA45B] text-[30px]">real_estate_agent</span>
             </div>
             <h3 class="step-title font-headline-md text-headline-md-mobile text-on-surface mb-space-xs">Tu Equipo Cierra en GoHighLevel CRM</h3>
             <p class="step-desc font-body-md text-on-surface-variant">Sin leads basura ni seguimiento manual olvidado. Cada peso invertido queda medido hasta la firma de la venta.</p>
@@ -650,7 +648,7 @@
         </div>
 
         <!-- Interactive ROI Calculator Widget -->
-        <div class="rounded-2xl bg-gradient-to-r from-surface-container-low via-surface-container to-surface-container-low border border-primary/30 p-space-lg lg:p-space-xl shadow-[0_15px_50px_rgba(0,0,0,0.6)]">
+        <div class="rounded-2xl bg-gradient-to-r from-surface-container-low via-surface-container to-surface-container-low border border-[#4786EF]/35 p-space-lg lg:p-space-xl shadow-[0_15px_50px_rgba(0,0,0,0.6)]">
           <div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
             <div class="lg:col-span-7 flex flex-col gap-space-md">
               <h3 id="i18n-roi-title" class="font-headline-md text-headline-md-mobile lg:text-headline-md text-on-surface">
@@ -664,7 +662,7 @@
               <div class="bg-surface-container-lowest/80 p-space-md rounded-xl">
                 <div class="flex justify-between items-center mb-2">
                   <label for="roi-leads-slider" id="i18n-roi-leads-lbl" class="font-body-sm text-on-surface-variant">Prospectos mensuales que recibe tu negocio o desarrollo</label>
-                  <span id="roi-leads-val" class="font-headline-sm text-primary font-bold">250 leads/mes</span>
+                  <span id="roi-leads-val" class="font-headline-sm text-[#4786EF] font-bold">250 leads/mes</span>
                 </div>
                 <input id="roi-leads-slider" type="range" min="50" max="2000" step="25" value="250" class="negocioup-slider"/>
               </div>
@@ -673,7 +671,7 @@
               <div class="bg-surface-container-lowest/80 p-space-md rounded-xl">
                 <div class="flex justify-between items-center mb-2">
                   <label for="roi-ticket-slider" id="i18n-roi-ticket-lbl" class="font-body-sm text-on-surface-variant">Valor promedio por venta / propiedad / cliente (USD)</label>
-                  <span id="roi-ticket-val" class="font-headline-sm text-secondary font-bold">$1,500 USD</span>
+                  <span id="roi-ticket-val" class="font-headline-sm text-[#FAB303] font-bold">$1,500 USD</span>
                 </div>
                 <input id="roi-ticket-slider" type="range" min="300" max="25000" step="100" value="1500" class="negocioup-slider"/>
               </div>
@@ -681,15 +679,15 @@
 
             <!-- Live Calculated Results -->
             <div class="lg:col-span-5 bg-surface-container-lowest p-space-lg rounded-2xl border border-white/10 flex flex-col gap-space-md text-center">
-              <div class="p-space-md rounded-xl bg-surface-container-low">
-                <span id="roi-meetings-out" class="font-display-hero text-headline-lg text-secondary block">+62</span>
+              <div class="p-space-md rounded-xl bg-surface-container-low border-t-2 border-[#4786EF]">
+                <span id="roi-meetings-out" class="font-display-hero text-headline-lg text-[#4786EF] block">+62</span>
                 <span id="i18n-roi-res1-lbl" class="font-body-sm text-on-surface-variant">Citas Calificadas Reales / Mes</span>
               </div>
-              <div class="p-space-md rounded-xl bg-primary/10 border border-primary/30">
-                <span id="roi-revenue-out" class="font-display-hero text-headline-lg text-primary block">+$28,125 USD</span>
+              <div class="p-space-md rounded-xl bg-[#3EA45B]/10 border border-[#3EA45B]/40">
+                <span id="roi-revenue-out" class="font-display-hero text-headline-lg text-[#3EA45B] block">+$28,125 USD</span>
                 <span id="i18n-roi-res2-lbl" class="font-body-sm text-on-surface">Facturación Adicional Medible / Mes</span>
               </div>
-              <a href="#agendar" data-cta-scroll="true" class="i18n-cta-btn w-full inline-flex items-center justify-center gap-2 py-space-md px-space-md rounded-xl bg-gradient-to-r from-primary-container to-primary text-on-primary font-headline-sm text-label-md shadow-[0_0_24px_rgba(16,185,129,0.45)] hover:scale-[1.01] transition-all">
+              <a href="#agendar" data-cta-scroll="true" class="i18n-cta-btn w-full inline-flex items-center justify-center gap-2 py-space-md px-space-md rounded-xl bg-gradient-to-r from-[#4786EF] to-[#3EA45B] text-white font-headline-sm text-label-md shadow-[0_0_24px_rgba(71,134,239,0.45)] hover:scale-[1.01] transition-all">
                 <span class="i18n-cta-text">Agendar una Sesión de Diagnóstico Gratuito</span>
                 <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
               </a>
@@ -751,6 +749,14 @@
     }, 3600);
   }
 
+  // Official Logo Tagline per language
+  const TAGLINES = {
+    es: 'Más clientes <span class="text-[#FAB303]">•</span> IA <span class="text-[#3EA45B]">•</span> Automatización',
+    en: 'More clients <span class="text-[#FAB303]">•</span> AI <span class="text-[#3EA45B]">•</span> Automation',
+    fr: 'Plus de clients <span class="text-[#FAB303]">•</span> IA <span class="text-[#3EA45B]">•</span> Automatisation',
+    it: 'Più clienti <span class="text-[#FAB303]">•</span> IA <span class="text-[#3EA45B]">•</span> Automazione'
+  };
+
   // 6. Apply Language Function (ES / EN / FR / IT)
   function applyLanguage(lang) {
     if (!I18N[lang]) lang = 'es';
@@ -761,11 +767,17 @@
     document.title = t.title;
     try { localStorage.setItem('negocioup_lang', lang); } catch (e) {}
 
+    // Update Logo Taglines in Header & Footer
+    const hdrTag = document.getElementById('brand-tagline-header');
+    const ftrTag = document.getElementById('brand-tagline-footer');
+    if (hdrTag && TAGLINES[lang]) hdrTag.innerHTML = TAGLINES[lang];
+    if (ftrTag && TAGLINES[lang]) ftrTag.innerHTML = TAGLINES[lang];
+
     // Update Language Buttons
     document.querySelectorAll('.lang-btn').forEach((btn) => {
       const isSelected = btn.getAttribute('data-lang') === lang;
       btn.className = isSelected
-        ? 'lang-btn px-2 py-1 rounded-md bg-primary-container text-on-primary-container font-bold transition-all'
+        ? 'lang-btn px-2 py-1 rounded-md bg-[#4786EF] text-white font-bold transition-all'
         : 'lang-btn px-2 py-1 rounded-md text-on-surface-variant hover:text-on-surface transition-all';
     });
 
@@ -792,12 +804,12 @@
     // Hero Section
     const heroSection = document.querySelector('main section:first-of-type');
     if (heroSection) {
-      const badgeTxt = heroSection.querySelector('.font-code-badge.text-primary');
+      const badgeTxt = heroSection.querySelector('.font-code-badge.uppercase');
       if (badgeTxt) badgeTxt.textContent = t.heroBadge;
 
       const h1 = heroSection.querySelector('h1');
       if (h1) {
-        h1.innerHTML = `${t.heroH1_1}<span class="bg-gradient-to-r from-primary via-tertiary-fixed to-secondary bg-clip-text text-transparent">${t.heroH1_2}</span><span class="text-on-surface">${t.heroH1_3}</span>`;
+        h1.innerHTML = `${t.heroH1_1}<span class="bg-gradient-to-r from-[#4786EF] via-[#FAB303] to-[#3EA45B] bg-clip-text text-transparent">${t.heroH1_2}</span><span class="text-on-surface">${t.heroH1_3}</span>`;
       }
       const heroP = heroSection.querySelector('p.font-body-lg');
       if (heroP) heroP.textContent = t.heroSub;
@@ -837,11 +849,11 @@
 
     const chaosList = document.getElementById('i18n-chaos-list');
     if (chaosList && t.chaosItems) {
-      chaosList.innerHTML = t.chaosItems.map((item) => `<li class="flex items-start gap-2"><span class="text-error font-bold">•</span><span>${item}</span></li>`).join('');
+      chaosList.innerHTML = t.chaosItems.map((item) => `<li class="flex items-start gap-2"><span class="text-[#EE433B] font-bold">•</span><span>${item}</span></li>`).join('');
     }
     const ecoList = document.getElementById('i18n-eco-list');
     if (ecoList && t.ecoItems) {
-      ecoList.innerHTML = t.ecoItems.map((item) => `<li class="flex items-start gap-2"><span class="text-primary font-bold">✓</span><span>${item}</span></li>`).join('');
+      ecoList.innerHTML = t.ecoItems.map((item) => `<li class="flex items-start gap-2"><span class="text-[#3EA45B] font-bold">✓</span><span>${item}</span></li>`).join('');
     }
 
     const stepCards = document.querySelectorAll('#simple-steps-grid > div');
@@ -857,7 +869,7 @@
 
     // 4 Pillars Section
     if (pilaresSection) {
-      const pBadge = pilaresSection.querySelector('.font-label-sm.text-secondary span');
+      const pBadge = pilaresSection.querySelector('.font-label-sm span');
       const pH2 = pilaresSection.querySelector('h2');
       const pSub = pilaresSection.querySelector('p.font-body-lg');
       if (pBadge) pBadge.textContent = t.pillarsBadge;
@@ -909,12 +921,12 @@
     // Philosophy Section
     const philSection = document.getElementById('filosofia');
     if (philSection) {
-      const phBadge = philSection.querySelector('.font-label-sm.text-primary span:last-child');
+      const phBadge = philSection.querySelector('.font-label-sm span:last-child');
       const phH2 = philSection.querySelector('h2');
       const phSub = philSection.querySelector('p.font-body-lg');
       if (phBadge) phBadge.textContent = t.philBadge;
       if (phH2) {
-        phH2.innerHTML = `${t.philH2_1}<span class="bg-gradient-to-r from-primary via-tertiary-fixed to-secondary bg-clip-text text-transparent">${t.philH2_2}</span>`;
+        phH2.innerHTML = `${t.philH2_1}<span class="bg-gradient-to-r from-[#4786EF] via-[#FAB303] to-[#3EA45B] bg-clip-text text-transparent">${t.philH2_2}</span>`;
       }
       if (phSub) phSub.textContent = t.philSub;
 
@@ -938,7 +950,7 @@
       const cSub = calSection.querySelector('.lg\\:col-span-7 p.font-body-lg');
       if (cBadge) cBadge.textContent = t.calBadge;
       if (cH2) {
-        cH2.innerHTML = `${t.calH2_1}<span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">${t.calH2_2}</span>${t.calH2_3}`;
+        cH2.innerHTML = `${t.calH2_1}<span class="bg-gradient-to-r from-[#4786EF] via-[#FAB303] to-[#3EA45B] bg-clip-text text-transparent">${t.calH2_2}</span>${t.calH2_3}`;
       }
       if (cSub) cSub.textContent = t.calSub;
 

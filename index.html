@@ -15,6 +15,8 @@
   <link rel="alternate" hreflang="fr" href="https://www.negocioup.com.mx/?lang=fr"/>
   <link rel="alternate" hreflang="it" href="https://www.negocioup.com.mx/?lang=it"/>
   <link rel="alternate" hreflang="x-default" href="https://www.negocioup.com.mx/"/>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg"/>
+  <link rel="apple-touch-icon" href="assets/favicon.svg"/>
   <meta name="google-site-verification" content="KMTJOfcsUZ1x9LPnSEnLO7_utENU69HWUM0lE1oBXUQ"/>
   <meta name="theme-color" content="#0b0f19"/>
 
@@ -55,7 +57,7 @@
         "alternateName": "NegocioUp Ecosistemas Comerciales Inteligentes",
         "description": "No vendemos páginas web, construimos Ecosistemas Comerciales Inteligentes. Ayudamos a empresas consolidadas y desarrollos inmobiliarios a dejar atrás el caos digital, integrando Tecnología, IA 24/7, Automatización en WhatsApp/CRM (GoHighLevel) y Contenido Premium para transformar clics en clientes reales y medibles.",
         "url": "https://www.negocioup.com.mx/",
-        "logo": "https://lh3.googleusercontent.com/aida/AEtjO1XomGhR9lmF1vHHlJSk_oczZ_g2ktkxzVGvKZOGslsyqGnOZFC5HGzsCzTRSFB_pZVXiB0M8leLHpwj5xmADuAwK5kMLvMOYr9_4ipiG-m1deIjtLMiIkXcP49hcpo3b4QGJsbHPOP528-yzG3sa7ryh4nt0wDqcfF-b_5-PSv02S5hlvP3B4znwlgYmDtZOG1aIxOz10_2vm8ZUQpX2kEYU8QO0SrCnmxsLpCfFsl64xM4AbVp-vibfBg",
+        "logo": "https://www.negocioup.com.mx/assets/logo-negocioup.svg",
         "image": "https://www.negocioup.com.mx/assets/og-image.png",
         "telephone": "+526626366303",
         "priceRange": "$$$",
@@ -196,24 +198,55 @@
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
   <style>
+    :root {
+      --brand-blue: #4786EF;
+      --brand-red: #EE433B;
+      --brand-gold: #FAB303;
+      --brand-green: #3EA45B;
+    }
     @layer base{html,body{margin:0;padding:0;background-color:#0b0f19;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}
     @keyframes pulse-ring {
-      0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.65); }
-      70% { box-shadow: 0 0 0 16px rgba(16, 185, 129, 0); }
-      100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+      0% { box-shadow: 0 0 0 0 rgba(62, 164, 91, 0.65); }
+      70% { box-shadow: 0 0 0 16px rgba(71, 134, 239, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(62, 164, 91, 0); }
     }
     .calendar-highlight { animation: pulse-ring 1.5s ease-out 2; }
+    .brand-bar-gradient {
+      background: linear-gradient(90deg, #4786EF 0%, #EE433B 33%, #FAB303 66%, #3EA45B 100%);
+    }
+    .brand-text-gradient {
+      background: linear-gradient(95deg, #4786EF 0%, #3EA45B 55%, #FAB303 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   </style>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-bright":"#353944","secondary":"#3b82f6","primary-fixed":"#6ffbbe","tertiary-container":"#3eb686","tertiary-fixed-dim":"#68dba9","on-secondary-fixed-variant":"#004395","inverse-on-surface":"#2c303b","on-surface-variant":"#bbcabf","primary":"#4edea3","surface-container-highest":"#313540","on-secondary-fixed":"#001a42","outline":"#86948a","surface-container-high":"#262a35","on-tertiary":"#003825","secondary-container":"#0566d9","on-tertiary-fixed-variant":"#005137","on-primary":"#003824","surface-dim":"#0b0f19","inverse-primary":"#006c49","primary-container":"#10b981","secondary-fixed-dim":"#adc6ff","inverse-surface":"#dfe2f1","on-primary-fixed":"#002113","background":"#0b0f19","surface-container":"#1c1f2a","tertiary-fixed":"#85f8c4","on-tertiary-fixed":"#002114","on-error":"#690005","surface":"#0b0f19","outline-variant":"#3c4a42","tertiary":"#68dba9","error":"#ffb4ab","surface-tint":"#4edea3","surface-container-low":"#171b26","on-background":"#dfe2f1","on-secondary":"#002e6a","surface-variant":"#313540","surface-container-lowest":"#0a0e18","on-primary-fixed-variant":"#005236","on-tertiary-container":"#00422c","on-primary-container":"#00422b","on-surface":"#dfe2f1","on-error-container":"#ffdad6","on-secondary-container":"#e6ecff","primary-fixed-dim":"#4edea3","error-container":"#93000a","secondary-fixed":"#d8e2ff"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"gutter":"1.5rem","margin":"3rem","margin-sm":"1.25rem","space-xl":"2.5rem","space-xs":"0.25rem","space-sm":"0.5rem","gutter-sm":"1rem","space-md":"1rem","space-lg":"1.5rem"},fontFamily:{"headline-lg":["Space Grotesk"],"headline-lg-mobile":["Space Grotesk"],"headline-sm":["Space Grotesk"],"headline-md":["Space Grotesk"],"label-md":["Plus Jakarta Sans"],"headline-md-mobile":["Space Grotesk"],"body-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"display-hero-mobile":["Space Grotesk"],"label-sm":["Space Grotesk"],"body-sm":["Plus Jakarta Sans"],"code-badge":["Space Grotesk"],"display-hero":["Space Grotesk"]},fontSize:{"headline-lg":["44px",{"lineHeight":"52px","letterSpacing":"-0.02em","fontWeight":"600"}],"headline-lg-mobile":["30px",{"lineHeight":"38px","letterSpacing":"-0.015em","fontWeight":"600"}],"headline-sm":["22px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-md":["32px",{"lineHeight":"40px","letterSpacing":"-0.015em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"headline-md-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"-0.005em","fontWeight":"400"}],"display-hero-mobile":["38px",{"lineHeight":"46px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.06em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.005em","fontWeight":"400"}],"code-badge":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"500"}],"display-hero":["58px",{"lineHeight":"66px","letterSpacing":"-0.03em","fontWeight":"700"}]}}}}</script>
+  <script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"brand-blue":"#4786EF","brand-red":"#EE433B","brand-gold":"#FAB303","brand-green":"#3EA45B","surface-bright":"#353944","secondary":"#4786EF","primary-fixed":"#6ffbbe","tertiary-container":"#FAB303","tertiary-fixed-dim":"#FAB303","on-secondary-fixed-variant":"#004395","inverse-on-surface":"#2c303b","on-surface-variant":"#c4cbd8","primary":"#3EA45B","surface-container-highest":"#313540","on-secondary-fixed":"#001a42","outline":"#8b95a7","surface-container-high":"#232836","on-tertiary":"#241a00","secondary-container":"#2563EB","on-tertiary-fixed-variant":"#3d2e00","on-primary":"#ffffff","surface-dim":"#0b0f19","inverse-primary":"#2E8546","primary-container":"#34A853","secondary-fixed-dim":"#adc6ff","inverse-surface":"#dfe2f1","on-primary-fixed":"#002113","background":"#0b0f19","surface-container":"#191e2b","tertiary-fixed":"#FAB303","on-tertiary-fixed":"#241a00","on-error":"#ffffff","surface":"#0b0f19","outline-variant":"#384152","tertiary":"#FAB303","error":"#EE433B","surface-tint":"#3EA45B","surface-container-low":"#141824","on-background":"#f1f5f9","on-secondary":"#ffffff","surface-variant":"#313540","surface-container-lowest":"#090d16","on-primary-fixed-variant":"#005236","on-tertiary-container":"#1f1600","on-primary-container":"#ffffff","on-surface":"#f8fafc","on-error-container":"#ffdad6","on-secondary-container":"#e6ecff","primary-fixed-dim":"#3EA45B","error-container":"#93000a","secondary-fixed":"#d8e2ff"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"gutter":"1.5rem","margin":"3rem","margin-sm":"1.25rem","space-xl":"2.5rem","space-xs":"0.25rem","space-sm":"0.5rem","gutter-sm":"1rem","space-md":"1rem","space-lg":"1.5rem"},fontFamily:{"headline-lg":["Space Grotesk"],"headline-lg-mobile":["Space Grotesk"],"headline-sm":["Space Grotesk"],"headline-md":["Space Grotesk"],"label-md":["Plus Jakarta Sans"],"headline-md-mobile":["Space Grotesk"],"body-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"display-hero-mobile":["Space Grotesk"],"label-sm":["Space Grotesk"],"body-sm":["Plus Jakarta Sans"],"code-badge":["Space Grotesk"],"display-hero":["Space Grotesk"]},fontSize:{"headline-lg":["44px",{"lineHeight":"52px","letterSpacing":"-0.02em","fontWeight":"600"}],"headline-lg-mobile":["30px",{"lineHeight":"38px","letterSpacing":"-0.015em","fontWeight":"600"}],"headline-sm":["22px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-md":["32px",{"lineHeight":"40px","letterSpacing":"-0.015em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"headline-md-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"-0.005em","fontWeight":"400"}],"display-hero-mobile":["38px",{"lineHeight":"46px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.06em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.005em","fontWeight":"400"}],"code-badge":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"500"}],"display-hero":["58px",{"lineHeight":"66px","letterSpacing":"-0.03em","fontWeight":"700"}]}}}}</script>
 </head>
-<body class="bg-surface font-body-md text-body-md text-on-surface min-h-screen selection:bg-primary-container selection:text-on-primary-container">
-<header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_4px_30px_rgba(0,0,0,0.5)]">
+<body class="bg-surface font-body-md text-body-md text-on-surface min-h-screen selection:bg-brand-blue selection:text-white">
+<header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_4px_30px_rgba(0,0,0,0.55)]">
   <div class="w-full px-gutter lg:px-margin h-20 flex items-center justify-between relative">
-    <a href="#inicio" class="flex items-center gap-space-md">
-      <img alt="NegocioUp Logo Oficial" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XomGhR9lmF1vHHlJSk_oczZ_g2ktkxzVGvKZOGslsyqGnOZFC5HGzsCzTRSFB_pZVXiB0M8leLHpwj5xmADuAwK5kMLvMOYr9_4ipiG-m1deIjtLMiIkXcP49hcpo3b4QGJsbHPOP528-yzG3sa7ryh4nt0wDqcfF-b_5-PSv02S5hlvP3B4znwlgYmDtZOG1aIxOz10_2vm8ZUQpX2kEYU8QO0SrCnmxsLpCfFsl64xM4AbVp-vibfBg"/>
-      <span class="font-headline-sm text-headline-sm tracking-tight text-on-surface uppercase font-bold">Negocio<span class="text-primary">Up</span></span>
-      <span class="hidden xl:inline-flex items-center px-space-xs py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm uppercase tracking-wider">Enterprise AI</span>
+    <a href="#inicio" class="flex items-center gap-3 group" aria-label="NegocioUp — Más clientes • IA • Automatización">
+      <!-- Vector Isotype: 4 Ascending Bars (#4786EF, #EE433B, #FAB303, #3EA45B) + Trend Line -->
+      <svg class="h-11 w-auto flex-shrink-0 transition-transform duration-300 group-hover:scale-105" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Isotipo Vectorial NegocioUp">
+        <defs>
+          <linearGradient id="hdr-trend" x1="22" y1="168" x2="188" y2="10" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#94A3B8"/>
+            <stop offset="50%" stop-color="#E2E8F0"/>
+            <stop offset="100%" stop-color="#94A3B8"/>
+          </linearGradient>
+        </defs>
+        <line x1="25" y1="165" x2="184" y2="12" stroke="url(#hdr-trend)" stroke-width="5.5" stroke-linecap="round"/>
+        <rect x="8" y="162" width="40" height="70" rx="8" fill="#4786EF"/>
+        <rect x="62" y="108" width="40" height="124" rx="8" fill="#EE433B"/>
+        <rect x="116" y="54" width="40" height="178" rx="8" fill="#FAB303"/>
+        <rect x="170" y="4" width="40" height="228" rx="8" fill="#3EA45B"/>
+      </svg>
+      <!-- Vector Wordmark + Official Tagline -->
+      <div class="flex flex-col leading-none">
+        <span class="font-headline-sm text-[25px] tracking-[-0.03em] text-on-surface font-bold">Negocio<span class="text-[#4786EF]">Up</span></span>
+        <span id="brand-tagline-header" class="text-[10.5px] font-medium tracking-wide text-on-surface-variant mt-0.5">Más clientes <span class="text-[#FAB303]">•</span> IA <span class="text-[#3EA45B]">•</span> Automatización</span>
+      </div>
     </a>
     <nav class="hidden lg:flex items-center gap-space-lg" aria-label="Navegación Principal">
       <a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors duration-200" href="#pilares">Pilares &amp; Servicios</a>
@@ -223,7 +256,7 @@
       <a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors duration-200" href="#ubicacion-nap">Ubicación &amp; Contacto</a>
     </nav>
     <div class="flex items-center gap-space-sm">
-      <a class="hidden md:inline-flex items-center justify-center px-space-md py-space-sm rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md shadow-[0_0_20px_-4px_rgba(16,185,129,0.45)] hover:shadow-[0_0_28px_-2px_rgba(16,185,129,0.65)] hover:bg-primary transition-all duration-200" data-cta-scroll="true" href="#agendar">
+      <a class="hidden md:inline-flex items-center justify-center px-space-md py-space-sm rounded-lg bg-gradient-to-r from-[#4786EF] to-[#3EA45B] text-white font-label-md text-label-md shadow-[0_0_20px_-4px_rgba(71,134,239,0.5)] hover:shadow-[0_0_28px_-2px_rgba(62,164,91,0.7)] hover:brightness-110 transition-all duration-200" data-cta-scroll="true" href="#agendar">
         Agendar una Sesión de Diagnóstico Gratuito
       </a>
       <a aria-label="WhatsApp Directo NegocioUp +52 1 662 636 6303" class="inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-surface-container-high hover:bg-primary/20 text-primary border border-primary/30 font-code-badge text-xs transition-all" data-wa-cta="Header" href="https://wa.me/5216626366303?text=Hola%20NegocioUp%2C%20quiero%20Agendar%20una%20Sesi%C3%B3n%20de%20Diagn%C3%B3stico%20Gratuito" rel="noopener noreferrer" target="_blank">
@@ -243,30 +276,32 @@
       <a class="mobile-nav-link font-label-md text-on-surface py-1.5" href="#real-estate">División Real Estate</a>
       <a class="mobile-nav-link font-label-md text-on-surface py-1.5" href="#filosofia">Filosofía &amp; ROI</a>
       <a class="mobile-nav-link font-label-md text-on-surface py-1.5" href="#ubicacion-nap">Ubicación Maps &amp; NAP</a>
-      <a class="mobile-nav-link mt-2 inline-flex items-center justify-center px-space-md py-space-sm rounded-lg bg-primary-container text-on-primary-container font-label-md text-center" data-cta-scroll="true" href="#agendar">
+      <a class="mobile-nav-link mt-2 inline-flex items-center justify-center px-space-md py-space-sm rounded-lg bg-gradient-to-r from-[#4786EF] to-[#3EA45B] text-white font-label-md text-center" data-cta-scroll="true" href="#agendar">
         Agendar una Sesión de Diagnóstico Gratuito
       </a>
     </div>
   </div>
-  <div class="h-[1px] w-full bg-gradient-to-r from-transparent via-primary/40 to-secondary/40"></div>
+  <!-- 4-Color Ascending Brand Bar Line (#4786EF -> #EE433B -> #FAB303 -> #3EA45B) -->
+  <div class="h-[2px] w-full brand-bar-gradient opacity-85"></div>
 </header>
 <main id="inicio" class="w-full pt-20 bg-surface"><div class="flex flex-col w-full selection:bg-primary-container selection:text-on-primary-container">
 <!-- ========================================== -->
 <!-- 1. HERO SECTION IMPONENTE (STITCH + COPY)  -->
 <!-- ========================================== -->
 <section class="relative w-full overflow-hidden bg-surface-container-lowest py-space-xl lg:py-space-xl">
-<!-- Ambient Glow Backplates -->
-<div class="absolute -top-40 -left-40 w-96 h-96 rounded-full bg-primary/10 blur-[130px] pointer-events-none"></div>
-<div class="absolute top-1/3 -right-32 w-[32rem] h-[32rem] rounded-full bg-secondary-container/15 blur-[150px] pointer-events-none"></div>
+<!-- Ambient Glow Backplates (Logo Blue + Green + Gold) -->
+<div class="absolute -top-40 -left-40 w-96 h-96 rounded-full bg-[#4786EF]/15 blur-[135px] pointer-events-none"></div>
+<div class="absolute top-1/3 -right-32 w-[32rem] h-[32rem] rounded-full bg-[#3EA45B]/15 blur-[150px] pointer-events-none"></div>
+<div class="absolute bottom-0 left-1/3 w-80 h-80 rounded-full bg-[#FAB303]/10 blur-[140px] pointer-events-none"></div>
 <div class="w-full px-gutter lg:px-margin relative z-10">
 <!-- Top Dynamic Badge -->
 <div class="flex flex-wrap items-center justify-between gap-2 mb-space-md">
-<div class="inline-flex items-center gap-space-xs px-space-md py-1 rounded-full bg-surface-container-high/80 backdrop-blur-md shadow-[0_0_15px_rgba(16,185,129,0.2)]">
-<span class="w-2 h-2 rounded-full bg-primary animate-pulse shadow-[0_0_8px_#10b981]"></span>
-<span class="font-code-badge text-code-badge uppercase tracking-wider text-primary">NO VENDEMOS PÁGINAS WEB · CONSTRUIMOS ECOSISTEMAS COMERCIALES INTELIGENTES</span>
+<div class="inline-flex items-center gap-space-xs px-space-md py-1 rounded-full bg-surface-container-high/85 backdrop-blur-md border border-[#4786EF]/30 shadow-[0_0_15px_rgba(71,134,239,0.2)]">
+<span class="w-2 h-2 rounded-full bg-[#3EA45B] animate-pulse shadow-[0_0_8px_#3EA45B]"></span>
+<span class="font-code-badge text-code-badge uppercase tracking-wider text-on-surface">NO VENDEMOS PÁGINAS WEB · CONSTRUIMOS ECOSISTEMAS COMERCIALES INTELIGENTES</span>
 </div>
-<a href="https://maps.app.goo.gl/umGG4D5BoiG77jCBA" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container/80 hover:bg-surface-container-high text-on-surface-variant hover:text-primary font-code-badge text-code-badge transition-colors">
-<span class="material-symbols-outlined text-primary text-[15px]">location_on</span>
+<a href="https://maps.app.goo.gl/umGG4D5BoiG77jCBA" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container/80 hover:bg-surface-container-high text-on-surface-variant hover:text-[#FAB303] font-code-badge text-code-badge transition-colors">
+<span class="material-symbols-outlined text-[#EE433B] text-[15px]">location_on</span>
 <span>Google Maps Verificado · Playa del Carmen, Riviera Maya, México</span>
 </a>
 </div>
@@ -275,7 +310,7 @@
 <div class="lg:col-span-8 flex flex-col gap-space-md">
 <h1 class="font-display-hero text-display-hero-mobile lg:text-display-hero tracking-tighter text-on-surface">
             Deja de coleccionar &ldquo;leads&rdquo; vacíos. 
-            <span class="bg-gradient-to-r from-primary via-tertiary-fixed to-secondary bg-clip-text text-transparent">Construye un sistema comercial</span>
+            <span class="bg-gradient-to-r from-[#4786EF] via-[#FAB303] to-[#3EA45B] bg-clip-text text-transparent">Construye un sistema comercial</span>
 <span class="text-on-surface"> que genera clientes reales.</span>
 </h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl">
@@ -285,100 +320,101 @@
 <!-- CTA & Quick Badge Group -->
 <div class="lg:col-span-4 flex flex-col justify-end gap-space-md">
 <div class="flex flex-col sm:flex-row lg:flex-col gap-space-sm">
-<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-md rounded-xl bg-gradient-to-r from-primary-container to-primary text-on-primary font-headline-sm text-label-md tracking-wide shadow-[0_0_24px_rgba(16,185,129,0.45)] hover:shadow-[0_0_36px_rgba(16,185,129,0.7)] hover:scale-[1.01] transition-all text-center" data-cta-scroll="true" href="#agendar">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-md rounded-xl bg-gradient-to-r from-[#4786EF] to-[#3EA45B] text-white font-headline-sm text-label-md tracking-wide shadow-[0_0_24px_rgba(71,134,239,0.45)] hover:shadow-[0_0_36px_rgba(62,164,91,0.7)] hover:scale-[1.01] transition-all text-center" data-cta-scroll="true" href="#agendar">
 <span>Agendar una Sesión de Diagnóstico Gratuito</span>
 <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
 </a>
-<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-md rounded-xl bg-surface-container/70 backdrop-blur-xl text-on-surface hover:text-primary font-label-md text-label-md hover:bg-surface-container-high border border-primary/25 transition-all" data-wa-cta="Hero" href="https://wa.me/5216626366303?text=Hola%20NegocioUp%2C%20vengo%20de%20su%20sitio%20web%20y%20quiero%20Agendar%20una%20Sesi%C3%B3n%20de%20Diagn%C3%B3stico%20Gratuito" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-primary text-[20px]">chat</span>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-md rounded-xl bg-surface-container/70 backdrop-blur-xl text-on-surface hover:text-[#3EA45B] font-label-md text-label-md hover:bg-surface-container-high border border-[#3EA45B]/35 transition-all" data-wa-cta="Hero" href="https://wa.me/5216626366303?text=Hola%20NegocioUp%2C%20vengo%20de%20su%20sitio%20web%20y%20quiero%20Agendar%20una%20Sesi%C3%B3n%20de%20Diagn%C3%B3stico%20Gratuito" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[#3EA45B] text-[20px]">chat</span>
 <span>WhatsApp Directo: +52 1 662 636 6303</span>
 </a>
 </div>
 <div class="flex items-center gap-space-xs font-label-sm text-label-sm text-outline">
-<span class="material-symbols-outlined text-primary text-[16px]">verified</span>
+<span class="material-symbols-outlined text-[#4786EF] text-[16px]">verified</span>
 <span>Diagnóstico gratuito conectado a tu calendario y GoHighLevel CRM</span>
 </div>
 </div>
 </div>
 <!-- Live Mockup Hero Interactive Console -->
-<div id="consola-ia" class="w-full rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl shadow-[0_20px_60px_-15px_rgba(0,0,0,0.85)] p-space-md lg:p-space-lg mb-space-xl">
-<!-- Console Window Header -->
-<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-md mb-space-md bg-surface-container/40 p-space-sm rounded-xl">
+<div id="consola-ia" class="w-full rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl shadow-[0_20px_60px_-15px_rgba(0,0,0,0.85)] border border-outline-variant/25 p-space-md lg:p-space-lg mb-space-xl">
+<!-- Console Window Header with the 4 Official Logo Dots -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-md mb-space-md bg-surface-container/50 p-space-sm rounded-xl">
 <div class="flex items-center gap-space-sm">
 <div class="flex items-center gap-1.5 px-space-xs">
-<span class="w-2.5 h-2.5 rounded-full bg-error"></span>
-<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
-<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-[#4786EF]"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-[#EE433B]"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-[#FAB303]"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-[#3EA45B]"></span>
 </div>
 <span class="font-code-badge text-code-badge text-outline">TERMINAL_INSTANCE: neg-core-cluster-01.ai // GHL_SYNC_READY</span>
 </div>
 <div class="flex items-center gap-space-md">
 <div class="flex items-center gap-space-xs">
-<span class="inline-block w-2 h-2 rounded-full bg-primary animate-ping"></span>
-<span class="font-code-badge text-code-badge text-primary font-bold">PIPELINE AUTÓNOMO ACTIVO</span>
+<span class="inline-block w-2 h-2 rounded-full bg-[#3EA45B] animate-ping"></span>
+<span class="font-code-badge text-code-badge text-[#3EA45B] font-bold">PIPELINE AUTÓNOMO ACTIVO</span>
 </div>
-<span class="px-space-xs py-0.5 rounded bg-surface-container-high font-label-sm text-label-sm text-secondary font-mono">99.8% RESPUESTA INSTANTÁNEA</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-high font-label-sm text-label-sm text-[#4786EF] font-mono">99.8% RESPUESTA INSTANTÁNEA</span>
 </div>
 </div>
-<!-- Node Pipeline Visual Architecture -->
+<!-- Node Pipeline Visual Architecture (4 Ascending Brand Colors: #4786EF, #EE433B, #FAB303, #3EA45B) -->
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md relative">
-<!-- Node 1 -->
-<div class="bg-surface-container/70 p-space-md rounded-xl relative group hover:bg-surface-container-high transition-all">
+<!-- Node 1: Blue #4786EF -->
+<div class="bg-surface-container/70 p-space-md rounded-xl relative group hover:bg-surface-container-high border-t-2 border-[#4786EF] transition-all">
 <div class="flex items-center justify-between mb-space-xs">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">01 // INGESTA DE LEADS</span>
-<span class="material-symbols-outlined text-secondary text-[20px]">hub</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-[#4786EF]">01 // INGESTA DE LEADS</span>
+<span class="material-symbols-outlined text-[#4786EF] text-[20px]">hub</span>
 </div>
 <div class="font-headline-sm text-headline-sm text-on-surface mb-1">Omnicanal Sync</div>
 <p class="font-body-sm text-body-sm text-on-surface-variant">WhatsApp Meta API, Google Maps, Webhooks &amp; Inbound forms capturados en tiempo real.</p>
 <div class="mt-space-md flex items-center justify-between bg-surface-container-lowest/80 p-space-xs rounded-lg">
-<span class="font-code-badge text-code-badge text-primary">Inbound: +1,248/hr</span>
-<span class="material-symbols-outlined text-primary text-[14px]">bolt</span>
+<span class="font-code-badge text-code-badge text-[#4786EF]">Inbound: +1,248/hr</span>
+<span class="material-symbols-outlined text-[#4786EF] text-[14px]">bolt</span>
 </div>
 </div>
-<!-- Node 2 -->
-<div class="bg-surface-container/70 p-space-md rounded-xl relative group hover:bg-surface-container-high transition-all">
+<!-- Node 2: Red #EE433B -->
+<div class="bg-surface-container/70 p-space-md rounded-xl relative group hover:bg-surface-container-high border-t-2 border-[#EE433B] transition-all">
 <div class="flex items-center justify-between mb-space-xs">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">02 // CUALIFICACIÓN IA</span>
-<span class="material-symbols-outlined text-primary text-[20px]">psychology</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-[#EE433B]">02 // CUALIFICACIÓN IA</span>
+<span class="material-symbols-outlined text-[#EE433B] text-[20px]">psychology</span>
 </div>
 <div class="font-headline-sm text-headline-sm text-on-surface mb-1">Inferencia LLM 24/7</div>
 <p class="font-body-sm text-body-sm text-on-surface-variant">Modelos Claude 3.5 &amp; OpenAI evalúan ticket financiero, urgencia y fit transaccional en 0.4s.</p>
 <div class="mt-space-md flex items-center justify-between bg-surface-container-lowest/80 p-space-xs rounded-lg">
-<span class="font-code-badge text-code-badge text-secondary">Score Fit: 94.2%</span>
-<span class="material-symbols-outlined text-secondary text-[14px]">auto_awesome</span>
+<span class="font-code-badge text-code-badge text-[#EE433B]">Score Fit: 94.2%</span>
+<span class="material-symbols-outlined text-[#EE433B] text-[14px]">auto_awesome</span>
 </div>
 </div>
-<!-- Node 3 -->
-<div class="bg-surface-container/70 p-space-md rounded-xl relative group hover:bg-surface-container-high transition-all">
+<!-- Node 3: Gold #FAB303 -->
+<div class="bg-surface-container/70 p-space-md rounded-xl relative group hover:bg-surface-container-high border-t-2 border-[#FAB303] transition-all">
 <div class="flex items-center justify-between mb-space-xs">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">03 // AGENDA AUTOMÁTICA</span>
-<span class="material-symbols-outlined text-secondary text-[20px]">calendar_month</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-[#FAB303]">03 // AGENDA AUTOMÁTICA</span>
+<span class="material-symbols-outlined text-[#FAB303] text-[20px]">calendar_month</span>
 </div>
 <div class="font-headline-sm text-headline-sm text-on-surface mb-1">Closer Hand-off</div>
 <p class="font-body-sm text-body-sm text-on-surface-variant">Voice Agent o Chat asiste reserva directa en GoHighLevel según zona horaria del ejecutivo.</p>
 <div class="mt-space-md flex items-center justify-between bg-surface-container-lowest/80 p-space-xs rounded-lg">
-<span class="font-code-badge text-code-badge text-tertiary">Show-rate: 89.4%</span>
-<span class="material-symbols-outlined text-tertiary text-[14px]">done_all</span>
+<span class="font-code-badge text-code-badge text-[#FAB303]">Show-rate: 89.4%</span>
+<span class="material-symbols-outlined text-[#FAB303] text-[14px]">done_all</span>
 </div>
 </div>
-<!-- Node 4 -->
-<div class="bg-surface-container/70 p-space-md rounded-xl relative group hover:bg-surface-container-high transition-all">
+<!-- Node 4: Green #3EA45B -->
+<div class="bg-surface-container/70 p-space-md rounded-xl relative group hover:bg-surface-container-high border-t-2 border-[#3EA45B] transition-all">
 <div class="flex items-center justify-between mb-space-xs">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">04 // DATA FABRIC &amp; CRM</span>
-<span class="material-symbols-outlined text-primary text-[20px]">dataset</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-[#3EA45B]">04 // DATA FABRIC &amp; CRM</span>
+<span class="material-symbols-outlined text-[#3EA45B] text-[20px]">dataset</span>
 </div>
 <div class="font-headline-sm text-headline-sm text-on-surface mb-1">Atribución Total</div>
 <p class="font-body-sm text-body-sm text-on-surface-variant">Sincronización instantánea con GoHighLevel, HubSpot o Salesforce con trazabilidad de ROI.</p>
 <div class="mt-space-md flex items-center justify-between bg-surface-container-lowest/80 p-space-xs rounded-lg">
-<span class="font-code-badge text-code-badge text-primary">Sincronizado: 100%</span>
-<span class="material-symbols-outlined text-primary text-[14px]">cloud_sync</span>
+<span class="font-code-badge text-code-badge text-[#3EA45B]">Sincronizado: 100%</span>
+<span class="material-symbols-outlined text-[#3EA45B] text-[14px]">cloud_sync</span>
 </div>
 </div>
 </div>
 <!-- Ticker Data Bar -->
 <div class="mt-space-md pt-space-md bg-surface-container-lowest/50 rounded-xl p-space-md grid grid-cols-1 sm:grid-cols-3 gap-space-md items-center">
 <div class="flex items-center gap-space-md">
-<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-[#3EA45B]">
 <span class="material-symbols-outlined">payments</span>
 </div>
 <div>
@@ -387,20 +423,20 @@
 </div>
 </div>
 <div class="flex items-center gap-space-md">
-<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-[#4786EF]">
 <span class="material-symbols-outlined">speed</span>
 </div>
 <div>
-<div class="font-headline-md text-headline-md text-secondary tracking-tight">0.4s</div>
+<div class="font-headline-md text-headline-md text-[#4786EF] tracking-tight">0.4s</div>
 <div class="font-body-sm text-body-sm text-on-surface-variant">Latencia de Respuesta IA Promedio</div>
 </div>
 </div>
 <div class="flex items-center gap-space-md">
-<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-[#FAB303]">
 <span class="material-symbols-outlined">trending_up</span>
 </div>
 <div>
-<div class="font-headline-md text-headline-md text-primary tracking-tight">3.8x</div>
+<div class="font-headline-md text-headline-md text-[#FAB303] tracking-tight">3.8x</div>
 <div class="font-body-sm text-body-sm text-on-surface-variant">Retorno de Inversión (ROI Auditado)</div>
 </div>
 </div>
@@ -411,24 +447,24 @@
 <span class="font-label-sm text-label-sm text-outline uppercase tracking-widest text-center lg:text-left">
           Infraestructura de confianza para firmas tecnológicas, constructoras y fondos globales
         </span>
-<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-space-md items-center justify-items-center opacity-70 hover:opacity-100 transition-opacity">
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-space-md items-center justify-items-center opacity-75 hover:opacity-100 transition-opacity">
 <div class="flex items-center gap-2 font-headline-sm text-headline-sm text-on-surface-variant tracking-wider font-bold">
-<span class="material-symbols-outlined text-secondary">corporate_fare</span> NEXUS CORP
+<span class="material-symbols-outlined text-[#4786EF]">corporate_fare</span> NEXUS CORP
           </div>
 <div class="flex items-center gap-2 font-headline-sm text-headline-sm text-on-surface-variant tracking-wider font-bold">
-<span class="material-symbols-outlined text-primary">domain</span> VALOR REALTY
+<span class="material-symbols-outlined text-[#EE433B]">domain</span> VALOR REALTY
           </div>
 <div class="flex items-center gap-2 font-headline-sm text-headline-sm text-on-surface-variant tracking-wider font-bold">
-<span class="material-symbols-outlined text-secondary">token</span> KRONOS AI
+<span class="material-symbols-outlined text-[#FAB303]">token</span> KRONOS AI
           </div>
 <div class="flex items-center gap-2 font-headline-sm text-headline-sm text-on-surface-variant tracking-wider font-bold">
-<span class="material-symbols-outlined text-primary">account_balance</span> AURA CAPITAL
+<span class="material-symbols-outlined text-[#3EA45B]">account_balance</span> AURA CAPITAL
           </div>
 <div class="flex items-center gap-2 font-headline-sm text-headline-sm text-on-surface-variant tracking-wider font-bold">
-<span class="material-symbols-outlined text-secondary">biotech</span> SYNAPSE LAB
+<span class="material-symbols-outlined text-[#4786EF]">biotech</span> SYNAPSE LAB
           </div>
 <div class="flex items-center gap-2 font-headline-sm text-headline-sm text-on-surface-variant tracking-wider font-bold">
-<span class="material-symbols-outlined text-primary">apartment</span> PRIMELAND
+<span class="material-symbols-outlined text-[#3EA45B]">apartment</span> PRIMELAND
           </div>
 </div>
 </div>
@@ -442,7 +478,7 @@
 <!-- Section Header + Interactive Filter Bar -->
 <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md mb-space-xl">
 <div class="max-w-3xl">
-<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-container-high font-label-sm text-label-sm text-secondary uppercase tracking-wider mb-space-xs">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-container-high font-label-sm text-label-sm text-[#4786EF] uppercase tracking-wider mb-space-xs">
 <span>Los 4 Pilares de NegocioUp // De Clics a Clientes Reales y Medibles</span>
 </div>
 <h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface mb-space-xs">
@@ -454,23 +490,23 @@
 </div>
 <!-- Interactive Pillar Selector -->
 <div class="flex flex-wrap items-center gap-1.5 bg-surface-container-low p-1.5 rounded-xl">
-<button type="button" data-pillar-filter="all" class="pillar-filter-btn px-3 py-1.5 rounded-lg font-code-badge text-code-badge bg-primary-container text-on-primary-container font-bold transition-all">Todos (360°)</button>
-<button type="button" data-pillar-filter="p1" class="pillar-filter-btn px-3 py-1.5 rounded-lg font-code-badge text-code-badge text-on-surface-variant hover:text-on-surface transition-all">01. Web &amp; CRO</button>
-<button type="button" data-pillar-filter="p2" class="pillar-filter-btn px-3 py-1.5 rounded-lg font-code-badge text-code-badge text-on-surface-variant hover:text-on-surface transition-all">02. IA &amp; CRM</button>
-<button type="button" data-pillar-filter="p3" class="pillar-filter-btn px-3 py-1.5 rounded-lg font-code-badge text-code-badge text-on-surface-variant hover:text-on-surface transition-all">03. Real Estate</button>
-<button type="button" data-pillar-filter="p4" class="pillar-filter-btn px-3 py-1.5 rounded-lg font-code-badge text-code-badge text-on-surface-variant hover:text-on-surface transition-all">04. Audiovisual</button>
+<button type="button" data-pillar-filter="all" class="pillar-filter-btn px-3 py-1.5 rounded-lg font-code-badge text-code-badge bg-gradient-to-r from-[#4786EF] to-[#3EA45B] text-white font-bold transition-all">Todos (360°)</button>
+<button type="button" data-pillar-filter="p1" class="pillar-filter-btn px-3 py-1.5 rounded-lg font-code-badge text-code-badge text-on-surface-variant hover:text-[#4786EF] transition-all">01. Web &amp; CRO</button>
+<button type="button" data-pillar-filter="p2" class="pillar-filter-btn px-3 py-1.5 rounded-lg font-code-badge text-code-badge text-on-surface-variant hover:text-[#EE433B] transition-all">02. IA &amp; CRM</button>
+<button type="button" data-pillar-filter="p3" class="pillar-filter-btn px-3 py-1.5 rounded-lg font-code-badge text-code-badge text-on-surface-variant hover:text-[#FAB303] transition-all">03. Real Estate</button>
+<button type="button" data-pillar-filter="p4" class="pillar-filter-btn px-3 py-1.5 rounded-lg font-code-badge text-code-badge text-on-surface-variant hover:text-[#3EA45B] transition-all">04. Audiovisual</button>
 </div>
 </div>
-<!-- 4 Pillars Grid (Exact Stitch Design + Detailed Copy) -->
+<!-- 4 Pillars Grid (Colored with the 4 Official Ascending Bars of NegocioUp Logo) -->
 <div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
-<!-- Pillar 1: Ingeniería de Conversión & Web -->
-<div data-pillar-item="p1" class="rounded-2xl bg-surface-container-low p-space-lg flex flex-col justify-between group hover:bg-surface-container transition-all shadow-lg hover:shadow-primary/5">
+<!-- Pillar 1 (Logo Bar 1: Blue #4786EF): Ingeniería de Conversión & Web -->
+<div data-pillar-item="p1" class="rounded-2xl bg-surface-container-low p-space-lg flex flex-col justify-between group hover:bg-surface-container border-t-4 border-[#4786EF] transition-all shadow-lg hover:shadow-[#4786EF]/10">
 <div>
 <div class="flex items-center justify-between mb-space-md">
-<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-all">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-[#4786EF] group-hover:bg-[#4786EF] group-hover:text-white transition-all">
 <span class="material-symbols-outlined text-[28px]">web</span>
 </div>
-<span class="font-code-badge text-code-badge text-primary bg-primary/10 px-space-xs py-0.5 rounded font-mono">PILAR 01 // INGENIERÍA WEB</span>
+<span class="font-code-badge text-code-badge text-[#4786EF] bg-[#4786EF]/15 px-space-xs py-0.5 rounded font-mono">PILAR 01 // INGENIERÍA WEB</span>
 </div>
 <h3 class="font-headline-md text-headline-md-mobile lg:text-headline-md text-on-surface mb-space-xs">
               Ingeniería de Conversión &amp; Web
@@ -482,10 +518,10 @@
 <div class="bg-surface-container-lowest p-space-md rounded-xl mb-space-md flex flex-col gap-space-xs">
 <div class="flex items-center justify-between text-body-sm font-body-sm">
 <span class="text-on-surface-variant">Velocidad Edge (Vercel) &amp; SEO Técnico</span>
-<span class="text-primary font-bold">100 / 100</span>
+<span class="text-[#4786EF] font-bold">100 / 100</span>
 </div>
 <div class="w-full bg-surface-container-highest h-1.5 rounded-full overflow-hidden">
-<div class="bg-primary h-full w-full rounded-full"></div>
+<div class="bg-[#4786EF] h-full w-full rounded-full"></div>
 </div>
 <span class="text-outline text-label-sm font-label-sm">Despliegue en la nube (Vercel Edge), multilingüe nativo y 100% enfocado a ventas</span>
 </div>
@@ -498,20 +534,20 @@
 <span class="px-space-xs py-1 rounded bg-surface-container-high text-on-surface-variant font-code-badge text-code-badge">SEO Local &amp; Maps</span>
 <span class="px-space-xs py-1 rounded bg-surface-container-high text-on-surface-variant font-code-badge text-code-badge">100% Conversión CRO</span>
 </div>
-<a href="#agendar" data-cta-scroll="true" class="pt-space-xs text-primary font-label-md text-label-md flex items-center gap-1 hover:underline">
+<a href="#agendar" data-cta-scroll="true" class="pt-space-xs text-[#4786EF] font-label-md text-label-md flex items-center gap-1 hover:underline">
 <span>Garantía: Carga &lt; 800ms y arquitectura lista para convertir</span>
 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
 </a>
 </div>
 </div>
-<!-- Pillar 2: Agentes de IA y Automatización -->
-<div data-pillar-item="p2" class="rounded-2xl bg-surface-container-low p-space-lg flex flex-col justify-between group hover:bg-surface-container transition-all shadow-lg hover:shadow-secondary/5">
+<!-- Pillar 2 (Logo Bar 2: Coral Red #EE433B): Agentes de IA y Automatización -->
+<div data-pillar-item="p2" class="rounded-2xl bg-surface-container-low p-space-lg flex flex-col justify-between group hover:bg-surface-container border-t-4 border-[#EE433B] transition-all shadow-lg hover:shadow-[#EE433B]/10">
 <div>
 <div class="flex items-center justify-between mb-space-md">
-<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-all">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-[#EE433B] group-hover:bg-[#EE433B] group-hover:text-white transition-all">
 <span class="material-symbols-outlined text-[28px]">smart_toy</span>
 </div>
-<span class="font-code-badge text-code-badge text-secondary bg-secondary/10 px-space-xs py-0.5 rounded font-mono">PILAR 02 // IA &amp; CRM 24/7</span>
+<span class="font-code-badge text-code-badge text-[#EE433B] bg-[#EE433B]/15 px-space-xs py-0.5 rounded font-mono">PILAR 02 // IA &amp; CRM 24/7</span>
 </div>
 <h3 class="font-headline-md text-headline-md-mobile lg:text-headline-md text-on-surface mb-space-xs">
               Agentes de IA y Automatización
@@ -523,10 +559,10 @@
 <div class="bg-surface-container-lowest p-space-md rounded-xl mb-space-md flex flex-col gap-space-xs">
 <div class="flex items-center justify-between text-body-sm font-body-sm">
 <span class="text-on-surface-variant">Atención y Calificación en WhatsApp &amp; CRM</span>
-<span class="text-secondary font-bold">&lt; 15 Segundos (24/7)</span>
+<span class="text-[#EE433B] font-bold">&lt; 15 Segundos (24/7)</span>
 </div>
 <div class="w-full bg-surface-container-highest h-1.5 rounded-full overflow-hidden">
-<div class="bg-secondary h-full w-[94%] rounded-full"></div>
+<div class="bg-[#EE433B] h-full w-[94%] rounded-full"></div>
 </div>
 <span class="text-outline text-label-sm font-label-sm">Cero pérdida de leads en noches, fines de semana o campañas de alto tráfico</span>
 </div>
@@ -539,20 +575,20 @@
 <span class="px-space-xs py-1 rounded bg-surface-container-high text-on-surface-variant font-code-badge text-code-badge">Agentes IA 24/7</span>
 <span class="px-space-xs py-1 rounded bg-surface-container-high text-on-surface-variant font-code-badge text-code-badge">Filtro de Presupuesto</span>
 </div>
-<a href="#agendar" data-cta-scroll="true" class="pt-space-xs text-secondary font-label-md text-label-md flex items-center gap-1 hover:underline">
+<a href="#agendar" data-cta-scroll="true" class="pt-space-xs text-[#EE433B] font-label-md text-label-md flex items-center gap-1 hover:underline">
 <span>Garantía: Respuesta inmediata 24/7 y trazabilidad total en GoHighLevel</span>
 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
 </a>
 </div>
 </div>
-<!-- Pillar 3: Ecosistema Inmobiliario (Real Estate Special) -->
-<div data-pillar-item="p3" class="rounded-2xl bg-surface-container-low p-space-lg flex flex-col justify-between group hover:bg-surface-container transition-all shadow-lg hover:shadow-primary/5">
+<!-- Pillar 3 (Logo Bar 3: Golden Amber #FAB303): Ecosistema Inmobiliario (Real Estate Special) -->
+<div data-pillar-item="p3" class="rounded-2xl bg-surface-container-low p-space-lg flex flex-col justify-between group hover:bg-surface-container border-t-4 border-[#FAB303] transition-all shadow-lg hover:shadow-[#FAB303]/10">
 <div>
 <div class="flex items-center justify-between mb-space-md">
-<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-all">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-[#FAB303] group-hover:bg-[#FAB303] group-hover:text-[#0b0f19] transition-all">
 <span class="material-symbols-outlined text-[28px]">apartment</span>
 </div>
-<span class="font-code-badge text-code-badge text-primary bg-primary/10 px-space-xs py-0.5 rounded font-mono">PILAR 03 // REAL ESTATE SPECIAL</span>
+<span class="font-code-badge text-code-badge text-[#FAB303] bg-[#FAB303]/15 px-space-xs py-0.5 rounded font-mono">PILAR 03 // REAL ESTATE SPECIAL</span>
 </div>
 <h3 class="font-headline-md text-headline-md-mobile lg:text-headline-md text-on-surface mb-space-xs">
               Ecosistema Inmobiliario (Real Estate Special)
@@ -564,10 +600,10 @@
 <div class="bg-surface-container-lowest p-space-md rounded-xl mb-space-md flex flex-col gap-space-xs">
 <div class="flex items-center justify-between text-body-sm font-body-sm">
 <span class="text-on-surface-variant">Aceleración de Preventas &amp; Citas Calificadas</span>
-<span class="text-primary font-bold">Llave en Mano 360°</span>
+<span class="text-[#FAB303] font-bold">Llave en Mano 360°</span>
 </div>
 <div class="w-full bg-surface-container-highest h-1.5 rounded-full overflow-hidden">
-<div class="bg-primary h-full w-[88%] rounded-full"></div>
+<div class="bg-[#FAB303] h-full w-[88%] rounded-full"></div>
 </div>
 <span class="text-outline text-label-sm font-label-sm">Recorridos 360° + Landings por Desarrollo + CRM Inmobiliario + Pauta HNW</span>
 </div>
@@ -580,20 +616,20 @@
 <span class="px-space-xs py-1 rounded bg-surface-container-high text-on-surface-variant font-code-badge text-code-badge">Riviera Maya &amp; México</span>
 <span class="px-space-xs py-1 rounded bg-surface-container-high text-on-surface-variant font-code-badge text-code-badge">Inversionistas USA/Canadá/UE</span>
 </div>
-<a href="#agendar" data-cta-scroll="true" class="pt-space-xs text-primary font-label-md text-label-md flex items-center gap-1 hover:underline">
+<a href="#agendar" data-cta-scroll="true" class="pt-space-xs text-[#FAB303] font-label-md text-label-md flex items-center gap-1 hover:underline">
 <span>Garantía: Prospectos filtrados por presupuesto e intención de inversión</span>
 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
 </a>
 </div>
 </div>
-<!-- Pillar 4: Producción Audiovisual & Contenido -->
-<div data-pillar-item="p4" class="rounded-2xl bg-surface-container-low p-space-lg flex flex-col justify-between group hover:bg-surface-container transition-all shadow-lg hover:shadow-secondary/5">
+<!-- Pillar 4 (Logo Bar 4: Growth Green #3EA45B): Producción Audiovisual & Contenido -->
+<div data-pillar-item="p4" class="rounded-2xl bg-surface-container-low p-space-lg flex flex-col justify-between group hover:bg-surface-container border-t-4 border-[#3EA45B] transition-all shadow-lg hover:shadow-[#3EA45B]/10">
 <div>
 <div class="flex items-center justify-between mb-space-md">
-<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-all">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-[#3EA45B] group-hover:bg-[#3EA45B] group-hover:text-white transition-all">
 <span class="material-symbols-outlined text-[28px]">movie_filter</span>
 </div>
-<span class="font-code-badge text-code-badge text-secondary bg-secondary/10 px-space-xs py-0.5 rounded font-mono">PILAR 04 // AUDIOVISUAL &amp; PAUTA</span>
+<span class="font-code-badge text-code-badge text-[#3EA45B] bg-[#3EA45B]/15 px-space-xs py-0.5 rounded font-mono">PILAR 04 // AUDIOVISUAL &amp; PAUTA</span>
 </div>
 <h3 class="font-headline-md text-headline-md-mobile lg:text-headline-md text-on-surface mb-space-xs">
               Producción Audiovisual &amp; Contenido Premium
@@ -605,10 +641,10 @@
 <div class="bg-surface-container-lowest p-space-md rounded-xl mb-space-md flex flex-col gap-space-xs">
 <div class="flex items-center justify-between text-body-sm font-body-sm">
 <span class="text-on-surface-variant">Reducción de Costo por Cliente Real (CAC)</span>
-<span class="text-secondary font-bold">-41.3%</span>
+<span class="text-[#3EA45B] font-bold">-41.3%</span>
 </div>
 <div class="w-full bg-surface-container-highest h-1.5 rounded-full overflow-hidden">
-<div class="bg-secondary h-full w-[82%] rounded-full"></div>
+<div class="bg-[#3EA45B] h-full w-[82%] rounded-full"></div>
 </div>
 <span class="text-outline text-label-sm font-label-sm">Contenido optimizado para pauta + Tracking Server-Side hasta el cierre en CRM</span>
 </div>
@@ -621,7 +657,7 @@
 <span class="px-space-xs py-1 rounded bg-surface-container-high text-on-surface-variant font-code-badge text-code-badge">Creativos para Ads</span>
 <span class="px-space-xs py-1 rounded bg-surface-container-high text-on-surface-variant font-code-badge text-code-badge">Meta CAPI &amp; Google Ads</span>
 </div>
-<a href="#agendar" data-cta-scroll="true" class="pt-space-xs text-secondary font-label-md text-label-md flex items-center gap-1 hover:underline">
+<a href="#agendar" data-cta-scroll="true" class="pt-space-xs text-[#3EA45B] font-label-md text-label-md flex items-center gap-1 hover:underline">
 <span>Garantía: Material diseñado para convertir clics en citas reales</span>
 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
 </a>
@@ -630,7 +666,7 @@
 </div>
 <!-- Pillars Bottom CTA -->
 <div class="mt-space-xl flex flex-col sm:flex-row items-center justify-center gap-space-md">
-<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-md rounded-xl bg-gradient-to-r from-primary-container to-primary text-on-primary font-headline-sm text-label-md tracking-wide shadow-[0_0_24px_rgba(16,185,129,0.45)] hover:shadow-[0_0_36px_rgba(16,185,129,0.7)] transition-all" data-cta-scroll="true" href="#agendar">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-md rounded-xl bg-gradient-to-r from-[#4786EF] to-[#3EA45B] text-white font-headline-sm text-label-md tracking-wide shadow-[0_0_24px_rgba(71,134,239,0.45)] hover:shadow-[0_0_36px_rgba(62,164,91,0.7)] transition-all" data-cta-scroll="true" href="#agendar">
 <span>Agendar una Sesión de Diagnóstico Gratuito</span>
 <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
 </a>
@@ -646,13 +682,13 @@
 <!-- ========================================== -->
 <section class="w-full bg-surface-container-lowest py-space-xl relative overflow-hidden" id="real-estate">
 <!-- Ambient luxury lighting -->
-<div class="absolute -bottom-24 right-0 w-[40rem] h-[40rem] rounded-full bg-primary/5 blur-[160px] pointer-events-none"></div>
-<div class="absolute top-10 left-10 w-80 h-80 rounded-full bg-secondary-container/10 blur-[140px] pointer-events-none"></div>
+<div class="absolute -bottom-24 right-0 w-[40rem] h-[40rem] rounded-full bg-[#3EA45B]/10 blur-[160px] pointer-events-none"></div>
+<div class="absolute top-10 left-10 w-80 h-80 rounded-full bg-[#FAB303]/10 blur-[140px] pointer-events-none"></div>
 <div class="w-full px-gutter lg:px-margin relative z-10">
 <!-- Luxury Tech Header -->
-<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md mb-space-xl pb-space-lg bg-surface-container-low/40 p-space-lg rounded-2xl">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md mb-space-xl pb-space-lg bg-surface-container-low/40 p-space-lg rounded-2xl border-l-4 border-[#FAB303]">
 <div class="max-w-2xl">
-<div class="inline-flex items-center gap-space-xs px-space-md py-1 rounded-full bg-surface-container-high text-primary font-code-badge text-code-badge uppercase tracking-wider mb-space-xs">
+<div class="inline-flex items-center gap-space-xs px-space-md py-1 rounded-full bg-surface-container-high text-[#FAB303] font-code-badge text-code-badge uppercase tracking-wider mb-space-xs">
 <span class="material-symbols-outlined text-[14px]">apartment</span>
 <span>ECOSISTEMA INMOBILIARIO // RIVIERA MAYA &amp; MÉXICO REAL ESTATE SPECIAL</span>
 </div>
@@ -664,7 +700,7 @@
 <p class="font-body-md text-body-md text-on-surface-variant">
           Transformamos desarrollos en la Riviera Maya y México en motores de preventa acelerada: recorridos virtuales 360°, landing pages por propiedad, agentes de IA multilingües 24/7 y pauta para inversionistas reales.
         </p>
-<a class="self-start inline-flex items-center gap-1 text-primary font-label-md text-label-md hover:underline" data-cta-scroll="true" href="#agendar">
+<a class="self-start inline-flex items-center gap-1 text-[#FAB303] font-label-md text-label-md hover:underline" data-cta-scroll="true" href="#agendar">
 <span>Agendar una Sesión de Diagnóstico Gratuito</span>
 <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
 </a>
@@ -677,18 +713,18 @@
 <div class="bg-cover bg-center w-full h-full" data-alt="Modern ultra-luxurious residential skyscraper tower at dusk with warm floor-to-ceiling glass apartments, glowing emerald ambient landscape lighting, sleek obsidian balconies and high-end futuristic architecture for property investors" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBGHxs9AI0xKE_Y-umZImEQgUFRSdy8Ex6nYGUsxS_O_0ArnWW49UeIHF8dPpQeSABhOa4ws8HmVQ3uKFA6s3C4oFEevKfrRTtnSsahdAQtYbsbgobP9L9G0MAFoXIG8_Sd9mtUBwiZSdg03YWj7QquDVREFsPaYNNlN0rIOKjgIj6GCZgPMi1TWUI-7tiqXbmo6l6DU9TpT0ADw15qZ26qyR3QrN0PoZ0pCewsc-R2bFYjMiWnjr4O')"></div>
 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/30 to-transparent"></div>
 <!-- Floating Status Badge -->
-<div class="absolute bottom-space-md left-space-md right-space-md bg-surface-container-low/85 backdrop-blur-xl p-space-md rounded-xl">
+<div class="absolute bottom-space-md left-space-md right-space-md bg-surface-container-low/85 backdrop-blur-xl p-space-md rounded-xl border border-[#FAB303]/30">
 <div class="flex items-center justify-between mb-1">
 <span class="font-headline-sm text-headline-sm text-on-surface">Ecosistema Riviera Maya &amp; México</span>
-<span class="font-code-badge text-code-badge text-primary bg-primary/20 px-2 py-0.5 rounded">RECORRIDOS 360° + IA + CRM</span>
+<span class="font-code-badge text-code-badge text-[#FAB303] bg-[#FAB303]/20 px-2 py-0.5 rounded">RECORRIDOS 360° + IA + CRM</span>
 </div>
 <p class="font-body-sm text-body-sm text-on-surface-variant">Dejamos atrás los leads curiosos: captamos y filtramos compradores e inversionistas nacionales y extranjeros listos para escriturar.</p>
 </div>
 </div>
-<!-- 4 Key Modules / Columns -->
+<!-- 4 Key Modules / Columns (4 Ascending Brand Colors) -->
 <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-space-md">
-<div class="bg-surface-container-low p-space-md rounded-xl hover:bg-surface-container transition-colors">
-<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary mb-space-sm">
+<div class="bg-surface-container-low p-space-md rounded-xl hover:bg-surface-container border-l-2 border-[#FAB303] transition-colors">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-[#FAB303] mb-space-sm">
 <span class="material-symbols-outlined text-[24px]">view_in_ar</span>
 </div>
 <h4 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Recorridos Virtuales 360° &amp; Showrooms</h4>
@@ -696,8 +732,8 @@
               Permite que inversionistas de EE.UU., Canadá, Europa o CDMX recorran tus propiedades y amenidades desde su celular antes de agendar visita o apartar unidad.
             </p>
 </div>
-<div class="bg-surface-container-low p-space-md rounded-xl hover:bg-surface-container transition-colors">
-<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary mb-space-sm">
+<div class="bg-surface-container-low p-space-md rounded-xl hover:bg-surface-container border-l-2 border-[#4786EF] transition-colors">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-[#4786EF] mb-space-sm">
 <span class="material-symbols-outlined text-[24px]">web</span>
 </div>
 <h4 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Landing Pages por Propiedad (Vercel)</h4>
@@ -705,8 +741,8 @@
               Micrositios ultrarrápidos y multilingües por desarrollo o tipología con calculadoras de plusvalía, descarga de brochure y captura directa en GoHighLevel.
             </p>
 </div>
-<div class="bg-surface-container-low p-space-md rounded-xl hover:bg-surface-container transition-colors">
-<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary mb-space-sm">
+<div class="bg-surface-container-low p-space-md rounded-xl hover:bg-surface-container border-l-2 border-[#EE433B] transition-colors">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-[#EE433B] mb-space-sm">
 <span class="material-symbols-outlined text-[24px]">smart_toy</span>
 </div>
 <h4 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Filtro IA 24/7 en WhatsApp &amp; CRM</h4>
@@ -714,8 +750,8 @@
               Nuestros agentes IA responden en segundos en 4 idiomas, envían fichas técnicas y filtran presupuesto, forma de pago y horizonte de inversión antes de pasar el lead al broker.
             </p>
 </div>
-<div class="bg-surface-container-low p-space-md rounded-xl hover:bg-surface-container transition-colors">
-<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary mb-space-sm">
+<div class="bg-surface-container-low p-space-md rounded-xl hover:bg-surface-container border-l-2 border-[#3EA45B] transition-colors">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-[#3EA45B] mb-space-sm">
 <span class="material-symbols-outlined text-[24px]">photo_camera</span>
 </div>
 <h4 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Fotografía Arquitectónica &amp; Pauta HNW</h4>
@@ -728,17 +764,17 @@
 <!-- Real Estate Impact Metrics Banner -->
 <div class="w-full bg-surface-container rounded-2xl p-space-lg grid grid-cols-1 sm:grid-cols-3 gap-space-lg text-center divide-y sm:divide-y-0 sm:divide-x divide-outline-variant/30">
 <div class="px-space-md pt-space-xs sm:pt-0">
-<div class="font-display-hero text-headline-lg lg:text-display-hero text-primary tracking-tight">84%</div>
+<div class="font-display-hero text-headline-lg lg:text-display-hero text-[#3EA45B] tracking-tight">84%</div>
 <div class="font-headline-sm text-headline-sm text-on-surface mt-1">Citas Agendadas Cualificadas</div>
 <p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Prospectos con presupuesto real confirmado antes de entrar a sala de ventas.</p>
 </div>
 <div class="px-space-md pt-space-md sm:pt-0">
-<div class="font-display-hero text-headline-lg lg:text-display-hero text-secondary tracking-tight">-65%</div>
+<div class="font-display-hero text-headline-lg lg:text-display-hero text-[#4786EF] tracking-tight">-65%</div>
 <div class="font-headline-sm text-headline-sm text-on-surface mt-1">Costo por Lead Inmobiliario</div>
 <p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Eficiencia drástica sobre las métricas promedio de portales inmobiliarios.</p>
 </div>
 <div class="px-space-md pt-space-md sm:pt-0">
-<div class="font-display-hero text-headline-lg lg:text-display-hero text-tertiary tracking-tight">18 Días</div>
+<div class="font-display-hero text-headline-lg lg:text-display-hero text-[#FAB303] tracking-tight">18 Días</div>
 <div class="font-headline-sm text-headline-sm text-on-surface mt-1">Sold-Out Promedio Fase 1</div>
 <p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Velocidad de absorción comercial récord en torres de uso mixto y desarrollos.</p>
 </div>
@@ -752,12 +788,12 @@
 <div class="w-full px-gutter lg:px-margin">
 <!-- Section Header (Official Copywriting) -->
 <div class="max-w-4xl mb-space-xl">
-<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-container-high font-label-sm text-label-sm text-primary uppercase tracking-wider mb-space-xs">
-<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-container-high font-label-sm text-label-sm text-[#3EA45B] uppercase tracking-wider mb-space-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-[#3EA45B]"></span>
 <span>El Gancho &amp; Filosofía NegocioUp // Transparencia Comercial Absoluta</span>
 </div>
 <h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface mb-space-xs">
-          &ldquo;No prometemos métricas infladas. <span class="bg-gradient-to-r from-primary via-tertiary-fixed to-secondary bg-clip-text text-transparent">Diseñamos sistemas transparentes donde cada peso invertido se mide desde el primer clic hasta el cierre de la venta.&rdquo;</span>
+          &ldquo;No prometemos métricas infladas. <span class="bg-gradient-to-r from-[#4786EF] via-[#FAB303] to-[#3EA45B] bg-clip-text text-transparent">Diseñamos sistemas transparentes donde cada peso invertido se mide desde el primer clic hasta el cierre de la venta.&rdquo;</span>
         </h2>
 <p class="font-body-lg text-body-lg text-on-surface-variant">
           No prometemos métricas vacías ni reportes llenos de &ldquo;likes&rdquo; que no pagan la nómina. Construimos tecnología que produce mejores decisiones comerciales: cada interacción en WhatsApp, cada flujo en GoHighLevel y cada anuncio pautado existe exclusivamente para transformar clics en clientes reales y medibles.
@@ -765,9 +801,9 @@
 </div>
 <!-- 3 Philosophy Columns -->
 <div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg mb-space-xl">
-<div class="bg-surface-container-low p-space-lg rounded-2xl flex flex-col justify-between hover:bg-surface-container transition-colors">
+<div class="bg-surface-container-low p-space-lg rounded-2xl flex flex-col justify-between hover:bg-surface-container border-t-2 border-[#4786EF] transition-colors">
 <div>
-<div class="font-code-badge text-code-badge text-secondary font-mono mb-space-sm">01 / TRAZABILIDAD DEL PRIMER CLIC AL CIERRE</div>
+<div class="font-code-badge text-code-badge text-[#4786EF] font-mono mb-space-sm">01 / TRAZABILIDAD DEL PRIMER CLIC AL CIERRE</div>
 <h3 class="font-headline-md text-headline-md-mobile lg:text-headline-md text-on-surface mb-space-xs">
               Cero Métricas de Vanidad: Solo Clientes Reales
             </h3>
@@ -777,12 +813,12 @@
 </div>
 <div class="mt-space-md pt-space-md bg-surface-container-lowest p-space-sm rounded-xl">
 <span class="font-label-sm text-label-sm text-outline uppercase block">Auditoría en Tiempo Real</span>
-<span class="font-code-badge text-code-badge text-primary">Cada Peso Invertido → Medido en CRM</span>
+<span class="font-code-badge text-code-badge text-[#3EA45B]">Cada Peso Invertido → Medido en CRM</span>
 </div>
 </div>
-<div class="bg-surface-container-low p-space-lg rounded-2xl flex flex-col justify-between hover:bg-surface-container transition-colors">
+<div class="bg-surface-container-low p-space-lg rounded-2xl flex flex-col justify-between hover:bg-surface-container border-t-2 border-[#FAB303] transition-colors">
 <div>
-<div class="font-code-badge text-code-badge text-primary font-mono mb-space-sm">02 / DEL CAOS DIGITAL AL ORDEN AUTOMATIZADO</div>
+<div class="font-code-badge text-code-badge text-[#FAB303] font-mono mb-space-sm">02 / DEL CAOS DIGITAL AL ORDEN AUTOMATIZADO</div>
 <h3 class="font-headline-md text-headline-md-mobile lg:text-headline-md text-on-surface mb-space-xs">
               Tu Equipo Cierra Ventas, la IA Hace el Resto
             </h3>
@@ -792,12 +828,12 @@
 </div>
 <div class="mt-space-md pt-space-md bg-surface-container-lowest p-space-sm rounded-xl">
 <span class="font-label-sm text-label-sm text-outline uppercase block">Eficiencia Comercial</span>
-<span class="font-code-badge text-code-badge text-secondary">+320 Horas / Mes Ahorradas</span>
+<span class="font-code-badge text-code-badge text-[#FAB303]">+320 Horas / Mes Ahorradas</span>
 </div>
 </div>
-<div class="bg-surface-container-low p-space-lg rounded-2xl flex flex-col justify-between hover:bg-surface-container transition-colors">
+<div class="bg-surface-container-low p-space-lg rounded-2xl flex flex-col justify-between hover:bg-surface-container border-t-2 border-[#3EA45B] transition-colors">
 <div>
-<div class="font-code-badge text-code-badge text-secondary font-mono mb-space-sm">03 / TECNOLOGÍA + CONTENIDO PREMIUM</div>
+<div class="font-code-badge text-code-badge text-[#3EA45B] font-mono mb-space-sm">03 / TECNOLOGÍA + CONTENIDO PREMIUM</div>
 <h3 class="font-headline-md text-headline-md-mobile lg:text-headline-md text-on-surface mb-space-xs">
               Autoridad Visual que Acelera la Confianza
             </h3>
@@ -807,15 +843,15 @@
 </div>
 <div class="mt-space-md pt-space-md bg-surface-container-lowest p-space-sm rounded-xl">
 <span class="font-label-sm text-label-sm text-outline uppercase block">Estándar de Ejecución</span>
-<span class="font-code-badge text-code-badge text-primary">Ecosistema Llave en Mano</span>
+<span class="font-code-badge text-code-badge text-[#4786EF]">Ecosistema Llave en Mano</span>
 </div>
 </div>
 </div>
-<!-- Testimonials / Verified Case Statements -->
+<!-- Testimonials / Verified Case Statements (Stars in Official Logo Gold #FAB303) -->
 <div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
 <div class="bg-surface-container-low/60 p-space-lg rounded-2xl flex flex-col justify-between">
 <div>
-<div class="flex items-center gap-1 text-primary mb-space-sm">
+<div class="flex items-center gap-1 text-[#FAB303] mb-space-sm">
 <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
 <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
 <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
@@ -832,13 +868,13 @@
 </div>
 <div>
 <div class="font-headline-sm text-headline-sm text-on-surface">Lic. Rodrigo Valenzuela</div>
-<div class="font-body-sm text-body-sm text-secondary">Director General &amp; Co-Founder, Valenzuela Capital Partners</div>
+<div class="font-body-sm text-body-sm text-[#4786EF]">Director General &amp; Co-Founder, Valenzuela Capital Partners</div>
 </div>
 </div>
 </div>
 <div class="bg-surface-container-low/60 p-space-lg rounded-2xl flex flex-col justify-between">
 <div>
-<div class="flex items-center gap-1 text-primary mb-space-sm">
+<div class="flex items-center gap-1 text-[#FAB303] mb-space-sm">
 <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
 <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
 <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
@@ -855,7 +891,7 @@
 </div>
 <div>
 <div class="font-headline-sm text-headline-sm text-on-surface">Mariana Gómez S.</div>
-<div class="font-body-sm text-body-sm text-secondary">Chief Operations Officer, Synapse Global Solutions</div>
+<div class="font-body-sm text-body-sm text-[#4786EF]">Chief Operations Officer, Synapse Global Solutions</div>
 </div>
 </div>
 </div>
@@ -867,55 +903,55 @@
 <!-- ========================================== -->
 <section class="w-full bg-surface-container-lowest py-space-xl relative overflow-hidden" id="agendar">
 <!-- Center Ambient Flare -->
-<div class="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-secondary-container/10 pointer-events-none"></div>
+<div class="absolute inset-0 bg-gradient-to-b from-transparent via-[#4786EF]/5 to-[#3EA45B]/10 pointer-events-none"></div>
 <div class="w-full px-gutter lg:px-margin relative z-10">
-<div id="calendar-card-wrapper" class="w-full rounded-3xl bg-gradient-to-b from-surface-container-high/90 to-surface-container-low/95 p-space-lg lg:p-space-xl shadow-[0_0_60px_rgba(16,185,129,0.15)]">
+<div id="calendar-card-wrapper" class="w-full rounded-3xl bg-gradient-to-b from-surface-container-high/90 to-surface-container-low/95 p-space-lg lg:p-space-xl shadow-[0_0_60px_rgba(71,134,239,0.18)] border border-outline-variant/25">
 <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-space-xl items-center">
 <!-- CTA Persuasion Left -->
 <div class="lg:col-span-7 flex flex-col gap-space-md">
-<div class="inline-flex items-center gap-space-xs px-space-md py-1 rounded-full bg-primary/10 text-primary font-code-badge text-code-badge uppercase tracking-wider self-start">
+<div class="inline-flex items-center gap-space-xs px-space-md py-1 rounded-full bg-[#3EA45B]/15 text-[#3EA45B] font-code-badge text-code-badge uppercase tracking-wider self-start">
 <span>DIAGNÓSTICO GRATUITO // CONECTADO A TU CALENDARIO &amp; WHATSAPP</span>
 </div>
 <h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface tracking-tight">
-              Deja atrás el caos digital. Construye tu <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Ecosistema Comercial Inteligente</span> hoy mismo.
+              Deja atrás el caos digital. Construye tu <span class="bg-gradient-to-r from-[#4786EF] via-[#FAB303] to-[#3EA45B] bg-clip-text text-transparent">Ecosistema Comercial Inteligente</span> hoy mismo.
             </h2>
 <p class="font-body-lg text-body-lg text-on-surface-variant">
               Agenda una Sesión de Diagnóstico Gratuito con nuestros especialistas. Auditaremos dónde estás perdiendo prospectos hoy y diseñaremos el plan exacto con IA 24/7, CRM (GoHighLevel), Ingeniería Web y Contenido Premium para generar clientes reales.
             </p>
 <div class="flex flex-col sm:flex-row flex-wrap gap-space-md mt-space-sm">
 <div class="flex items-center gap-space-xs font-body-sm text-body-sm text-on-surface">
-<span class="material-symbols-outlined text-primary text-[20px]">check_circle</span>
+<span class="material-symbols-outlined text-[#4786EF] text-[20px]">check_circle</span>
 <span>Auditoría de fugas comerciales</span>
 </div>
 <div class="flex items-center gap-space-xs font-body-sm text-body-sm text-on-surface">
-<span class="material-symbols-outlined text-primary text-[20px]">check_circle</span>
+<span class="material-symbols-outlined text-[#FAB303] text-[20px]">check_circle</span>
 <span>Arquitectura IA + GoHighLevel a medida</span>
 </div>
 <div class="flex items-center gap-space-xs font-body-sm text-body-sm text-on-surface">
-<span class="material-symbols-outlined text-primary text-[20px]">check_circle</span>
+<span class="material-symbols-outlined text-[#3EA45B] text-[20px]">check_circle</span>
 <span>Proyección real de retorno (ROI)</span>
 </div>
 </div>
 <!-- Direct WhatsApp & Maps Quick Action Bar -->
 <div class="pt-space-sm flex flex-wrap items-center gap-space-sm">
-<a class="inline-flex items-center gap-2 px-space-md py-space-sm rounded-xl bg-surface-container-lowest/80 hover:bg-surface-container text-primary border border-primary/30 font-label-md text-label-md transition-all" data-wa-cta="CalendarSection" href="https://wa.me/5216626366303?text=Hola%20NegocioUp%2C%20quiero%20Agendar%20una%20Sesi%C3%B3n%20de%20Diagn%C3%B3stico%20Gratuito" rel="noopener noreferrer" target="_blank">
+<a class="inline-flex items-center gap-2 px-space-md py-space-sm rounded-xl bg-surface-container-lowest/80 hover:bg-surface-container text-[#3EA45B] border border-[#3EA45B]/30 font-label-md text-label-md transition-all" data-wa-cta="CalendarSection" href="https://wa.me/5216626366303?text=Hola%20NegocioUp%2C%20quiero%20Agendar%20una%20Sesi%C3%B3n%20de%20Diagn%C3%B3stico%20Gratuito" rel="noopener noreferrer" target="_blank">
 <span class="material-symbols-outlined text-[18px]">chat</span>
 <span>Agendar por WhatsApp: +52 1 662 636 6303</span>
 </a>
 <a class="inline-flex items-center gap-2 px-space-md py-space-sm rounded-xl bg-surface-container-lowest/80 hover:bg-surface-container text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all" href="https://maps.app.goo.gl/umGG4D5BoiG77jCBA" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-secondary text-[18px]">map</span>
+<span class="material-symbols-outlined text-[#4786EF] text-[18px]">map</span>
 <span>Ver Perfil Oficial en Google Maps</span>
 </a>
 </div>
 </div>
 <!-- Interactive Booking Card Right (Native + GoHighLevel Ready) -->
-<div class="lg:col-span-5 bg-surface-container-lowest/90 backdrop-blur-xl p-space-lg rounded-2xl shadow-2xl flex flex-col gap-space-md">
+<div class="lg:col-span-5 bg-surface-container-lowest/90 backdrop-blur-xl p-space-lg rounded-2xl shadow-2xl flex flex-col gap-space-md border-t-4 border-[#4786EF]">
 <div class="flex items-center justify-between pb-space-sm bg-surface-container/30 p-space-sm rounded-xl">
 <div>
 <span class="font-headline-sm text-headline-sm text-on-surface block">Sesión de Diagnóstico Gratuito</span>
 <span id="calendar-tz-label" class="font-body-sm text-body-sm text-outline">Duración: 45 min // Modalidad: Google Meet HD</span>
 </div>
-<span class="w-3 h-3 rounded-full bg-primary animate-ping"></span>
+<span class="w-3 h-3 rounded-full bg-[#3EA45B] animate-ping"></span>
 </div>
 
 <!-- Optional GoHighLevel Native Calendar Iframe Container (Auto-activates if ghl.calendarEmbedUrl is configured) -->
@@ -927,7 +963,7 @@
 <div class="flex flex-col gap-space-xs">
 <div class="flex items-center justify-between">
 <label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">1. Selecciona fecha disponible</label>
-<span id="selected-date-badge" class="font-code-badge text-code-badge text-primary"></span>
+<span id="selected-date-badge" class="font-code-badge text-code-badge text-[#3EA45B]"></span>
 </div>
 <div id="date-slots-grid" class="grid grid-cols-3 gap-space-xs">
 <button type="button" class="p-space-sm rounded-lg bg-surface-container text-center">
@@ -956,16 +992,16 @@
 </div>
 <!-- Form Inputs (GoHighLevel Standard Contact Schema) -->
 <div class="flex flex-col gap-space-xs">
-<input id="lead-name" name="full_name" required class="w-full bg-surface-container-low text-on-surface placeholder:text-outline text-body-sm font-body-sm px-space-md py-space-sm rounded-lg focus:outline-none focus:ring-1 focus:ring-primary" placeholder="Nombre y Apellido *" type="text"/>
-<input id="lead-company" name="company_name" required class="w-full bg-surface-container-low text-on-surface placeholder:text-outline text-body-sm font-body-sm px-space-md py-space-sm rounded-lg focus:outline-none focus:ring-1 focus:ring-primary" placeholder="Empresa o Desarrollo Inmobiliario *" type="text"/>
-<input id="lead-email" name="email" required class="w-full bg-surface-container-low text-on-surface placeholder:text-outline text-body-sm font-body-sm px-space-md py-space-sm rounded-lg focus:outline-none focus:ring-1 focus:ring-primary" placeholder="Correo corporativo (ej: director@empresa.com) *" type="email"/>
-<input id="lead-phone" name="phone" required class="w-full bg-surface-container-low text-on-surface placeholder:text-outline text-body-sm font-body-sm px-space-md py-space-sm rounded-lg focus:outline-none focus:ring-1 focus:ring-primary" placeholder="WhatsApp / Teléfono directo *" type="tel"/>
+<input id="lead-name" name="full_name" required class="w-full bg-surface-container-low text-on-surface placeholder:text-outline text-body-sm font-body-sm px-space-md py-space-sm rounded-lg focus:outline-none focus:ring-1 focus:ring-[#4786EF]" placeholder="Nombre y Apellido *" type="text"/>
+<input id="lead-company" name="company_name" required class="w-full bg-surface-container-low text-on-surface placeholder:text-outline text-body-sm font-body-sm px-space-md py-space-sm rounded-lg focus:outline-none focus:ring-1 focus:ring-[#4786EF]" placeholder="Empresa o Desarrollo Inmobiliario *" type="text"/>
+<input id="lead-email" name="email" required class="w-full bg-surface-container-low text-on-surface placeholder:text-outline text-body-sm font-body-sm px-space-md py-space-sm rounded-lg focus:outline-none focus:ring-1 focus:ring-[#4786EF]" placeholder="Correo corporativo (ej: director@empresa.com) *" type="email"/>
+<input id="lead-phone" name="phone" required class="w-full bg-surface-container-low text-on-surface placeholder:text-outline text-body-sm font-body-sm px-space-md py-space-sm rounded-lg focus:outline-none focus:ring-1 focus:ring-[#4786EF]" placeholder="WhatsApp / Teléfono directo *" type="tel"/>
 </div>
 <p id="booking-error" class="hidden text-error text-body-sm bg-error-container/30 px-space-sm py-1.5 rounded-lg">
   Por favor completa todos los campos para confirmar tu Sesión de Diagnóstico Gratuito.
 </p>
 <!-- Final Action CTA (Official Required Copy) -->
-<button type="submit" class="w-full py-space-md px-space-sm rounded-xl bg-gradient-to-r from-primary-container to-primary text-on-primary font-headline-sm text-label-md tracking-wide shadow-[0_0_24px_rgba(16,185,129,0.5)] hover:shadow-[0_0_36px_rgba(16,185,129,0.75)] hover:scale-[1.01] transition-all">
+<button type="submit" class="w-full py-space-md px-space-sm rounded-xl bg-gradient-to-r from-[#4786EF] to-[#3EA45B] text-white font-headline-sm text-label-md tracking-wide shadow-[0_0_24px_rgba(71,134,239,0.5)] hover:shadow-[0_0_36px_rgba(62,164,91,0.75)] hover:scale-[1.01] transition-all">
   Agendar una Sesión de Diagnóstico Gratuito
 </button>
 <span class="text-center font-label-sm text-label-sm text-outline">
@@ -975,18 +1011,18 @@
 
 <!-- Confirmation State -->
 <div id="booking-confirmation" class="hidden flex-col gap-space-md py-space-sm">
-<div class="p-space-md rounded-xl bg-primary/10 border border-primary/30 text-center">
-<span class="material-symbols-outlined text-primary text-[32px]">verified</span>
+<div class="p-space-md rounded-xl bg-[#3EA45B]/10 border border-[#3EA45B]/30 text-center">
+<span class="material-symbols-outlined text-[#3EA45B] text-[32px]">verified</span>
 <h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">¡Sesión Pre-Agendada con Éxito!</h3>
 <p id="conf-summary" class="font-body-sm text-body-sm text-on-surface-variant mt-1"></p>
 </div>
 <div class="flex flex-col gap-space-xs">
-<a id="conf-wa-btn" href="https://wa.me/5216626366303" target="_blank" rel="noopener noreferrer" class="w-full py-space-sm px-space-md rounded-xl bg-primary-container text-on-primary-container font-headline-sm text-label-md text-center flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(16,185,129,0.4)]">
+<a id="conf-wa-btn" href="https://wa.me/5216626366303" target="_blank" rel="noopener noreferrer" class="w-full py-space-sm px-space-md rounded-xl bg-[#3EA45B] text-white font-headline-sm text-label-md text-center flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(62,164,91,0.4)]">
 <span class="material-symbols-outlined text-[18px]">chat</span>
 <span>Confirmar Ahora por WhatsApp (+52 1 662 636 6303)</span>
 </a>
 <a id="conf-gcal-btn" href="#" target="_blank" rel="noopener noreferrer" class="w-full py-space-sm px-space-md rounded-xl bg-surface-container-high text-on-surface font-label-md text-label-md text-center flex items-center justify-center gap-2 hover:bg-surface-bright transition-colors">
-<span class="material-symbols-outlined text-secondary text-[18px]">calendar_add_on</span>
+<span class="material-symbols-outlined text-[#4786EF] text-[18px]">calendar_add_on</span>
 <span>Añadir a Google Calendar</span>
 </a>
 <button type="button" id="reset-booking-btn" class="text-label-sm font-label-sm text-outline hover:text-on-surface underline mt-1">
@@ -1007,6 +1043,7 @@
 <section class="w-full bg-surface py-space-xl relative border-t border-outline-variant/20" id="ubicacion-nap" itemscope itemtype="https://schema.org/LocalBusiness">
   <meta itemprop="name" content="NegocioUp"/>
   <meta itemprop="url" content="https://www.negocioup.com.mx/"/>
+  <meta itemprop="logo" content="https://www.negocioup.com.mx/assets/logo-negocioup.svg"/>
   <meta itemprop="telephone" content="+526626366303"/>
   <meta itemprop="priceRange" content="$$$"/>
   <link itemprop="hasMap" href="https://maps.app.goo.gl/umGG4D5BoiG77jCBA"/>
@@ -1014,7 +1051,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-space-xl items-center bg-surface-container-low p-space-lg rounded-2xl">
       <!-- NAP Details Left -->
       <div class="lg:col-span-6 flex flex-col gap-space-md">
-        <div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-container-high font-label-sm text-label-sm text-primary uppercase tracking-wider self-start">
+        <div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-container-high font-label-sm text-label-sm text-[#3EA45B] uppercase tracking-wider self-start">
           <span class="material-symbols-outlined text-[14px]">verified</span>
           <span>ENTIDAD VERIFICADA EN GOOGLE BUSINESS PROFILE &amp; MAPS</span>
         </div>
@@ -1029,12 +1066,12 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm bg-surface-container-lowest p-space-md rounded-xl">
           <div>
             <span class="font-label-sm text-label-sm text-outline uppercase block">Nombre Oficial (Name)</span>
-            <strong class="font-headline-sm text-headline-sm text-on-surface" itemprop="legalName">NegocioUp</strong>
-            <span class="font-body-sm text-body-sm text-on-surface-variant block">Servicio de marketing por Internet &amp; IA</span>
+            <strong class="font-headline-sm text-headline-sm text-on-surface" itemprop="legalName">Negocio<span class="text-[#4786EF]">Up</span></strong>
+            <span class="font-body-sm text-body-sm text-on-surface-variant block">Más clientes • IA • Automatización</span>
           </div>
           <div>
             <span class="font-label-sm text-label-sm text-outline uppercase block">Teléfono &amp; WhatsApp (Phone)</span>
-            <a href="tel:+526626366303" class="font-headline-sm text-headline-sm text-primary hover:underline block">+52 1 662 636 6303</a>
+            <a href="tel:+526626366303" class="font-headline-sm text-headline-sm text-[#3EA45B] hover:underline block">+52 1 662 636 6303</a>
             <span class="font-body-sm text-body-sm text-on-surface-variant block">Formato local: 662 636 6303</span>
           </div>
           <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
@@ -1045,18 +1082,18 @@
           </div>
           <div>
             <span class="font-label-sm text-label-sm text-outline uppercase block">Horario de Operación IA &amp; Soporte</span>
-            <span class="font-body-sm text-body-sm text-secondary font-semibold block">Abierto las 24 horas (Lunes a Domingo)</span>
+            <span class="font-body-sm text-body-sm text-[#4786EF] font-semibold block">Abierto las 24 horas (Lunes a Domingo)</span>
             <span class="font-code-badge text-code-badge text-outline block">Place ID: ChIJZ5Brie5k8gUR_xuBx_VaRwk</span>
           </div>
         </div>
 
         <div class="flex flex-wrap items-center gap-space-sm pt-space-xs">
-          <a href="#agendar" data-cta-scroll="true" class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-xl bg-primary-container text-on-primary-container font-label-md text-label-md">
+          <a href="#agendar" data-cta-scroll="true" class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-xl bg-gradient-to-r from-[#4786EF] to-[#3EA45B] text-white font-label-md text-label-md">
             <span>Agendar una Sesión de Diagnóstico Gratuito</span>
             <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
           </a>
           <a href="https://maps.app.goo.gl/umGG4D5BoiG77jCBA" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-xl bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-md text-label-md transition-colors">
-            <span class="material-symbols-outlined text-primary text-[18px]">location_on</span>
+            <span class="material-symbols-outlined text-[#EE433B] text-[18px]">location_on</span>
             <span>Abrir en Google Maps</span>
           </a>
         </div>
@@ -1084,40 +1121,60 @@
 <!-- FOOTER CON NAP Y CUMPLIMIENTO WHITEHAT     -->
 <!-- ========================================== -->
 <footer class="w-full bg-surface-container-lowest relative overflow-hidden">
-<div class="h-[1px] w-full bg-gradient-to-r from-secondary/20 via-primary/30 to-transparent"></div>
+<!-- 4-Color Ascending Brand Bar Line -->
+<div class="h-[2px] w-full brand-bar-gradient opacity-85"></div>
 <div class="w-full px-gutter lg:px-margin pt-space-xl pb-space-lg">
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter lg:gap-space-xl mb-space-xl">
 <div class="lg:col-span-5 flex flex-col gap-space-md">
-<div class="flex items-center gap-space-sm">
-<span class="font-headline-sm text-headline-sm tracking-tight text-on-surface uppercase font-bold">Negocio<span class="text-primary">Up</span></span>
-<span class="px-2 py-0.5 rounded bg-surface-container-high text-secondary font-code-badge text-code-badge">v4.2 PRO // GHL READY</span>
-</div>
+<a href="#inicio" class="flex items-center gap-3 group self-start" aria-label="NegocioUp — Más clientes • IA • Automatización">
+  <svg class="h-12 w-auto flex-shrink-0 transition-transform duration-300 group-hover:scale-105" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Isotipo Vectorial NegocioUp">
+    <defs>
+      <linearGradient id="ftr-trend" x1="22" y1="168" x2="188" y2="10" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#94A3B8"/>
+        <stop offset="50%" stop-color="#E2E8F0"/>
+        <stop offset="100%" stop-color="#94A3B8"/>
+      </linearGradient>
+    </defs>
+    <line x1="25" y1="165" x2="184" y2="12" stroke="url(#ftr-trend)" stroke-width="5.5" stroke-linecap="round"/>
+    <rect x="8" y="162" width="40" height="70" rx="8" fill="#4786EF"/>
+    <rect x="62" y="108" width="40" height="124" rx="8" fill="#EE433B"/>
+    <rect x="116" y="54" width="40" height="178" rx="8" fill="#FAB303"/>
+    <rect x="170" y="4" width="40" height="228" rx="8" fill="#3EA45B"/>
+  </svg>
+  <div class="flex flex-col leading-none">
+    <div class="flex items-center gap-2">
+      <span class="font-headline-sm text-[26px] tracking-[-0.03em] text-on-surface font-bold">Negocio<span class="text-[#4786EF]">Up</span></span>
+      <span class="px-2 py-0.5 rounded bg-surface-container-high text-[#4786EF] font-code-badge text-[10px]">GHL READY</span>
+    </div>
+    <span id="brand-tagline-footer" class="text-[11px] font-medium tracking-wide text-on-surface-variant mt-1">Más clientes <span class="text-[#FAB303]">•</span> IA <span class="text-[#3EA45B]">•</span> Automatización</span>
+  </div>
+</a>
 <p class="font-body-md text-body-md text-on-surface-variant max-w-md">
   No vendemos páginas web, construimos Ecosistemas Comerciales Inteligentes. Ayudamos a empresas consolidadas y desarrollos inmobiliarios a dejar atrás el caos digital, integrando Tecnología, IA, Automatización y Contenido Premium para transformar clics en clientes reales y medibles.
 </p>
 <div class="text-body-sm text-on-surface-variant space-y-1">
   <div><strong class="text-on-surface">Dirección NAP:</strong> Playa del Carmen, Solidaridad, Quintana Roo, C.P. 77710, México</div>
-  <div><strong class="text-on-surface">WhatsApp &amp; Teléfono Directo:</strong> <a href="https://wa.me/5216626366303" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">+52 1 662 636 6303</a></div>
-  <div><strong class="text-on-surface">Google Maps Oficial:</strong> <a href="https://maps.app.goo.gl/umGG4D5BoiG77jCBA" target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline">maps.app.goo.gl/umGG4D5BoiG77jCBA</a></div>
+  <div><strong class="text-on-surface">WhatsApp &amp; Teléfono Directo:</strong> <a href="https://wa.me/5216626366303" target="_blank" rel="noopener noreferrer" class="text-[#3EA45B] hover:underline">+52 1 662 636 6303</a></div>
+  <div><strong class="text-on-surface">Google Maps Oficial:</strong> <a href="https://maps.app.goo.gl/umGG4D5BoiG77jCBA" target="_blank" rel="noopener noreferrer" class="text-[#4786EF] hover:underline">maps.app.goo.gl/umGG4D5BoiG77jCBA</a></div>
 </div>
 </div>
 <div class="lg:col-span-3 flex flex-col gap-space-sm">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Los 4 Pilares de NegocioUp</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-[#3EA45B]">Los 4 Pilares de NegocioUp</span>
 <ul class="flex flex-col gap-space-xs mt-space-xs">
-<li><a href="#pilares" class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">01. Ingeniería de Conversión &amp; Web (Vercel)</a></li>
-<li><a href="#pilares" class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">02. Agentes de IA &amp; Automatización (GHL)</a></li>
-<li><a href="#pilares" class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">03. Ecosistema Inmobiliario (Real Estate)</a></li>
-<li><a href="#pilares" class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">04. Producción Audiovisual &amp; Contenido</a></li>
-<li><a href="#real-estate" class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">Especial Riviera Maya &amp; Desarrollos 360°</a></li>
+<li><a href="#pilares" class="font-body-sm text-body-sm text-on-surface-variant hover:text-[#4786EF] transition-colors">01. Ingeniería de Conversión &amp; Web (Vercel)</a></li>
+<li><a href="#pilares" class="font-body-sm text-body-sm text-on-surface-variant hover:text-[#EE433B] transition-colors">02. Agentes de IA &amp; Automatización (GHL)</a></li>
+<li><a href="#pilares" class="font-body-sm text-body-sm text-on-surface-variant hover:text-[#FAB303] transition-colors">03. Ecosistema Inmobiliario (Real Estate)</a></li>
+<li><a href="#pilares" class="font-body-sm text-body-sm text-on-surface-variant hover:text-[#3EA45B] transition-colors">04. Producción Audiovisual &amp; Contenido</a></li>
+<li><a href="#real-estate" class="font-body-sm text-body-sm text-on-surface-variant hover:text-[#FAB303] transition-colors">Especial Riviera Maya &amp; Desarrollos 360°</a></li>
 </ul>
 </div>
 <div class="lg:col-span-4 flex flex-col gap-space-sm">
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Métricas &amp; Garantía Operativa</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-[#4786EF]">Métricas &amp; Garantía Operativa</span>
 <div class="grid grid-cols-2 gap-space-sm mt-space-xs">
-<div class="bg-surface-container-low p-space-md rounded-xl"><span class="font-headline-sm text-headline-sm text-primary block">99.98%</span><span class="font-body-sm text-body-sm text-on-surface-variant">Uptime de Agentes</span></div>
-<div class="bg-surface-container-low p-space-md rounded-xl"><span class="font-headline-sm text-headline-sm text-secondary block">3.8x</span><span class="font-body-sm text-body-sm text-on-surface-variant">Multiplicador ROI</span></div>
-<div class="bg-surface-container-low p-space-md rounded-xl"><span class="font-headline-sm text-headline-sm text-tertiary block">&lt;45ms</span><span class="font-body-sm text-body-sm text-on-surface-variant">Latencia de Inferencia</span></div>
-<div class="bg-surface-container-low p-space-md rounded-xl"><span class="font-headline-sm text-headline-sm text-primary block">24/7</span><span class="font-body-sm text-body-sm text-on-surface-variant">Soporte &amp; Agentes IA</span></div>
+<div class="bg-surface-container-low p-space-md rounded-xl border-t-2 border-[#4786EF]"><span class="font-headline-sm text-headline-sm text-[#4786EF] block">99.98%</span><span class="font-body-sm text-body-sm text-on-surface-variant">Uptime de Agentes</span></div>
+<div class="bg-surface-container-low p-space-md rounded-xl border-t-2 border-[#EE433B]"><span class="font-headline-sm text-headline-sm text-[#EE433B] block">&lt;15s</span><span class="font-body-sm text-body-sm text-on-surface-variant">Respuesta WhatsApp IA</span></div>
+<div class="bg-surface-container-low p-space-md rounded-xl border-t-2 border-[#FAB303]"><span class="font-headline-sm text-headline-sm text-[#FAB303] block">3.8x</span><span class="font-body-sm text-body-sm text-on-surface-variant">Multiplicador ROI</span></div>
+<div class="bg-surface-container-low p-space-md rounded-xl border-t-2 border-[#3EA45B]"><span class="font-headline-sm text-headline-sm text-[#3EA45B] block">24/7</span><span class="font-body-sm text-body-sm text-on-surface-variant">Soporte &amp; Agentes IA</span></div>
 </div>
 </div>
 </div>
@@ -1142,7 +1199,7 @@
   rel="noopener noreferrer"
   data-wa-cta="FloatingButton"
   aria-label="Contactar a NegocioUp por WhatsApp al +52 1 662 636 6303"
-  class="fixed bottom-5 right-5 z-50 inline-flex items-center gap-2 px-4 py-3 rounded-full bg-primary-container text-on-primary-container font-label-md text-label-md shadow-[0_0_25px_rgba(16,185,129,0.6)] hover:scale-105 transition-all">
+  class="fixed bottom-5 right-5 z-50 inline-flex items-center gap-2 px-4 py-3 rounded-full bg-[#3EA45B] text-white font-label-md text-label-md shadow-[0_0_25px_rgba(62,164,91,0.65)] hover:scale-105 transition-all">
   <span class="material-symbols-outlined text-[20px]">chat</span>
   <span class="hidden sm:inline">WhatsApp +52 1 662 636 6303</span>
 </a>
@@ -1221,7 +1278,7 @@
         filterBtns.forEach((b) => {
           b.className = 'pillar-filter-btn px-3 py-1.5 rounded-lg font-code-badge text-code-badge text-on-surface-variant hover:text-on-surface transition-all';
         });
-        btn.className = 'pillar-filter-btn px-3 py-1.5 rounded-lg font-code-badge text-code-badge bg-primary-container text-on-primary-container font-bold transition-all';
+        btn.className = 'pillar-filter-btn px-3 py-1.5 rounded-lg font-code-badge text-code-badge bg-gradient-to-r from-[#4786EF] to-[#3EA45B] text-white font-bold transition-all';
 
         pillarItems.forEach((item) => {
           const id = item.getAttribute('data-pillar-item');
