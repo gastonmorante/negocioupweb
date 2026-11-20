@@ -4,7 +4,9 @@ AddType video/mp4 .mp4
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /activo-inmobiliario/
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+  RewriteCond %{REQUEST_URI} !\.(js|css|png|jpe?g|gif|svg|ico|webp|mp4|woff2?)$ [NC]
   RewriteRule ^ index.html [L]
 </IfModule>
