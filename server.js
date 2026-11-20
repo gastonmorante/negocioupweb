@@ -17,39 +17,92 @@ const MIME_TYPES = {
   '.jpeg': 'image/jpeg',
   '.svg': 'image/svg+xml',
   '.ico': 'image/x-icon',
-  '.webp': 'image/webp'
+  '.webp': 'image/webp',
+  '.mp4': 'video/mp4'
 };
+
+function sendFile(req, res, filePath, stats) {
+  const ext = path.extname(filePath).toLowerCase();
+  const contentType = MIME_TYPES[ext] || 'application/octet-stream';
+  const baseHeaders = {
+    'Content-Type': contentType,
+    'Accept-Ranges': 'bytes',
+    'X-Content-Type-Options': 'nosniff',
+    'Referrer-Policy': 'strict-origin-when-cross-origin'
+  };
+
+  const range = req.headers.range;
+  if (range && stats.size > 0) {
+    const match = /bytes=(\d*)-(\d*)/.exec(range);
+    if (match) {
+      const start = match[1] ? parseInt(match[1], 10) : 0;
+      const end = match[2] ? Math.min(parseInt(match[2], 10), stats.size - 1) : stats.size - 1;
+      if (start >= stats.size || start > end) {
+        res.writeHead(416, { 'Content-Range': `bytes */${stats.size}` });
+        return res.end();
+      }
+      res.writeHead(206, {
+        ...baseHeaders,
+        'Content-Range': `bytes ${start}-${end}/${stats.size}`,
+        'Content-Length': end - start + 1
+      });
+      return fs.createReadStream(filePath, { start, end }).pipe(res);
+    }
+  }
+
+  res.writeHead(200, {
+    ...baseHeaders,
+    'Content-Length': stats.size
+  });
+  fs.createReadStream(filePath).pipe(res);
+}
 
 const server = http.createServer((req, res) => {
   const safeUrl = decodeURIComponent((req.url || '/').split('?')[0]);
-  let filePath = path.join(PUBLIC_DIR, safeUrl === '/' ? 'index.html' : safeUrl);
+  const relativeUrl = safeUrl.replace(/^\/+/, '');
+  let candidatePath = path.join(PUBLIC_DIR, relativeUrl || 'index.html');
 
   // Prevent directory traversal
-  if (!filePath.startsWith(PUBLIC_DIR)) {
+  if (candidatePath !== PUBLIC_DIR && !candidatePath.startsWith(PUBLIC_DIR + path.sep)) {
     res.writeHead(403);
     return res.end('Forbidden');
   }
 
-  fs.stat(filePath, (err, stats) => {
-    if (err || !stats.isFile()) {
-      // Fallback to index.html for SPA / clean routes
-      filePath = path.join(PUBLIC_DIR, 'index.html');
+  fs.stat(candidatePath, (err, stats) => {
+    if (!err && stats.isFile()) {
+      return sendFile(req, res, candidatePath, stats);
     }
 
-    const ext = path.extname(filePath).toLowerCase();
-    const contentType = MIME_TYPES[ext] || 'application/octet-stream';
-
-    fs.readFile(filePath, (readErr, content) => {
-      if (readErr) {
-        res.writeHead(500);
-        return res.end('Server Error');
-      }
-      res.writeHead(200, {
-        'Content-Type': contentType,
-        'X-Content-Type-Options': 'nosniff',
-        'Referrer-Policy': 'strict-origin-when-cross-origin'
+    if (!err && stats.isDirectory()) {
+      const dirIndex = path.join(candidatePath, 'index.html');
+      return fs.stat(dirIndex, (dirErr, dirStats) => {
+        if (!dirErr && dirStats.isFile()) {
+          return sendFile(req, res, dirIndex, dirStats);
+        }
+        const rootIndex = path.join(PUBLIC_DIR, 'index.html');
+        fs.stat(rootIndex, (rootErr, rootStats) => {
+          if (rootErr) {
+            res.writeHead(500);
+            return res.end('Server Error');
+          }
+          sendFile(req, res, rootIndex, rootStats);
+        });
       });
-      res.end(content);
+    }
+
+    // Fallback to sub-app index.html for /activo-inmobiliario/* or root index.html
+    const isActivoRoute =
+      safeUrl === '/activo-inmobiliario' || safeUrl.startsWith('/activo-inmobiliario/');
+    const fallbackPath = isActivoRoute
+      ? path.join(PUBLIC_DIR, 'activo-inmobiliario', 'index.html')
+      : path.join(PUBLIC_DIR, 'index.html');
+
+    fs.stat(fallbackPath, (fbErr, fbStats) => {
+      if (fbErr || !fbStats.isFile()) {
+        res.writeHead(404);
+        return res.end('Not Found');
+      }
+      sendFile(req, res, fallbackPath, fbStats);
     });
   });
 });
