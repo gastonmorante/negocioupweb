@@ -24,12 +24,29 @@ const MIME_TYPES = {
 function sendFile(req, res, filePath, stats) {
   const ext = path.extname(filePath).toLowerCase();
   const contentType = MIME_TYPES[ext] || 'application/octet-stream';
+  const isHttps = String(req.headers['x-forwarded-proto'] || '').toLowerCase() === 'https';
+  const relPath = path.relative(PUBLIC_DIR, filePath).replace(/\\/g, '/');
+  const isActivo = relPath === 'activo-inmobiliario' || relPath.startsWith('activo-inmobiliario/');
+
   const baseHeaders = {
     'Content-Type': contentType,
     'Accept-Ranges': 'bytes',
     'X-Content-Type-Options': 'nosniff',
-    'Referrer-Policy': 'strict-origin-when-cross-origin'
+    'X-Frame-Options': 'SAMEORIGIN',
+    'Referrer-Policy': 'strict-origin-when-cross-origin',
+    'Permissions-Policy': 'geolocation=(), payment=(), usb=()'
   };
+
+  if (isHttps) {
+    baseHeaders['Strict-Transport-Security'] = 'max-age=31536000';
+  }
+
+  if (isActivo) {
+    const activoCsp = "default-src 'self' https:; script-src 'self' https://app.cloudpano.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https:; media-src 'self' blob: https:; connect-src 'self' https://formsubmit.co https://app.cloudpano.com https://*.cloudpano.com; frame-src 'self' https://app.cloudpano.com https://*.cloudpano.com; frame-ancestors 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https://formsubmit.co";
+    baseHeaders['Content-Security-Policy'] = isHttps ? `${activoCsp}; upgrade-insecure-requests` : activoCsp;
+  } else if (isHttps) {
+    baseHeaders['Content-Security-Policy'] = 'upgrade-insecure-requests';
+  }
 
   const range = req.headers.range;
   if (range && stats.size > 0) {

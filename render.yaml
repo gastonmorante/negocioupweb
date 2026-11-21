@@ -7,6 +7,9 @@ services:
     pullRequestPreviewsEnabled: true
     headers:
       - path: /*
+        name: Strict-Transport-Security
+        value: max-age=31536000
+      - path: /*
         name: X-Content-Type-Options
         value: nosniff
       - path: /*
@@ -15,6 +18,15 @@ services:
       - path: /*
         name: X-Frame-Options
         value: SAMEORIGIN
+      - path: /*
+        name: Permissions-Policy
+        value: geolocation=(), payment=(), usb=()
+      - path: /*
+        name: Content-Security-Policy
+        value: upgrade-insecure-requests
+      - path: /activo-inmobiliario/*
+        name: Content-Security-Policy
+        value: "default-src 'self' https:; script-src 'self' https://app.cloudpano.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https:; media-src 'self' blob: https:; connect-src 'self' https://formsubmit.co https://app.cloudpano.com https://*.cloudpano.com; frame-src 'self' https://app.cloudpano.com https://*.cloudpano.com; frame-ancestors 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https://formsubmit.co; upgrade-insecure-requests"
     routes:
       - type: rewrite
         source: /activo-inmobiliario
